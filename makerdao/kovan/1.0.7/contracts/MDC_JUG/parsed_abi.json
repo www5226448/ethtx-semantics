@@ -1,0 +1,242 @@
+{
+  "events": {
+    "0xd3d8bec38a91a5f4411247483bc030a174e77cda9c0351924c759f41453aa5e8": {
+      "anonymous": true,
+      "name": "LogNote",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "sig",
+          "type": "bytes4"
+        },
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "usr",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "arg1",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "arg2",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": true,
+          "indexed": false,
+          "name": "data",
+          "type": "bytes"
+        }
+      ],
+      "signature": "0xd3d8bec38a91a5f4411247483bc030a174e77cda9c0351924c759f41453aa5e8"
+    }
+  },
+  "functions": {
+    "0x1a0b287e": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "ilk",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": false,
+          "name": "what",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": false,
+          "name": "data",
+          "type": "uint256"
+        }
+      ],
+      "name": "file",
+      "outputs": [],
+      "signature": "0x1a0b287e"
+    },
+    "0x29ae8114": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "what",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": false,
+          "name": "data",
+          "type": "uint256"
+        }
+      ],
+      "name": "file",
+      "outputs": [],
+      "signature": "0x29ae8114"
+    },
+    "0x36569e77": {
+      "inputs": [],
+      "name": "vat",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x36569e77"
+    },
+    "0x3b663195": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "ilk",
+          "type": "bytes32"
+        }
+      ],
+      "name": "init",
+      "outputs": [],
+      "signature": "0x3b663195"
+    },
+    "0x44e2a5a8": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "ilk",
+          "type": "bytes32"
+        }
+      ],
+      "name": "drip",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "rate",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x44e2a5a8"
+    },
+    "0x5001f3b5": {
+      "inputs": [],
+      "name": "base",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x5001f3b5"
+    },
+    "0x626cb3c5": {
+      "inputs": [],
+      "name": "vow",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x626cb3c5"
+    },
+    "0x65fae35e": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "usr",
+          "type": "address"
+        }
+      ],
+      "name": "rely",
+      "outputs": [],
+      "signature": "0x65fae35e"
+    },
+    "0x9c52a7f1": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "usr",
+          "type": "address"
+        }
+      ],
+      "name": "deny",
+      "outputs": [],
+      "signature": "0x9c52a7f1"
+    },
+    "0xbf353dbb": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "wards",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xbf353dbb"
+    },
+    "0xd4e8be83": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "what",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": false,
+          "name": "data",
+          "type": "address"
+        }
+      ],
+      "name": "file",
+      "outputs": [],
+      "signature": "0xd4e8be83"
+    },
+    "0xd9638d36": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "name": "ilks",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "duty",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "rho",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xd9638d36"
+    },
+    "constructor": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "vat_",
+          "type": "address"
+        }
+      ],
+      "name": "constructor",
+      "outputs": [],
+      "signature": "constructor"
+    }
+  }
+}

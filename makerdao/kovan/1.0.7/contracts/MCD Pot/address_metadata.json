@@ -1,0 +1,7 @@
+{
+  "network": "kovan",
+  "address": "0xea190dbdc7adf265260ec4da6e9675fd4f5a78bb",
+  "label": "MCD Pot",
+  "contract": "0x5a1c94f0ce4868d78ddfd5f0fe583e1232139791b5e167a34f2b429eb286e08a",
+  "coin": {}
+}

@@ -1,0 +1,269 @@
+{
+  "events": {
+    "0x296ba4ca62c6c21c95e828080cb8aec7481b71390585605300a8a76f9e95b527": {
+      "anonymous": false,
+      "name": "LogValue",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "val",
+          "type": "bytes32"
+        }
+      ],
+      "signature": "0x296ba4ca62c6c21c95e828080cb8aec7481b71390585605300a8a76f9e95b527"
+    }
+  },
+  "functions": {
+    "0x07da68f5": {
+      "inputs": [],
+      "name": "stop",
+      "outputs": [],
+      "signature": "0x07da68f5"
+    },
+    "0x0e5a6c70": {
+      "inputs": [],
+      "name": "peep",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "signature": "0x0e5a6c70"
+    },
+    "0x18178358": {
+      "inputs": [],
+      "name": "poke",
+      "outputs": [],
+      "signature": "0x18178358"
+    },
+    "0x1e77933e": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "src_",
+          "type": "address"
+        }
+      ],
+      "name": "change",
+      "outputs": [],
+      "signature": "0x1e77933e"
+    },
+    "0x2e7dc6af": {
+      "inputs": [],
+      "name": "src",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x2e7dc6af"
+    },
+    "0x4fce7a2a": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "bud",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x4fce7a2a"
+    },
+    "0x57de26a4": {
+      "inputs": [],
+      "name": "read",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "signature": "0x57de26a4"
+    },
+    "0x59e02dd7": {
+      "inputs": [],
+      "name": "peek",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "signature": "0x59e02dd7"
+    },
+    "0x65c4ce7a": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "a",
+          "type": "address"
+        }
+      ],
+      "name": "diss",
+      "outputs": [],
+      "signature": "0x65c4ce7a"
+    },
+    "0x65fae35e": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "guy",
+          "type": "address"
+        }
+      ],
+      "name": "rely",
+      "outputs": [],
+      "signature": "0x65fae35e"
+    },
+    "0x75f12b21": {
+      "inputs": [],
+      "name": "stopped",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x75f12b21"
+    },
+    "0x9c52a7f1": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "guy",
+          "type": "address"
+        }
+      ],
+      "name": "deny",
+      "outputs": [],
+      "signature": "0x9c52a7f1"
+    },
+    "0xa4dff0a2": {
+      "inputs": [],
+      "name": "zzz",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint64"
+        }
+      ],
+      "signature": "0xa4dff0a2"
+    },
+    "0xa7a1ed72": {
+      "inputs": [],
+      "name": "pass",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "ok",
+          "type": "bool"
+        }
+      ],
+      "signature": "0xa7a1ed72"
+    },
+    "0xac4c25b2": {
+      "inputs": [],
+      "name": "void",
+      "outputs": [],
+      "signature": "0xac4c25b2"
+    },
+    "0xb0b8579b": {
+      "inputs": [],
+      "name": "hop",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint16"
+        }
+      ],
+      "signature": "0xb0b8579b"
+    },
+    "0xbe9a6555": {
+      "inputs": [],
+      "name": "start",
+      "outputs": [],
+      "signature": "0xbe9a6555"
+    },
+    "0xbf353dbb": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "wards",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xbf353dbb"
+    },
+    "0xe38e2cfb": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "ts",
+          "type": "uint16"
+        }
+      ],
+      "name": "step",
+      "outputs": [],
+      "signature": "0xe38e2cfb"
+    },
+    "0xf29c29c4": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "a",
+          "type": "address"
+        }
+      ],
+      "name": "kiss",
+      "outputs": [],
+      "signature": "0xf29c29c4"
+    },
+    "constructor": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "src_",
+          "type": "address"
+        }
+      ],
+      "name": "constructor",
+      "outputs": [],
+      "signature": "constructor"
+    }
+  }
+}

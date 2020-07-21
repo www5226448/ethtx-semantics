@@ -1,0 +1,191 @@
+{
+  "events": {
+    "0x22d324652c93739755cf4581508b60875ebdd78c20c0cff5cf8e23452b299631": {
+      "anonymous": false,
+      "name": "Exit",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "dst",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "wad",
+          "type": "uint256"
+        }
+      ],
+      "signature": "'0x22d324652c93739755cf4581508b60875ebdd78c20c0cff5cf8e23452b299631"
+    },
+    "0xb4e09949657f21548b58afe74e7b86cd2295da5ff1598ae1e5faecb1cf19ca95": {
+      "anonymous": false,
+      "name": "Join",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "dst",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "wad",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xb4e09949657f21548b58afe74e7b86cd2295da5ff1598ae1e5faecb1cf19ca95"
+    }
+  },
+  "functions": {
+    "0x047fc9aa": {
+      "inputs": [],
+      "name": "supply",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x047fc9aa"
+    },
+    "0x3b4da69f": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "dst",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "wad",
+          "type": "uint256"
+        }
+      ],
+      "name": "join",
+      "outputs": [],
+      "signature": "0x3b4da69f"
+    },
+    "0x4ba2363a": {
+      "inputs": [],
+      "name": "pot",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x4ba2363a"
+    },
+    "0x88787f2b": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "pieOf",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x88787f2b"
+    },
+    "0xc11645bc": {
+      "inputs": [],
+      "name": "daiJoin",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xc11645bc"
+    },
+    "0xd7f7098f": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "usr",
+          "type": "address"
+        }
+      ],
+      "name": "daiBalance",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "wad",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xd7f7098f"
+    },
+    "0xeb0dff66": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "dst",
+          "type": "address"
+        }
+      ],
+      "name": "exitAll",
+      "outputs": [],
+      "signature": "0xeb0dff66"
+    },
+    "0xef693bed": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "dst",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "wad",
+          "type": "uint256"
+        }
+      ],
+      "name": "exit",
+      "outputs": [],
+      "signature": "0xef693bed"
+    },
+    "0xf4b9fa75": {
+      "inputs": [],
+      "name": "dai",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xf4b9fa75"
+    },
+    "constructor": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "pot_",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "daiJoin_",
+          "type": "address"
+        }
+      ],
+      "name": "constructor",
+      "outputs": [],
+      "signature": "constructor"
+    }
+  }
+}

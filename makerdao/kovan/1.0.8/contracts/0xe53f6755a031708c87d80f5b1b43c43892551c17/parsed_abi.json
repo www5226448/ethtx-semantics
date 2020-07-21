@@ -1,0 +1,242 @@
+{
+  "functions": {
+    "constructor": {
+      "signature": "constructor",
+      "name": "constructor",
+      "inputs": [
+        {
+          "name": "vat_",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "ilk_",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "gem_",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x69245009": {
+      "signature": "0x69245009",
+      "name": "cage",
+      "inputs": [],
+      "outputs": []
+    },
+    "0xb3bcfa82": {
+      "signature": "0xb3bcfa82",
+      "name": "dec",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x9c52a7f1": {
+      "signature": "0x9c52a7f1",
+      "name": "deny",
+      "inputs": [
+        {
+          "name": "usr",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xef693bed": {
+      "signature": "0xef693bed",
+      "name": "exit",
+      "inputs": [
+        {
+          "name": "usr",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "wad",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x7bd2bea7": {
+      "signature": "0x7bd2bea7",
+      "name": "gem",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xc5ce281e": {
+      "signature": "0xc5ce281e",
+      "name": "ilk",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xf79eb32c": {
+      "signature": "0xf79eb32c",
+      "name": "implementations",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x3b4da69f": {
+      "signature": "0x3b4da69f",
+      "name": "join",
+      "inputs": [
+        {
+          "name": "usr",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "wad",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x957aa58c": {
+      "signature": "0x957aa58c",
+      "name": "live",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x65fae35e": {
+      "signature": "0x65fae35e",
+      "name": "rely",
+      "inputs": [
+        {
+          "name": "usr",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x3033a4e5": {
+      "signature": "0x3033a4e5",
+      "name": "setImplementation",
+      "inputs": [
+        {
+          "name": "implementation",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "permitted",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x36569e77": {
+      "signature": "0x36569e77",
+      "name": "vat",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xbf353dbb": {
+      "signature": "0xbf353dbb",
+      "name": "wards",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    }
+  },
+  "events": {
+    "0xd3d8bec38a91a5f4411247483bc030a174e77cda9c0351924c759f41453aa5e8": {
+      "signature": "0xd3d8bec38a91a5f4411247483bc030a174e77cda9c0351924c759f41453aa5e8",
+      "name": "LogNote",
+      "anonymous": true,
+      "parameters": [
+        {
+          "name": "sig",
+          "type": "bytes4",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "usr",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "arg1",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "arg2",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "data",
+          "type": "bytes",
+          "dynamic": true,
+          "indexed": false
+        }
+      ]
+    }
+  }
+}
