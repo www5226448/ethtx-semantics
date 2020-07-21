@@ -1,0 +1,7 @@
+{
+  "network": "mainnet",
+  "address": "0x1b93556ab8dccef01cd7823c617a6d340f53fb58",
+  "label": "DSProxy",
+  "contract": "0x27c02a1a822222c2ad6a9a01021c98abf05dbe6d19540035756ef97697ed41d0",
+  "coin": {}
+}

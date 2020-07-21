@@ -1,0 +1,7 @@
+{
+  "network": "mainnet",
+  "address": "0xbaa65281c2fa2baacb2cb550ba051525a480d3f4",
+  "label": "MCD_Deploy",
+  "contract": "0x1c6251e20d65efdb29028b7aa38cf542f4f3f2ea43623ac906187a03d58163a7",
+  "coin": {}
+}

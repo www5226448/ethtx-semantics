@@ -1,0 +1,260 @@
+{
+  "functions": {
+    "0x06fdde03": {
+      "name": "name",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "string",
+          "dynamic": true
+        }
+      ]
+    },
+    "0x095ea7b3": {
+      "name": "approve",
+      "inputs": [
+        {
+          "name": "guy",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "wad",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x18160ddd": {
+      "name": "totalSupply",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x23b872dd": {
+      "name": "transferFrom",
+      "inputs": [
+        {
+          "name": "src",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "dst",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "wad",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x2e1a7d4d": {
+      "name": "withdraw",
+      "inputs": [
+        {
+          "name": "wad",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x313ce567": {
+      "name": "decimals",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x70a08231": {
+      "name": "balanceOf",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x95d89b41": {
+      "name": "symbol",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "string",
+          "dynamic": true
+        }
+      ]
+    },
+    "0xa9059cbb": {
+      "name": "transfer",
+      "inputs": [
+        {
+          "name": "dst",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "wad",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xd0e30db0": {
+      "name": "deposit",
+      "inputs": [],
+      "outputs": []
+    },
+    "0xdd62ed3e": {
+      "name": "allowance",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    }
+  },
+  "events": {
+    "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925": {
+      "name": "Approval",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "src",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "guy",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "wad",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
+      "name": "Transfer",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "src",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "dst",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "wad",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0xe1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c": {
+      "name": "Deposit",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "dst",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "wad",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3bf7268a95bf5081b65": {
+      "name": "Withdrawal",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "src",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "wad",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    }
+  }
+}

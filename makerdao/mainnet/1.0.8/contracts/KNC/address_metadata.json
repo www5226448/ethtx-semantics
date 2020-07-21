@@ -1,0 +1,11 @@
+{
+  "network": "mainnet",
+  "address": "0xdd974d5c2e2928dea5f71b9825b8b646686bd200",
+  "label": "KyberNetworkCrystal",
+  "contract": "0x659ae2c207428220d594e338d0b84c8c383407ecab20956c7989f1e8fc8a48dd",
+  "coin": {
+    "symbol": "KNC",
+    "name": "Kyber Network Crystal",
+    "dec": 18
+  }
+}

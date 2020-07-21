@@ -1,0 +1,330 @@
+{
+  "functions": {
+    "constructor": {
+      "signature": "constructor",
+      "name": "constructor",
+      "inputs": [
+        {
+          "name": "src_",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x4fce7a2a": {
+      "signature": "0x4fce7a2a",
+      "name": "bud",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x1e77933e": {
+      "signature": "0x1e77933e",
+      "name": "change",
+      "inputs": [
+        {
+          "name": "src_",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x9c52a7f1": {
+      "signature": "0x9c52a7f1",
+      "name": "deny",
+      "inputs": [
+        {
+          "name": "usr",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x46d4577d": {
+      "signature": "0x46d4577d",
+      "name": "diss",
+      "inputs": [
+        {
+          "name": "a",
+          "type": "address[]",
+          "dynamic": true
+        }
+      ],
+      "outputs": []
+    },
+    "0x65c4ce7a": {
+      "signature": "0x65c4ce7a",
+      "name": "diss",
+      "inputs": [
+        {
+          "name": "a",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xb0b8579b": {
+      "signature": "0xb0b8579b",
+      "name": "hop",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint16",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x1b25b65f": {
+      "signature": "0x1b25b65f",
+      "name": "kiss",
+      "inputs": [
+        {
+          "name": "a",
+          "type": "address[]",
+          "dynamic": true
+        }
+      ],
+      "outputs": []
+    },
+    "0xf29c29c4": {
+      "signature": "0xf29c29c4",
+      "name": "kiss",
+      "inputs": [
+        {
+          "name": "a",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xa7a1ed72": {
+      "signature": "0xa7a1ed72",
+      "name": "pass",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "ok",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x59e02dd7": {
+      "signature": "0x59e02dd7",
+      "name": "peek",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x0e5a6c70": {
+      "signature": "0x0e5a6c70",
+      "name": "peep",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x18178358": {
+      "signature": "0x18178358",
+      "name": "poke",
+      "inputs": [],
+      "outputs": []
+    },
+    "0x57de26a4": {
+      "signature": "0x57de26a4",
+      "name": "read",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x65fae35e": {
+      "signature": "0x65fae35e",
+      "name": "rely",
+      "inputs": [
+        {
+          "name": "usr",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x2e7dc6af": {
+      "signature": "0x2e7dc6af",
+      "name": "src",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xbe9a6555": {
+      "signature": "0xbe9a6555",
+      "name": "start",
+      "inputs": [],
+      "outputs": []
+    },
+    "0xe38e2cfb": {
+      "signature": "0xe38e2cfb",
+      "name": "step",
+      "inputs": [
+        {
+          "name": "ts",
+          "type": "uint16",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x07da68f5": {
+      "signature": "0x07da68f5",
+      "name": "stop",
+      "inputs": [],
+      "outputs": []
+    },
+    "0x75f12b21": {
+      "signature": "0x75f12b21",
+      "name": "stopped",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xac4c25b2": {
+      "signature": "0xac4c25b2",
+      "name": "void",
+      "inputs": [],
+      "outputs": []
+    },
+    "0xbf353dbb": {
+      "signature": "0xbf353dbb",
+      "name": "wards",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xa4dff0a2": {
+      "signature": "0xa4dff0a2",
+      "name": "zzz",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint64",
+          "dynamic": false
+        }
+      ]
+    }
+  },
+  "events": {
+    "0xd3d8bec38a91a5f4411247483bc030a174e77cda9c0351924c759f41453aa5e8": {
+      "signature": "0xd3d8bec38a91a5f4411247483bc030a174e77cda9c0351924c759f41453aa5e8",
+      "name": "LogNote",
+      "anonymous": true,
+      "parameters": [
+        {
+          "name": "sig",
+          "type": "bytes4",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "usr",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "arg1",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "arg2",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "data",
+          "type": "bytes",
+          "dynamic": true,
+          "indexed": false
+        }
+      ]
+    },
+    "0x296ba4ca62c6c21c95e828080cb8aec7481b71390585605300a8a76f9e95b527": {
+      "signature": "0x296ba4ca62c6c21c95e828080cb8aec7481b71390585605300a8a76f9e95b527",
+      "name": "LogValue",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "val",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,388 @@
+{
+  "functions": {
+    "constructor": {
+      "signature": "constructor",
+      "name": "constructor",
+      "inputs": [
+        {
+          "name": "vat_",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "gem_",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x7d780d82": {
+      "signature": "0x7d780d82",
+      "name": "beg",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x4423c5f1": {
+      "signature": "0x4423c5f1",
+      "name": "bids",
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "bid",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "lot",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "guy",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "tic",
+          "type": "uint48",
+          "dynamic": false
+        },
+        {
+          "name": "end",
+          "type": "uint48",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x69245009": {
+      "signature": "0x69245009",
+      "name": "cage",
+      "inputs": [],
+      "outputs": []
+    },
+    "0xc959c42b": {
+      "signature": "0xc959c42b",
+      "name": "deal",
+      "inputs": [
+        {
+          "name": "id",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x5ff3a382": {
+      "signature": "0x5ff3a382",
+      "name": "dent",
+      "inputs": [
+        {
+          "name": "id",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "lot",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "bid",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x9c52a7f1": {
+      "signature": "0x9c52a7f1",
+      "name": "deny",
+      "inputs": [
+        {
+          "name": "usr",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x29ae8114": {
+      "signature": "0x29ae8114",
+      "name": "file",
+      "inputs": [
+        {
+          "name": "what",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "data",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x7bd2bea7": {
+      "signature": "0x7bd2bea7",
+      "name": "gem",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xb7e9cd24": {
+      "signature": "0xb7e9cd24",
+      "name": "kick",
+      "inputs": [
+        {
+          "name": "gal",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "lot",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "bid",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "id",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xcfdd3302": {
+      "signature": "0xcfdd3302",
+      "name": "kicks",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x957aa58c": {
+      "signature": "0x957aa58c",
+      "name": "live",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x9361266c": {
+      "signature": "0x9361266c",
+      "name": "pad",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x65fae35e": {
+      "signature": "0x65fae35e",
+      "name": "rely",
+      "inputs": [
+        {
+          "name": "usr",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xcfc4af55": {
+      "signature": "0xcfc4af55",
+      "name": "tau",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint48",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xfc7b6aee": {
+      "signature": "0xfc7b6aee",
+      "name": "tick",
+      "inputs": [
+        {
+          "name": "id",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x4e8b1dd5": {
+      "signature": "0x4e8b1dd5",
+      "name": "ttl",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint48",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x36569e77": {
+      "signature": "0x36569e77",
+      "name": "vat",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x626cb3c5": {
+      "signature": "0x626cb3c5",
+      "name": "vow",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xbf353dbb": {
+      "signature": "0xbf353dbb",
+      "name": "wards",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x26e027f1": {
+      "signature": "0x26e027f1",
+      "name": "yank",
+      "inputs": [
+        {
+          "name": "id",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    }
+  },
+  "events": {
+    "0x7e8881001566f9f89aedb9c5dc3d856a2b81e5235a8196413ed484be91cc0df6": {
+      "signature": "0x7e8881001566f9f89aedb9c5dc3d856a2b81e5235a8196413ed484be91cc0df6",
+      "name": "Kick",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "id",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "lot",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "bid",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "gal",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        }
+      ]
+    },
+    "0xd3d8bec38a91a5f4411247483bc030a174e77cda9c0351924c759f41453aa5e8": {
+      "signature": "0xd3d8bec38a91a5f4411247483bc030a174e77cda9c0351924c759f41453aa5e8",
+      "name": "LogNote",
+      "anonymous": true,
+      "parameters": [
+        {
+          "name": "sig",
+          "type": "bytes4",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "usr",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "arg1",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "arg2",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "data",
+          "type": "bytes",
+          "dynamic": true,
+          "indexed": false
+        }
+      ]
+    }
+  }
+}
