@@ -1,7 +1,0 @@
-{
-  "network": "kovan",
-  "address": "0x7f5d60432de4840a3e7ae7218f7d6b7a2412683a",
-  "coin": {},
-  "contract": "0x4be0f6f715d198d495fdaa6b8d6291ddacf799c458d452914f3ad7563b956422",
-  "label": "DsrManager"
-}
