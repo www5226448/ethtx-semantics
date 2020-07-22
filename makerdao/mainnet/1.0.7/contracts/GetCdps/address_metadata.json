@@ -1,0 +1,7 @@
+{
+  "network": "mainnet",
+  "address": "0x36a724bd100c39f0ea4d3a20f7097ee01a8ff573",
+  "label": "GetCdps",
+  "contract": "0x1c7a483b6703acaf020859548fb182189fe03fbb6874f1f360d6aa629c67dda6",
+  "coin": {}
+}

@@ -1,0 +1,11 @@
+{
+  "network": "mainnet",
+  "address": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2",
+  "coin": {
+    "dec": 18,
+    "name": "Maker",
+    "symbol": "MKR"
+  },
+  "contract": "0x8f1fbeb4a337d5526b982caa415e71dc55dc8fa2585ab5e4b6df45bdb263bc7f",
+  "label": "DSToken"
+}

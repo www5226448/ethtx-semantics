@@ -1,0 +1,884 @@
+{
+  "events": {
+    "0x0f6798a560793a54c3bcfe86a93cde1e73087d944c0ea20544137d4121396885": {
+      "anonymous": false,
+      "name": "Mint",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "to",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x0f6798a560793a54c3bcfe86a93cde1e73087d944c0ea20544137d4121396885"
+    },
+    "0x21d54a4c1f750b4f93779e3e8b4de89db3f31bab8f203e68569727fee906cc32": {
+      "anonymous": false,
+      "name": "SetBurnBounds",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "newMin",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "newMax",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x21d54a4c1f750b4f93779e3e8b4de89db3f31bab8f203e68569727fee906cc32"
+    },
+    "0x278c70ced5f3e0e5eeb385b5ff9cb735748ba00a625147e66065ed48fc1562cd": {
+      "anonymous": false,
+      "name": "SetRegistry",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "registry",
+          "type": "address"
+        }
+      ],
+      "signature": "0x278c70ced5f3e0e5eeb385b5ff9cb735748ba00a625147e66065ed48fc1562cd"
+    },
+    "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0": {
+      "anonymous": false,
+      "name": "OwnershipTransferred",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "previousOwner",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "signature": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0"
+    },
+    "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925": {
+      "anonymous": false,
+      "name": "Approval",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "owner",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "spender",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925"
+    },
+    "0xcc16f5dbb4873280815c1ee09dbd06736cffcc184412cf7a71a0fdb75d397ca5": {
+      "anonymous": false,
+      "name": "Burn",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "burner",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xcc16f5dbb4873280815c1ee09dbd06736cffcc184412cf7a71a0fdb75d397ca5"
+    },
+    "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
+      "anonymous": false,
+      "name": "Transfer",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "to",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
+    },
+    "0xfa8f14973a436f651cdc72fcb50527f364a3b92681dc7aacb0ebeed1e7fb7070": {
+      "anonymous": false,
+      "name": "WipeBlacklistedAccount",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "account",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "balance",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xfa8f14973a436f651cdc72fcb50527f364a3b92681dc7aacb0ebeed1e7fb7070"
+    }
+  },
+  "functions": {
+    "0x02d3fdc9": {
+      "inputs": [],
+      "name": "burnMin",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x02d3fdc9"
+    },
+    "0x06fdde03": {
+      "inputs": [],
+      "name": "name",
+      "outputs": [
+        {
+          "dynamic": true,
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "signature": "0x06fdde03"
+    },
+    "0x095ea7b3": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_spender",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "approve",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "signature": "0x095ea7b3"
+    },
+    "0x09ab8bba": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "owner",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "spender",
+          "type": "address"
+        }
+      ],
+      "name": "delegateAllowance",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x09ab8bba"
+    },
+    "0x18160ddd": {
+      "inputs": [],
+      "name": "totalSupply",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x18160ddd"
+    },
+    "0x1e1256c3": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_minimumGasPriceForFutureRefunds",
+          "type": "uint256"
+        }
+      ],
+      "name": "setMinimumGasPriceForFutureRefunds",
+      "outputs": [],
+      "signature": "0x1e1256c3"
+    },
+    "0x23b872dd": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_from",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "transferFrom",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "signature": "0x23b872dd"
+    },
+    "0x23f2cbb0": {
+      "inputs": [],
+      "name": "sponsorGas",
+      "outputs": [],
+      "signature": "0x23f2cbb0"
+    },
+    "0x296f4000": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "spender",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "value",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "origSender",
+          "type": "address"
+        }
+      ],
+      "name": "delegateApprove",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "signature": "0x296f4000"
+    },
+    "0x2aed7f3f": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_ownable",
+          "type": "address"
+        }
+      ],
+      "name": "reclaimContract",
+      "outputs": [],
+      "signature": "0x2aed7f3f"
+    },
+    "0x2e440403": {
+      "inputs": [],
+      "name": "rounding",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "signature": "0x2e440403"
+    },
+    "0x313ce567": {
+      "inputs": [],
+      "name": "decimals",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "signature": "0x313ce567"
+    },
+    "0x3db6b7ff": {
+      "inputs": [],
+      "name": "minimumGasPriceForFutureRefunds",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x3db6b7ff"
+    },
+    "0x40c10f19": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "mint",
+      "outputs": [],
+      "signature": "0x40c10f19"
+    },
+    "0x42966c68": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "burn",
+      "outputs": [],
+      "signature": "0x42966c68"
+    },
+    "0x43a468c8": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "who",
+          "type": "address"
+        }
+      ],
+      "name": "delegateBalanceOf",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x43a468c8"
+    },
+    "0x4df6b45d": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "to",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "value",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "origSender",
+          "type": "address"
+        }
+      ],
+      "name": "delegateTransferFrom",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "signature": "0x4df6b45d"
+    },
+    "0x4e71e0c8": {
+      "inputs": [],
+      "name": "claimOwnership",
+      "outputs": [],
+      "signature": "0x4e71e0c8"
+    },
+    "0x52006050": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_min",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "_max",
+          "type": "uint256"
+        }
+      ],
+      "name": "setBurnBounds",
+      "outputs": [],
+      "signature": "0x52006050"
+    },
+    "0x554249b3": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "spender",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "addedValue",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "origSender",
+          "type": "address"
+        }
+      ],
+      "name": "delegateIncreaseApproval",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "signature": "0x554249b3"
+    },
+    "0x57e1ba4f": {
+      "inputs": [],
+      "name": "minimumGasPriceForRefund",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "result",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x57e1ba4f"
+    },
+    "0x5c131d70": {
+      "inputs": [],
+      "name": "burnMax",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x5c131d70"
+    },
+    "0x5c975abb": {
+      "inputs": [],
+      "name": "paused",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "signature": "0x5c975abb"
+    },
+    "0x66188463": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_spender",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "_subtractedValue",
+          "type": "uint256"
+        }
+      ],
+      "name": "decreaseApproval",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "signature": "0x66188463"
+    },
+    "0x70a08231": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_who",
+          "type": "address"
+        }
+      ],
+      "name": "balanceOf",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x70a08231"
+    },
+    "0x76e71dd8": {
+      "inputs": [],
+      "name": "delegateTotalSupply",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x76e71dd8"
+    },
+    "0x7b103999": {
+      "inputs": [],
+      "name": "registry",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x7b103999"
+    },
+    "0x81a084fd": {
+      "inputs": [],
+      "name": "remainingGasRefundPool",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "length",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x81a084fd"
+    },
+    "0x88ee39cc": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "_to",
+          "type": "address"
+        }
+      ],
+      "name": "reclaimToken",
+      "outputs": [],
+      "signature": "0x88ee39cc"
+    },
+    "0x8da5cb5b": {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x8da5cb5b"
+    },
+    "0x93d3173a": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "spender",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "subtractedValue",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "origSender",
+          "type": "address"
+        }
+      ],
+      "name": "delegateDecreaseApproval",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "signature": "0x93d3173a"
+    },
+    "0x95d89b41": {
+      "inputs": [],
+      "name": "symbol",
+      "outputs": [
+        {
+          "dynamic": true,
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "signature": "0x95d89b41"
+    },
+    "0x9a6a30a4": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_to",
+          "type": "address"
+        }
+      ],
+      "name": "reclaimEther",
+      "outputs": [],
+      "signature": "0x9a6a30a4"
+    },
+    "0x9cd1a121": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "to",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "value",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "origSender",
+          "type": "address"
+        }
+      ],
+      "name": "delegateTransfer",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "signature": "0x9cd1a121"
+    },
+    "0xa9059cbb": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "transfer",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "signature": "0xa9059cbb"
+    },
+    "0xa91ee0dc": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_registry",
+          "type": "address"
+        }
+      ],
+      "name": "setRegistry",
+      "outputs": [],
+      "signature": "0xa91ee0dc"
+    },
+    "0xbd7243f6": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_account",
+          "type": "address"
+        }
+      ],
+      "name": "wipeBlacklistedAccount",
+      "outputs": [],
+      "signature": "0xbd7243f6"
+    },
+    "0xc4334ebe": {
+      "inputs": [],
+      "name": "sponsorGas2",
+      "outputs": [],
+      "signature": "0xc4334ebe"
+    },
+    "0xd73dd623": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_spender",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "_addedValue",
+          "type": "uint256"
+        }
+      ],
+      "name": "increaseApproval",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "signature": "0xd73dd623"
+    },
+    "0xdd62ed3e": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_who",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "_spender",
+          "type": "address"
+        }
+      ],
+      "name": "allowance",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xdd62ed3e"
+    },
+    "0xe30c3978": {
+      "inputs": [],
+      "name": "pendingOwner",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xe30c3978"
+    },
+    "0xef286e96": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_index",
+          "type": "uint256"
+        }
+      ],
+      "name": "gasRefundPool",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "gasPrice",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xef286e96"
+    },
+    "0xf2fde38b": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "transferOwnership",
+      "outputs": [],
+      "signature": "0xf2fde38b"
+    },
+    "0xf5be4389": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_who",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "_attribute",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": false,
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "syncAttributeValue",
+      "outputs": [],
+      "signature": "0xf5be4389"
+    }
+  }
+}

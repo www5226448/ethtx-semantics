@@ -1,0 +1,11 @@
+{
+  "network": "mainnet",
+  "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+  "label": "WBTC",
+  "contract": "0x131ff5c755b710d543ea70fede2eb38e5d15b1456df0ae932ba12e2786f7e5df",
+  "coin": {
+    "symbol": "WBTC",
+    "name": "Wrapped BTC",
+    "dec": 8
+  }
+}

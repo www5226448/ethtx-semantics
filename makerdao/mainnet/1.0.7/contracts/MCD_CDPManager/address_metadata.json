@@ -1,0 +1,7 @@
+{
+  "network": "mainnet",
+  "address": "0x5ef30b9986345249bc32d8928b7ee64de9435e39",
+  "coin": {},
+  "contract": "0xdc70464baedd675aadf1b109ac8ec36f78adb5db19bc087d2a70208305c786b1",
+  "label": "MCD_CDPManager"
+}

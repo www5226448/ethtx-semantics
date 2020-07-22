@@ -1,0 +1,178 @@
+{
+  "events": {
+    "0xd3d8bec38a91a5f4411247483bc030a174e77cda9c0351924c759f41453aa5e8": {
+      "anonymous": true,
+      "name": "LogNote",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "sig",
+          "type": "bytes4"
+        },
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "usr",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "arg1",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "arg2",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": true,
+          "indexed": false,
+          "name": "data",
+          "type": "bytes"
+        }
+      ],
+      "signature": "0xd3d8bec38a91a5f4411247483bc030a174e77cda9c0351924c759f41453aa5e8"
+    }
+  },
+  "functions": {
+    "0x049878f3": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "wad",
+          "type": "uint256"
+        }
+      ],
+      "name": "join",
+      "outputs": [],
+      "signature": "0x049878f3"
+    },
+    "0x37be827d": {
+      "inputs": [],
+      "name": "Sum",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x37be827d"
+    },
+    "0x457094cc": {
+      "inputs": [],
+      "name": "fire",
+      "outputs": [],
+      "signature": "0x457094cc"
+    },
+    "0x7bd2bea7": {
+      "inputs": [],
+      "name": "gem",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x7bd2bea7"
+    },
+    "0x7e459c60": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "sum",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x7e459c60"
+    },
+    "0xc9267a62": {
+      "inputs": [],
+      "name": "fired",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xc9267a62"
+    },
+    "0xefbe1c1c": {
+      "inputs": [],
+      "name": "end",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xefbe1c1c"
+    },
+    "0xf03c7c6e": {
+      "inputs": [],
+      "name": "pit",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xf03c7c6e"
+    },
+    "0xf8897945": {
+      "inputs": [],
+      "name": "min",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xf8897945"
+    },
+    "constructor": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "gem_",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "end_",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "pit_",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "min_",
+          "type": "uint256"
+        }
+      ],
+      "name": "constructor",
+      "outputs": [],
+      "signature": "constructor"
+    }
+  }
+}
