@@ -1,7 +1,0 @@
-{
-  "network": "mainnet",
-  "address": "0xbe8e3e3618f7474f8cb1d074a26affef007e98fb",
-  "label": "DSPauseProxy",
-  "contract": "0x7e7c069ad93ba8a42f9102d41ba802fae75dff2cb694a0ca22ed14decfc7f962",
-  "coin": {}
-}
