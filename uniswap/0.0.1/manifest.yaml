@@ -1,0 +1,921 @@
+UniswapV2Pair:
+  addresses:
+    "*": {}
+    mainnet:
+      "0xa478c2975ab1ea89e8196811f51a7b7ade33eb11":
+        network: mainnet
+        label: UniswapWETH-DAI
+        erc20:
+          name: "Uniswap V2"
+          symbol: "UniswapWETH-DAI"
+          dec: 18
+
+      "0x121b382b5f003c41fb49e7b88d079c8f513feaac":
+        network: mainnet
+        label: UniswapV2Pair
+      "0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x55d5c232d921b9eaa6b37b5845e439acd04b4dba":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xae461ca67b15dc8dc81ce7615e0320da1a9ab8d5":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xb27de0ba2abfbfdf15667a939f041b52118af5ba":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xb6909b960dbbe7392d405429eb2b3649752b4838":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x8878df9e1a7c87dcbf6d3999d997f262c05d8c70":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x1c9052e823b5f4611ef7d5fb4153995b040ccbf5":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x058361efe02f251d09cc5e681a9d1b404f4eca67":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x260e069dead76baac587b5141bb606ef8b9bab6c":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x5b7ad60a92e725597e4a28444d498d1999cf66b6":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x3b0f0fe3be830826d833a67cd1d7c80edf3fb49b":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x4940d8b8bc83041f9dd7fc13e9a2c6a82d134804":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xa2107fa5b38d9bbd2c461d6edf11b11a50f6b974":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x27ef0cb021446f6d43adf0bcc74b64fd9c0ab180":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xf49c43ae0faf37217bdcb00df478cf793edd6687":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xa50fb59346c83730602874b6f25a59939a949cf4":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x41cbc04c72bccc99df0f7f77e3109156f547b21e":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xbb2b8038a1640196fbe3e38816f3e67cba72d940":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xec2d2240d02a8cf63c3fa0b7d2c5a3169a319496":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x8bd1661da98ebdd3bd080f0be4e6d9be8ce9858c":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x0ffc70be6e2d841e109653ddb3034961591679d6":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x3041cbd36888becc7bbcbc0045e3b1f144466f5f":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x43ae24960e5534731fc831386c07755a2dc33d47":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x2b6a25f7c54f43c71c743e627f5663232586c39f":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x755c1a8f71f4210cd7b60b9439451efcbeba33d1":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x718dd8b743ea19d71bdb4cb48bb984b73a65ce06":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x70258aa9830c2c84d855df1d61e12c256f6448b4":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xfb7a3112c96bbcfe4bbf3e8627b0de6f49e5142a":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xe0cc5afc0ff2c76183416fb8d1a29f6799fb2cdf":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x05b0c1d8839ef3a989b33b6b63d3aa96cb7ec142":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xc04744ab87a4c37afd91680ef280b96ee21a026e":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xf80758ab42c3b07da84053fd88804bcb6baa4b5c":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x9c4fe5ffd9a9fc5678cfbd93aa2d4fd684b67c4c":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x70ea56e46266f0137bac6b75710e3546f47c855d":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x3203d789bfdb222bfdd629b8de7c5dc38e8241ec":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x3b3d4eefdc603b232907a7f3d0ed1eea5c62b5f7":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x63e7aa05b78144013cfa4b23c9b61599d0a29023":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xa5e79baee540f000ef6f23d067cd3ac22c7d9fe6":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x0c9c5daf1d7cd8b10e9fc5e7a10762f0a8d1c335":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x8fd3a04cb30a1fd9ffaf1548972b2e5117d0a52d":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x598e740cda7c525080d3fcb9fa7c4e1bd0044b34":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x8fccc2f2279bc5318700b1f2278b69559baee2c4":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xc2adda861f89bbb333c90c492cb837741916a225":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x87e08336baef93e977dce821258bfcb3bb256197":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x43670aaac017a995a5ecabc9cbd76c76ca03168e":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x1e576095fdd79a2ec8301fee7f02f34213302dd4":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x596a92f8d8b8906fae8e3dad346284f354830e1a":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xf49144e61c05120f1b167e4b4f59cf0a5d77903f":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xc5a788f63e5d9cf2c324621eed51a98f85ae373b":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x819f3450da6f110ba6ea52195b3beafa246062de":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x395a1350db9627360d09c8b3e7c31fb84261b8f2":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xbf452277b8af4084fb8a0472ec808f2ded51f1c1":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x27c64bdca05d79f6ee32c3e981dc5153d9d794cd":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xa6f3ef841d371a82ca757fad08efc0dee2f1f5e2":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xa32523371390b0cc4e11f6bb236ecf4c2cdea101":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xf2f2526ab7e925e74c10f6984bfb3030d8bda2ff":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x9896bd979f9da57857322cc15e154222c4658a5a":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xb37c66831256cc83b53ab30f008d55cb42ac7186":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xf37ed742819ec006b0802df5c2b0e9132f22c625":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xe56c60b5f9f7b5fc70de0eb79c6ee7d00efa2625":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xba65016890709dbc9491ca7bf5de395b8441dc8b":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xfad8b07055a0371442a3106a2244a82b24e31cec":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xf641eafb5bce9568c4ff1079c58f36a7e8a6cd8d":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xacb9d43e5c69c7a10a08ad789947886e28fd5001":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x8ff2fd6f94cdce7c56bb11328eb9928c9483aa66":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xd6054455ca2e1aef02178e0462d9ab953bea4e23":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x8a38ad17d1adcdbe3775338d1470fd6f00f77802":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x6d57a53a45343187905aad6ad8ed532d105697c1":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x878b76a1a0da1be6f7b02e1abb5ee47380817362":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x9b533f1ceaa5ceb7e5b8994ef16499e47a66312d":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x59f96b8571e3b11f859a09eaf5a790a138fc64d0":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x2174e6d76fe8fa6602db6af86f5e17840bdb0760":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x8fea81a32a0aa8a99b65664e6fdc9acc4ac0bdfb":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xd82dee36521826e8a38abb7d3dbd80f0214e870b":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xc3c2e6fe3bc6db96ba3684aa0ef41c57899e0805":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x5dedfd9dfcfeabdf447d6e9b87b9036ea3e53c93":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x1953f930034cf48874601dd7844073f6b154af60":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xb4a0a46d3042a739ec76fd67a3f1b99cc12ac1d9":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x598e7a017dace2534bc3f7496124c89425b1e165":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x6c782082552ddccb98190a4d353e04bdd330a9f8":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x6aeebc2f5c979fd5c4361c2d288e55ac6b7e39bb":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xd98d0079b54ca49b6c3717a5078fb3fb2c412103":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xde65eed30da8107ce49e8f1952391e16756c2998":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xafdbf6f9ab6a98266f2731b0fdba8ef7e4ea9d44":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xe8056b83ba7daf027414b58048a48911acf1b2a9":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x57ea703284f10f862d38b939f7f6146e040ed7d5":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x308e019143b560215775a0c6efbd2673413d76e6":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x17ee04ec364577937855d2e9a7add8d2a957e4fa":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x34a0216c5057bc18e5d34d4405284564efd759b2":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xdeebb5a060f4048a67db08ad07d19cc9e6abb8f9":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xf5ef67632cd2256d939702a126fe2c047d0a07bf":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x3185626c14acb9531d19560decb9d3e5e80681b1":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x72674274b01e6eba3dea6da7ec1d7d9a2e5d2db7":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xa3d4e60b2994a5c6842e1d89ed08a8bd7a2eae46":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xae2d4004241254aed3f93873604d39883c8259f0":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x0fb402016ae5aa800695dd782807fd8197000f67":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x3fd4cf9303c4bc9e13772618828712c8eac7dd2f":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x2615b89ad032ccda6d67e1d511f0e4c9e3a5dc13":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xc12c4c3e0008b838f75189bfb39283467cf6e5b3":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x4ce3687fed17e19324f23e305593ab13bbd55c4d":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x1c608235e6a946403f2a048a38550befe41e1b85":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x5c6843b1c74f6e8fd7ed2e577c038d4dfde1a664":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x13e638b4f89740a1c2ff45d71f71ee28101cc1dc":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x302ac87b1b5ef18485971ed0115a17403ea30911":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xfd226c17a57f5eef0b848d9b65bc53cbbf7ed965":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xeb5455590bb2bf67d54d7d3affaa1930c5132b14":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x09e5f7afe7c694b38deaade1f61863ab4f2841a0":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x231b7589426ffe1b75405526fc32ac09d44364c4":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x88d97d199b9ed37c29d846d00d443de980832a22":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xee89ea23c18410f2b57e7abc6eb24cfcde4f49b0":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xa926adfe0dbf0583ef3010f6f8dbc68afa6e1c4a":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xfdc3f68af20d56e05ad0c7eb51da4a3f7d753a04":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x583cadd830374bb5c1ec8e1b648e0294cc1e01f1":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xce2cc0513634cef3a7c9c257e294ef5e3092f185":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x2084c8115d97a12114a70a27198c3591b6df7d3e":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xc6f348dd3b91a56d117ec0071c1e9b83c0996de4":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x81fbef4704776cc5bba0a5df3a90056d2c6900b3":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x62096e0aeee66f8b45cee7deacb7b690fa8099b0":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xa27c56b3969cfb8fbce427337d98e3bd794ec688":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x517f9dd285e75b599234f7221227339478d0fcc8":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x340a5a2f73ebaa181ec2826802fdf8ed21fc759a":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xed9c854cb02de75ce4c9bba992828d6cb7fd5c71":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x2e3bb99210ebaa7fae82c32b244e872610107088":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xda9a09ed40015346f6b0704c5bf1a2ccbf94de43":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xe4a356afd925f73f3dd22acbeb2c0c87a05e895d":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x0db1a0061270418037fd9839dff08b8377b55e1d":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x781ba450eadf9e493ddfde81d7d6b6f33528bc8d":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x92330d8818e8a3b50f027c819fa46031ffba2c8c":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x4da3360cbdd27f2928a4e6fdfef86f274cd2ccc8":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x1b21609d42fa32f371f58df294ed25b2d2e5c8ba":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x95f8ea94c3b5ad4a30a2ccdd393641843e91fde4":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xc5be99a02c6857f9eac67bbce58df5572498f40c":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xc0cb62f0b5c9574cc88907dc0712f27b4a6a60c1":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xb4d0d9df2738abe81b87b66c80851292492d1404":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x2561278742bf3e342c24fdccd19cb0a5813a30ca":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x2cd2d275cdb237e696c60419109fac5f331484e1":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x12ede161c702d1494612d19f05992f43aa6a26fb":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x7a66dd62ef639f3efd324c58bae93160ce460e6e":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x50a92b2bb1de408854c8fde649ad5ea0dfcad483":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x4bbab491b53b682d7b7dbd6f6a0d6e1cd15cb195":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xf56c018cca7efd03278fa1299e9e3ab59c9d0dff":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xddb5049fdb73ea84429cd91f31d90779032e5ede":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xdd71f5e002143d34ea24696600bc4d82b904fafa":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xeded8635915c9561284879f25c489388d18d664c":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x32026e07a035aae485690ed997c08127907ccc72":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x18e33723fef43a33f9560a8b973d3331e5269fac":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xadea7c5febf93a6239e73e14e37ab429039eb9b1":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xcffdded873554f362ac02f8fb1f02e5ada10516f":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xbb112ddf6be7e095344da016899af5e6f909dcd9":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x08a564924c26d8289503bbaa18714b9c366df9a5":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xab3f9bf1d81ddb224a2014e98b238638824bcf20":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xb603c2b5ab4ee7932103b42f8dd899c8721dd25e":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x308d87865397672a74ec62b3dc8e7323a18c0f1e":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x15ab0333985fd1e289adf4fbbe19261454776642":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x37a0464f8f4c207b54821f3c799afd3d262aa944":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x3213966ded1bbad5e29d5357cba6d31cee2f95bb":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xf02a283ab2997084b8932837df2412e3ee02f77a":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x11b1f53204d03e5529f09eb3091939e4fd8c9cf3":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x50e3d53b4a22e94ee1ce5c3a852d94d145d5852e":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xca9c4cc09e901f4d2aa072ed1aa95dcbe3a7a8e5":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x33c2d48bc95fb7d0199c5c693e7a9f527145a9af":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x59e7bee6374a3f6ecb33180ece978fd4f2b7cea2":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xe11f282abedaecb393a39c04c5b1e20409d39000":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x8175362afbeee32afb22d05adc0bbd08de32f5ae":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x8fb8707ef6b66e999ac09a5f96d6cccd250bcbad":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xe0a08fd1366b5b4cf256db1a85b6eb0e01aacbce":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x17da7a59c8cb7bf79b2c3486ca25fd36ebe3c2d8":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xcb7f78a079b5fc387c80b93be79d40309c27a237":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x25707d04cfadf01a6646f913ba0b4ef6a9643aa4":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x37b4cae8d2581e81140e2e172d4d7aed3a675bc7":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xf3194e22d3212a6f930a7c6a88003d43f68befab":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x6f81d90e771b551451382b4c8b41c86b978d3420":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x33be7ed806479061a7e62a33d3c9b500fc9b47bf":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xed9ca2a60d683c9ba04fd2bc043aad76a0afc59f":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x7adf2f4b6dd7b0077d88cb8dd2c8cd905dc7c183":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xa70d458a4d9bc0e6571565faee18a48da5c0d593":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xd7ba33a66a51fb6d01b488df1682dfcc38c8d05f":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x07f068ca326a469fc1d87d85d448990c8cba7df9":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xbd39b1f24b8960d3d7cd2c5471d0493496888185":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xd8c8a2b125527bf97c8e4845b25de7e964468f77":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xb784ced6994c928170b417bbd052a096c6fb17e2":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x966053ca4fca049173eb1f27e4cb168ccb794534":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xbfd49db2f3aa70e5755794ce940aab50c446946f":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xe67090c039ee613cdf26573dc2c745b2bd0f8586":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xdb0172e5cd62dfcad3ba4bbe68179748218dc00b":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x07948b3085eb4f25811aec74c174d26f53ef8e59":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x508a6bd36d65ede7e665c39b610d72f279110911":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x258a1cda7383c228c698772e017cdc9ad3fb0042":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xbbb68aa436d5f636981c581bbda279e48ed17b22":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xedaedd22e653c504ff6806bf61664292848eb26e":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xf886ac03ac641222adb845227d0e7bbe90f9dd2f":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xcfe2e51a2900902642a6b1cf8abb74941880b6a0":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x2680a95fc9de215f1034f073185cc1f2a28b4107":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x050397956e1fc8a0a2e62af035275f8a415b85a7":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x3a1b4f6dce585ef469a5daa73a6eb87ce13e859d":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x49f9316eb22de90d9343c573fbd7cc0b5ec6e19f":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xf1ff4c672dabf9aea4813dda6de66b860b0970b4":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x8ccfbbcdeb7c9bb62e545a20a3b43b05a04e3682":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x7cd0378010711cb72a6ca35f09d5da2094061d9c":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x0c4a68cf6857cc76fe946d04fe85fac5fae9625e":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x58f612f53194ec091e87aab8a836b193e123119a":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xaaea23b86dd10de5343589ccbdc047a40dc212a9":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x9f65df828d21c8860ee1499da6397d50d85e14a0":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xa8efb2c276dd9175fb34728fe9dd7139a4e3d0c2":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x004375dff511095cc5a197a54140a24efef3a416":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x964581a7b638f1b63b7466265996c72229a726a5":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xfa19de406e8f5b9100e4dd5cad8a503a6d686efe":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x1a5314c1b3e17a781aaef180bba446d10e506e6b":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xbc5db7c149deb8fc67f5176def137066edf3df27":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x7bfd383a83a2e67f6eb29673b512bd01ecfbf8c0":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x542bca1257c734d58fbea2edbb8f2f3a01eb306d":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xc208aa54ed1c0c84c37fabee1bbe18043791340c":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xca9b553d9f8ccd9d6ad546707f1ec3b9150292b1":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x6d74443bb2d50785989a7212ebfd3a8dbabd1f60":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x8cb77ea869def8f7fdeab9e4da6cf02897bbf076":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xf421c3f2e695c2d4c0765379ccace8ade4a480d9":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x5bdcad3704427ff4969732c0f4f054cb7f236db8":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x83503be303ff0e05a5d6dcd1c2a3bd589fb0ded4":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xfa28af6be3649e90ed76b8269db65b236f716fbe":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xc0a6bb3d31bb63033176edba7c48542d6b4e406d":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xac317d14738a454ff20b191ba3504aa97173045b":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xed64ab11a68887fd4fff9174d55b4cf5a70c3f0b":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xe6f19dab7d43317344282f803f8e8d240708174a":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x9d0ddb5b36218c3446f6c6fd532fa414e399ed36":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xb198eb5e9725fb76ba2ef8b19374a8894fcecddf":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xb97cd5a3e367048a0a24708d6ff0675f04a299cb":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xb9b752f7f4a4680eeb327ffe728f46666763a796":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x9fc524b2b568437bc7e5c74ceea3f2c1d9cd7911":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x28f8edeedfff5814b566ec8e2673d28051e2da5f":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x3006c0d2a6e54d3590a44384c6f066c9cf9a4cea":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x6a7923cc454d7dfbbb54433190c968a0099a58be":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xd90a1ba0cbaaaabfdc6c814cdf1611306a26e1f8":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x489b3a95e1b0aa0af5df3f8dab440bca5df0fae2":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x3526eff0e5c020e5d6478f30493bf77d37ebc773":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x4b24988d881dc4736f0bdd517076de1ce6b365df":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xac1844a95670aaa2585e84b5cdb8dfc5afca28ba":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xd74f1a6e55254c5216a9c8dbe13db492b4bb8bc5":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x2fdbadf3c4d5a8666bc06645b8358ab803996e28":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x6d4fd456edeca58cf53a8b586cd50754547dbdb2":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xeb10676a236e97e214787e6a72af44c93639ba61":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xdd94fa9d9a68ad46c5d48817b626fbb6c685b1aa":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x42ba9c4f626d3c8fc7e520fd6669cb44340ab11e":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x0cc0f89cd9333151b77e44eccefe91842693b277":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x50e5dd5be3f93256690adc12ef8edab1eb18612d":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x3e8468f66d30fc99f745481d4b383f89861702c6":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x10cfa744c77f1cb9a77fa418ac4a1b6ec62bcce4":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xe59cd950fa6a354f0790039b92d70b3eead23219":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xa1d836cc39e3b8d6d128134b3356ff6360be13b4":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xf0936e53d924d7f442a04c038082a46c77ecc8d8":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xb6a4614bf9f6d9b025c07311a191c8de974386a9":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xbae6e48561585f34ae0a4921ab7ab9851e17f235":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x6dd0c7850704a87f96bc152dbeb41ad35ccdf56b":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x0d0d65e7a7db277d3e0f5e1676325e75f3340455":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xa34e3ab16952bd214bb1241915e386ed43fdcc1f":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x6929abd7931d0243777d3cd147fe863646a752ba":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x205dafc62e189edb386745360d6cddc9411aa35d":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xdab81982305527e0d56cbbba34dae20ed2377c1b":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xcd0033b0a30bc0686dcba72d62d4e0d44790a960":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x64ec8503585817e64c8a82e41d3f63b4ec52820f":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xa0d06bdc3274564ddda65bfab6ae61e5f000e49b":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x63ec6726d5e4615cfcc75988959c36798177fe60":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x8973be4402bf0a39448f419c2d64bd3591dd2299":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x5cb622c21ae335e7baaea7638ce097b3d172b827":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xa986f2a12d85c44429f574ba50c0e21052b18ba1":
+        label: UniswapV2Pair
+        network: mainnet
+      "0x633da008ec4fa313e7dbedb42bc3ab8325ebb70f":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xfa545ce38d18ea4350adb899f380058afad7619e":
+        label: UniswapV2Pair
+        network: mainnet
+      "0xcfb8cf118b4f0abb2e8ce6dbeb90d6bc0a62693d":
+        label: UniswapV2Pair
+        network: mainnet
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0x5b83bdbcc56b2e630f2807bbadd2b0c21619108066b92a58de081261089e9ce5"
+UniswapV1Pair:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x45a2fdfed7f7a2c791fb1bdf6075b83fad821dde":
+        network: mainnet
+        label: Uniswap_cDAI
+      "0x64a9edd3f5fce0252cd708e26c8dd11205742826":
+        network: mainnet
+        label: UniswapANJ
+      "0x2e642b8d59b45a1d8c5aef716a84ff44ea665914":
+        network: mainnet
+        label: UniswapBAT
+
+      "0x93a8515d674c3d3235beea0de7ae3099aa34b1a5":
+        network: mainnet
+        label: UniswapCBIX7
+
+      "0x34e89740adf97c3a9d3f63cc2ce4a914382c230b":
+        network: mainnet
+        label: UniswapcDAI
+
+      "0x6c3942b383bc3d0efd3f36efa1cbe7c8e12c8a2b":
+        network: mainnet
+        label: UniswapCHAI
+
+      "0x09cabec1ead1c0ba254b09efb3ee13841712be14":
+        network: mainnet
+        label: UniswapDAI
+      "0x2a1530c4c41db0b0b2bb646cb5eb1a67b7158667":
+        label: UniswapDAI
+        network: mainnet
+      "0x2a1530C4C41db0B0b2bB646CB5Eb1A67b7158667":
+        label: UniswapDAI
+        network: mainnet
+      "0x09cabEC1eAd1c0Ba254B09efb3EE13841712bE14":
+        label: UniswapDAI
+        network: mainnet
+      "0x61792f290e5100fbbcbb2309f03a1bab869fb850":
+        network: mainnet
+        label: UniswapDIP
+      "0x80324ec8d64425b37f8603a97097da7d493dbc79":
+        network: mainnet
+        label: UniswapDZAR
+      "0x05cde89ccfa0ada8c88d5a23caaa79ef129e7883":
+        network: mainnet
+        label: UniswapHEX
+      "0x49c4f9bc14884f6210f28342ced592a633801a8b":
+        network: mainnet
+        label: UniswapKNC
+      "0xcaa7e4656f6a2b59f5f99c745f91ab26d1210dce":
+        network: mainnet
+        label: UniswapLEND
+      "0xf173214c720f58e03e194085b1db28b50acdeead":
+        network: mainnet
+        label: UniswapLINK
+      "0x2c4bd064b998838076fa341a83d007fc2fa50957":
+        network: mainnet
+        label: UniswapMKR
+      "0x069c97dba948175d10af4b2414969e0b88d44669":
+        network: mainnet
+        label: UniswapNEXO
+      "0x3fb2f18065926ddb33e7571475c509541d15da0e":
+        network: mainnet
+        label: UniswapRPL
+      "0x3958b4ec427f8fa24eb60f42821760e88d485f7f":
+        network: mainnet
+        label: UniswapSNX
+      "0xb944d13b2f4047fc7bd3f7013bcf01b115fb260d":
+        network: mainnet
+        label: UniswapsUSD
+      "0xe28ffac44b0c430aa3e62a9bc211f7d825d6c1f9":
+        network: mainnet
+        label: UniswapTRB
+      "0xa45937d10aee52bfde8eb6025ef0c863ae5bec87":
+        network: mainnet
+        label: UniswapTUSD
+      "0xfc96e234d4b31c63051e707105fcc4aba37807fa":
+        network: mainnet
+        label: UniswapUBT
+      "0x6264c8d158f32bd8c01b8a0102b57dfcfcfb8561":
+        network: mainnet
+        label: UniswapUMA
+      "0x97dec872013f6b5fb443861090ad931542878126":
+        network: mainnet
+        label: UniswapUSDC
+
+      "0x4d2f5cfba55ae412221182d8475bc85799a5644b":
+        network: mainnet
+        label: UniswapWBTC
+
+      "0x7b6e5278a14d5318571d65aced036d09c998c707":
+        network: mainnet
+        label: UniswapXIO
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0x72e826e5ec1e970f37af4b41635535232c58bcb7795871b2738347fd8c1314ca"

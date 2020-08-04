@@ -1,0 +1,42 @@
+{
+  "0x022c0d9f": {
+    "arguments": {
+      "amount0Out": {
+        "path": "amount0Out",
+        "type": "uint256",
+        "value": "amount0Out / 10**18"
+      },
+      "amount1Out": {
+        "path": "amount1Out",
+        "type": "uint256",
+        "value": "amount1Out / 10**18"
+      }
+    },
+    "name": "swap"
+  },
+  "0xd78ad95fa46c994b6551d0da85fc275fe613ce37657fb8d5e3d130840159d822": {
+    "arguments": {
+      "amount0In": {
+        "path": "amount0In",
+        "type": "uint256",
+        "value": "amount0In / 10**18"
+      },
+      "amount0Out": {
+        "path": "amount0Out",
+        "type": "uint256",
+        "value": "amount0Out / 10**18"
+      },
+      "amount1In": {
+        "path": "amount1In",
+        "type": "uint256",
+        "value": "amount1In / 10**18"
+      },
+      "amount1Out": {
+        "path": "amount1Out",
+        "type": "uint256",
+        "value": "amount1Out / 10**18"
+      }
+    },
+    "name": "Swap"
+  }
+}

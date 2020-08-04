@@ -1,0 +1,142 @@
+{
+  "0x013efd8b": {
+    "arguments": {
+      "eth_bought": {
+        "path": "eth_bought",
+        "type": "uint256",
+        "value": "eth_bought / 10**18"
+      },
+      "out": {
+        "path": "out",
+        "type": "uint256",
+        "value": "out / 10**18"
+      }
+    },
+    "name": "tokenToEthSwapOutput"
+  },
+  "0x0b573638": {
+    "arguments": {
+      "out": {
+        "path": "out",
+        "type": "uint256",
+        "value": "out / 10**18"
+      },
+      "tokens_bought": {
+        "path": "tokens_bought",
+        "type": "uint256",
+        "value": "tokens_bought / 10**18"
+      }
+    },
+    "name": "ethToTokenTransferOutput"
+  },
+  "0x6b1d4db7": {
+    "arguments": {
+      "out": {
+        "path": "out",
+        "type": "uint256",
+        "value": "out / 10**18"
+      },
+      "tokens_bought": {
+        "path": "tokens_bought",
+        "type": "uint256",
+        "value": "tokens_bought / 10**18"
+      }
+    },
+    "name": "ethToTokenSwapOutput"
+  },
+  "0x7237e031": {
+    "arguments": {
+      "out": {
+        "path": "out",
+        "type": "uint256",
+        "value": "out / 10**18"
+      },
+      "tokens_sold": {
+        "path": "tokens_sold",
+        "type": "uint256",
+        "value": "tokens_sold / 10**18"
+      }
+    },
+    "name": "tokenToEthTransferInput"
+  },
+  "0x95e3c50b": {
+    "arguments": {
+      "out": {
+        "path": "out",
+        "type": "uint256",
+        "value": "out / 10**18"
+      },
+      "tokens_sold": {
+        "path": "tokens_sold",
+        "type": "uint256",
+        "value": "tokens_sold / 10**18"
+      }
+    },
+    "name": "tokenToEthSwapInput"
+  },
+  "0xad65d76d": {
+    "arguments": {
+      "out": {
+        "path": "out",
+        "type": "uint256",
+        "value": "out / 10**18"
+      }
+    },
+    "name": "ethToTokenTransferInput"
+  },
+  "0xb040d545": {
+    "arguments": {
+      "out": {
+        "path": "out",
+        "type": "uint256",
+        "value": "out / 10**18"
+      },
+      "tokens_bought": {
+        "path": "tokens_bought",
+        "type": "uint256",
+        "value": "tokens_bought / 10**18"
+      }
+    },
+    "name": "tokenToTokenSwapOutput"
+  },
+  "0xd4e4841d": {
+    "arguments": {
+      "eth_bought": {
+        "path": "eth_bought",
+        "type": "uint256",
+        "value": "eth_bought / 10**18"
+      },
+      "out": {
+        "path": "out",
+        "type": "uint256",
+        "value": "out / 10**18"
+      }
+    },
+    "name": "tokenToEthTransferOutput"
+  },
+  "0xddf7e1a7": {
+    "arguments": {
+      "out": {
+        "path": "out",
+        "type": "uint256",
+        "value": "out / 10**18"
+      },
+      "tokens_sold": {
+        "path": "tokens_sold",
+        "type": "uint256",
+        "value": "tokens_sold / 10**18"
+      }
+    },
+    "name": "tokenToTokenSwapInput"
+  },
+  "0xf39b5b9b": {
+    "arguments": {
+      "out": {
+        "path": "out",
+        "type": "uint256",
+        "value": "out / 10**18"
+      }
+    },
+    "name": "ethToTokenSwapInput"
+  }
+}
