@@ -1,0 +1,751 @@
+{
+  "events": {
+    "0x181aa3aa17d4cbf99265dd4443eba009433d3cde79d60164fde1d1a192beb935": {
+      "anonymous": false,
+      "name": "CommitNewAdmin",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "deadline",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "admin",
+          "type": "address"
+        }
+      ],
+      "signature": "0x181aa3aa17d4cbf99265dd4443eba009433d3cde79d60164fde1d1a192beb935"
+    },
+    "0x3f1915775e0c9a38a57a7bb7f1f9005f486fb904e1f84aa215364d567319a58d": {
+      "anonymous": false,
+      "name": "AddLiquidity",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "provider",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "token_amounts",
+          "type": "uint256[4]"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "fees",
+          "type": "uint256[4]"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "invariant",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "token_supply",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x3f1915775e0c9a38a57a7bb7f1f9005f486fb904e1f84aa215364d567319a58d"
+    },
+    "0x6081daa3b61098baf24d9c69bcd53af932e0635c89c6fd0617534b9ba76a7f73": {
+      "anonymous": false,
+      "name": "CommitNewParameters",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "deadline",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "A",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "fee",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "admin_fee",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x6081daa3b61098baf24d9c69bcd53af932e0635c89c6fd0617534b9ba76a7f73"
+    },
+    "0x71614071b88dee5e0b2ae578a9dd7b2ebbe9ae832ba419dc0242cd065a290b6c": {
+      "anonymous": false,
+      "name": "NewAdmin",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "admin",
+          "type": "address"
+        }
+      ],
+      "signature": "0x71614071b88dee5e0b2ae578a9dd7b2ebbe9ae832ba419dc0242cd065a290b6c"
+    },
+    "0x752a27d1853eb7af3ee4ff764f2c4a51619386af721573dd3809e929c39db99e": {
+      "anonymous": false,
+      "name": "NewParameters",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "A",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "fee",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "admin_fee",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x752a27d1853eb7af3ee4ff764f2c4a51619386af721573dd3809e929c39db99e"
+    },
+    "0x8b3e96f2b889fa771c53c981b40daf005f63f637f1869f707052d15a3dd97140": {
+      "anonymous": false,
+      "name": "TokenExchange",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "buyer",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "sold_id",
+          "type": "int128"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "tokens_sold",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "bought_id",
+          "type": "int128"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "tokens_bought",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x8b3e96f2b889fa771c53c981b40daf005f63f637f1869f707052d15a3dd97140"
+    },
+    "0x9878ca375e106f2a43c3b599fc624568131c4c9a4ba66a14563715763be9d59d": {
+      "anonymous": false,
+      "name": "RemoveLiquidity",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "provider",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "token_amounts",
+          "type": "uint256[4]"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "fees",
+          "type": "uint256[4]"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "token_supply",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x9878ca375e106f2a43c3b599fc624568131c4c9a4ba66a14563715763be9d59d"
+    },
+    "0xb964b72f73f5ef5bf0fdc559b2fab9a7b12a39e47817a547f1f0aee47febd602": {
+      "anonymous": false,
+      "name": "RemoveLiquidityImbalance",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "provider",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "token_amounts",
+          "type": "uint256[4]"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "fees",
+          "type": "uint256[4]"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "invariant",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "token_supply",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xb964b72f73f5ef5bf0fdc559b2fab9a7b12a39e47817a547f1f0aee47febd602"
+    },
+    "0xd013ca23e77a65003c2c659c5442c00c805371b7fc1ebd4c206c41d1536bd90b": {
+      "anonymous": false,
+      "name": "TokenExchangeUnderlying",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "buyer",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "sold_id",
+          "type": "int128"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "tokens_sold",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "bought_id",
+          "type": "int128"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "tokens_bought",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xd013ca23e77a65003c2c659c5442c00c805371b7fc1ebd4c206c41d1536bd90b"
+    }
+  },
+  "functions": {
+    "0x029b2f34": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "amounts",
+          "type": "uint256[4]"
+        },
+        {
+          "dynamic": false,
+          "name": "min_mint_amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "add_liquidity",
+      "outputs": [],
+      "signature": "0x029b2f34"
+    },
+    "0x065a80d8": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "arg0",
+          "type": "int128"
+        }
+      ],
+      "name": "balances",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x065a80d8"
+    },
+    "0x07211ef7": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "i",
+          "type": "int128"
+        },
+        {
+          "dynamic": false,
+          "name": "j",
+          "type": "int128"
+        },
+        {
+          "dynamic": false,
+          "name": "dx",
+          "type": "uint256"
+        }
+      ],
+      "name": "get_dy_underlying",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x07211ef7"
+    },
+    "0x18a7bd76": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "amounts",
+          "type": "uint256[4]"
+        },
+        {
+          "dynamic": false,
+          "name": "max_burn_amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "remove_liquidity_imbalance",
+      "outputs": [],
+      "signature": "0x18a7bd76"
+    },
+    "0x1ec0cdc1": {
+      "inputs": [],
+      "name": "future_owner",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x1ec0cdc1"
+    },
+    "0x226840fb": {
+      "inputs": [],
+      "name": "revert_new_parameters",
+      "outputs": [],
+      "signature": "0x226840fb"
+    },
+    "0x23746eb8": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "arg0",
+          "type": "int128"
+        }
+      ],
+      "name": "coins",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x23746eb8"
+    },
+    "0x2a7dd7cd": {
+      "inputs": [],
+      "name": "apply_new_parameters",
+      "outputs": [],
+      "signature": "0x2a7dd7cd"
+    },
+    "0x3046f972": {
+      "inputs": [],
+      "name": "unkill_me",
+      "outputs": [],
+      "signature": "0x3046f972"
+    },
+    "0x30c54085": {
+      "inputs": [],
+      "name": "withdraw_admin_fees",
+      "outputs": [],
+      "signature": "0x30c54085"
+    },
+    "0x3df02124": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "i",
+          "type": "int128"
+        },
+        {
+          "dynamic": false,
+          "name": "j",
+          "type": "int128"
+        },
+        {
+          "dynamic": false,
+          "name": "dx",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "min_dy",
+          "type": "uint256"
+        }
+      ],
+      "name": "exchange",
+      "outputs": [],
+      "signature": "0x3df02124"
+    },
+    "0x405e28f8": {
+      "inputs": [],
+      "name": "admin_actions_deadline",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x405e28f8"
+    },
+    "0x58680d0b": {
+      "inputs": [],
+      "name": "future_fee",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x58680d0b"
+    },
+    "0x5e0d443f": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "i",
+          "type": "int128"
+        },
+        {
+          "dynamic": false,
+          "name": "j",
+          "type": "int128"
+        },
+        {
+          "dynamic": false,
+          "name": "dx",
+          "type": "uint256"
+        }
+      ],
+      "name": "get_dy",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x5e0d443f"
+    },
+    "0x6a1c05ae": {
+      "inputs": [],
+      "name": "apply_transfer_ownership",
+      "outputs": [],
+      "signature": "0x6a1c05ae"
+    },
+    "0x6b441a40": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_owner",
+          "type": "address"
+        }
+      ],
+      "name": "commit_transfer_ownership",
+      "outputs": [],
+      "signature": "0x6b441a40"
+    },
+    "0x7d49d875": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_amount",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "min_amounts",
+          "type": "uint256[4]"
+        }
+      ],
+      "name": "remove_liquidity",
+      "outputs": [],
+      "signature": "0x7d49d875"
+    },
+    "0x86fbf193": {
+      "inputs": [],
+      "name": "revert_transfer_ownership",
+      "outputs": [],
+      "signature": "0x86fbf193"
+    },
+    "0x8da5cb5b": {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x8da5cb5b"
+    },
+    "0xa6417ed6": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "i",
+          "type": "int128"
+        },
+        {
+          "dynamic": false,
+          "name": "j",
+          "type": "int128"
+        },
+        {
+          "dynamic": false,
+          "name": "dx",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "min_dy",
+          "type": "uint256"
+        }
+      ],
+      "name": "exchange_underlying",
+      "outputs": [],
+      "signature": "0xa6417ed6"
+    },
+    "0xb4b577ad": {
+      "inputs": [],
+      "name": "future_A",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xb4b577ad"
+    },
+    "0xb739953e": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "arg0",
+          "type": "int128"
+        }
+      ],
+      "name": "underlying_coins",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xb739953e"
+    },
+    "0xbb7b8b80": {
+      "inputs": [],
+      "name": "get_virtual_price",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xbb7b8b80"
+    },
+    "0xcf701ff7": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "amounts",
+          "type": "uint256[4]"
+        },
+        {
+          "dynamic": false,
+          "name": "deposit",
+          "type": "bool"
+        }
+      ],
+      "name": "calc_token_amount",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xcf701ff7"
+    },
+    "0xddca3f43": {
+      "inputs": [],
+      "name": "fee",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xddca3f43"
+    },
+    "0xe0a0b586": {
+      "inputs": [],
+      "name": "transfer_ownership_deadline",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xe0a0b586"
+    },
+    "0xe3698853": {
+      "inputs": [],
+      "name": "kill_me",
+      "outputs": [],
+      "signature": "0xe3698853"
+    },
+    "0xe3824462": {
+      "inputs": [],
+      "name": "future_admin_fee",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xe3824462"
+    },
+    "0xee11f5b6": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "amplification",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "new_fee",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "new_admin_fee",
+          "type": "uint256"
+        }
+      ],
+      "name": "commit_new_parameters",
+      "outputs": [],
+      "signature": "0xee11f5b6"
+    },
+    "0xf446c1d0": {
+      "inputs": [],
+      "name": "A",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xf446c1d0"
+    },
+    "0xfee3f7f9": {
+      "inputs": [],
+      "name": "admin_fee",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xfee3f7f9"
+    },
+    "constructor": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_coins",
+          "type": "address[4]"
+        },
+        {
+          "dynamic": false,
+          "name": "_underlying_coins",
+          "type": "address[4]"
+        },
+        {
+          "dynamic": false,
+          "name": "_pool_token",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "_A",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "_fee",
+          "type": "uint256"
+        }
+      ],
+      "name": "constructor",
+      "outputs": [],
+      "signature": "constructor"
+    }
+  }
+}
