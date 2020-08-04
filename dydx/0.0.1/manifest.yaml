@@ -1,0 +1,11 @@
+dYdX_SoloMargin:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x1e0447b19bb6ecfdae1e4ae1694b0c3659614e4e":
+        network: mainnet
+        label: dYdX_SoloMargin
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0xc25645e567422abb6e9f50390ab9b6670c67f96d1268dab175a8d7a32b5307da"
