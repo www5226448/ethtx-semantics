@@ -1,0 +1,271 @@
+{
+  "functions": {
+    "0xb169542c": {
+      "signature": "0xb169542c",
+      "name": "cage",
+      "inputs": [
+        {
+          "name": "end",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xe43c09f4": {
+      "signature": "0xe43c09f4",
+      "name": "deny",
+      "inputs": [
+        {
+          "name": "who",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "to",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x86c09ded": {
+      "signature": "0x86c09ded",
+      "name": "dripAndFile",
+      "inputs": [
+        {
+          "name": "who",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "ilk",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "what",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "data",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xe3c277dd": {
+      "signature": "0xe3c277dd",
+      "name": "dripAndFile",
+      "inputs": [
+        {
+          "name": "who",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "what",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "data",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x2d9f080e": {
+      "signature": "0x2d9f080e",
+      "name": "file",
+      "inputs": [
+        {
+          "name": "who",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "ilk",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "what",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "data",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xb7beac59": {
+      "signature": "0xb7beac59",
+      "name": "file",
+      "inputs": [
+        {
+          "name": "who",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "what",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "data",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xf1f169e7": {
+      "signature": "0xf1f169e7",
+      "name": "file",
+      "inputs": [
+        {
+          "name": "who",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "what",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "data",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xfa6b6f6d": {
+      "signature": "0xfa6b6f6d",
+      "name": "file",
+      "inputs": [
+        {
+          "name": "who",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "ilk",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "what",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "data",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x2cc0b254": {
+      "signature": "0x2cc0b254",
+      "name": "init",
+      "inputs": [
+        {
+          "name": "who",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "ilk",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xd95270f1": {
+      "signature": "0xd95270f1",
+      "name": "rely",
+      "inputs": [
+        {
+          "name": "who",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "to",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xe7796f33": {
+      "signature": "0xe7796f33",
+      "name": "setAuthority",
+      "inputs": [
+        {
+          "name": "pause",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "newAuthority",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xd9c6f876": {
+      "signature": "0xd9c6f876",
+      "name": "setAuthorityAndDelay",
+      "inputs": [
+        {
+          "name": "pause",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "newAuthority",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "newDelay",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x6d21e4e2": {
+      "signature": "0x6d21e4e2",
+      "name": "setDelay",
+      "inputs": [
+        {
+          "name": "pause",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "newDelay",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    }
+  },
+  "events": {}
+}

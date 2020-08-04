@@ -1,0 +1,586 @@
+{
+  "functions": {
+    "constructor": {
+      "signature": "constructor",
+      "name": "constructor",
+      "inputs": [
+        {
+          "name": "end",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x0a3b0a4f": {
+      "signature": "0x0a3b0a4f",
+      "name": "add",
+      "inputs": [
+        {
+          "name": "adapter",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xe4881813": {
+      "signature": "0xe4881813",
+      "name": "cat",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x06661abd": {
+      "signature": "0x06661abd",
+      "name": "count",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x3017a54d": {
+      "signature": "0x3017a54d",
+      "name": "dec",
+      "inputs": [
+        {
+          "name": "ilk",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x9c52a7f1": {
+      "signature": "0x9c52a7f1",
+      "name": "deny",
+      "inputs": [
+        {
+          "name": "usr",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x1a0b287e": {
+      "signature": "0x1a0b287e",
+      "name": "file",
+      "inputs": [
+        {
+          "name": "ilk",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "what",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "data",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xc8b97f71": {
+      "signature": "0xc8b97f71",
+      "name": "file",
+      "inputs": [
+        {
+          "name": "ilk",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "what",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "data",
+          "type": "string",
+          "dynamic": true
+        }
+      ],
+      "outputs": []
+    },
+    "0xebecb39d": {
+      "signature": "0xebecb39d",
+      "name": "file",
+      "inputs": [
+        {
+          "name": "ilk",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "what",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "data",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x6ffd8001": {
+      "signature": "0x6ffd8001",
+      "name": "flip",
+      "inputs": [
+        {
+          "name": "ilk",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x41f0b723": {
+      "signature": "0x41f0b723",
+      "name": "gem",
+      "inputs": [
+        {
+          "name": "ilk",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x9507d39a": {
+      "signature": "0x9507d39a",
+      "name": "get",
+      "inputs": [
+        {
+          "name": "pos",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xa53a42b5": {
+      "signature": "0xa53a42b5",
+      "name": "ilkData",
+      "inputs": [
+        {
+          "name": "",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "pos",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "gem",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "pip",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "join",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "flip",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "dec",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "dynamic": true
+        },
+        {
+          "name": "symbol",
+          "type": "string",
+          "dynamic": true
+        }
+      ]
+    },
+    "0xb64a097e": {
+      "signature": "0xb64a097e",
+      "name": "info",
+      "inputs": [
+        {
+          "name": "ilk",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "name",
+          "type": "string",
+          "dynamic": true
+        },
+        {
+          "name": "symbol",
+          "type": "string",
+          "dynamic": true
+        },
+        {
+          "name": "dec",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "gem",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "pip",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "join",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "flip",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xad677d0b": {
+      "signature": "0xad677d0b",
+      "name": "join",
+      "inputs": [
+        {
+          "name": "ilk",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x0f560cd7": {
+      "signature": "0x0f560cd7",
+      "name": "list",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32[]",
+          "dynamic": true
+        }
+      ]
+    },
+    "0x50fd7367": {
+      "signature": "0x50fd7367",
+      "name": "list",
+      "inputs": [
+        {
+          "name": "start",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "end",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32[]",
+          "dynamic": true
+        }
+      ]
+    },
+    "0x691f3431": {
+      "signature": "0x691f3431",
+      "name": "name",
+      "inputs": [
+        {
+          "name": "ilk",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "string",
+          "dynamic": true
+        }
+      ]
+    },
+    "0xa4903036": {
+      "signature": "0xa4903036",
+      "name": "pip",
+      "inputs": [
+        {
+          "name": "ilk",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x56eac7dc": {
+      "signature": "0x56eac7dc",
+      "name": "pos",
+      "inputs": [
+        {
+          "name": "ilk",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x65fae35e": {
+      "signature": "0x65fae35e",
+      "name": "rely",
+      "inputs": [
+        {
+          "name": "usr",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x95bc2673": {
+      "signature": "0x95bc2673",
+      "name": "remove",
+      "inputs": [
+        {
+          "name": "ilk",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xa19555d9": {
+      "signature": "0xa19555d9",
+      "name": "removeAuth",
+      "inputs": [
+        {
+          "name": "ilk",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x6f265b93": {
+      "signature": "0x6f265b93",
+      "name": "spot",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x6baa0330": {
+      "signature": "0x6baa0330",
+      "name": "symbol",
+      "inputs": [
+        {
+          "name": "ilk",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "string",
+          "dynamic": true
+        }
+      ]
+    },
+    "0x36569e77": {
+      "signature": "0x36569e77",
+      "name": "vat",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xbf353dbb": {
+      "signature": "0xbf353dbb",
+      "name": "wards",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    }
+  },
+  "events": {
+    "0x74ceb2982b813d6b690af89638316706e6acb9a48fced388741b61b510f165b7": {
+      "signature": "0x74ceb2982b813d6b690af89638316706e6acb9a48fced388741b61b510f165b7",
+      "name": "AddIlk",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "ilk",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x184450df2e323acec0ed3b5c7531b81f9b4cdef7914dfd4c0a4317416bb5251b": {
+      "signature": "0x184450df2e323acec0ed3b5c7531b81f9b4cdef7914dfd4c0a4317416bb5251b",
+      "name": "Deny",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "usr",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x93272f551c7dd0dd38e4c01ae7b4eeef80d2557b4460caa3ee96697d93bc809a": {
+      "signature": "0x93272f551c7dd0dd38e4c01ae7b4eeef80d2557b4460caa3ee96697d93bc809a",
+      "name": "NameError",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "ilk",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0xdd0e34038ac38b2a1ce960229778ac48a8719bc900b6c4f8d0475c6e8b385a60": {
+      "signature": "0xdd0e34038ac38b2a1ce960229778ac48a8719bc900b6c4f8d0475c6e8b385a60",
+      "name": "Rely",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "usr",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x42f3b824eb9d522b949ff3d8f70db1872c46f3fc68b6df1a4c8d6aaebfcb6796": {
+      "signature": "0x42f3b824eb9d522b949ff3d8f70db1872c46f3fc68b6df1a4c8d6aaebfcb6796",
+      "name": "RemoveIlk",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "ilk",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0xd4596cfd8cc9635c5a006e070f5c23e1af9b5d2e65665a8d73958c9e6cc17b4d": {
+      "signature": "0xd4596cfd8cc9635c5a006e070f5c23e1af9b5d2e65665a8d73958c9e6cc17b4d",
+      "name": "SymbolError",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "ilk",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    }
+  }
+}

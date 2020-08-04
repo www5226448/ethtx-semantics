@@ -1,0 +1,11 @@
+{
+  "0x22d324652c93739755cf4581508b60875ebdd78c20c0cff5cf8e23452b299631": {
+    "arguments": {
+      "wad": {
+        "path": "wad",
+        "type": "string",
+        "value": "f'{wad / 10**18} DAI'"
+      }
+    }
+  }
+}

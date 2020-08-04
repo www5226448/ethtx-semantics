@@ -1,0 +1,19 @@
+{
+  "0x644843f351d3fba4abcd60109eaff9f54bac8fb8ccf0bab941009c21df21cf31": {
+    "arguments": {
+      "bar": {
+        "path": "bar",
+        "type": "ignore"
+      },
+      "fax": {
+        "path": "fax",
+        "type": "string",
+        "value": "_print_input(_contract, fax, _transaction, network)"
+      },
+      "foo": {
+        "path": "foo",
+        "type": "ignore"
+      }
+    }
+  }
+}

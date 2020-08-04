@@ -1,0 +1,71 @@
+{
+  "functions": {
+    "0x1ce03f38": {
+      "signature": "0x1ce03f38",
+      "name": "getCdpsAsc",
+      "inputs": [
+        {
+          "name": "manager",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "guy",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "ids",
+          "type": "uint256[]",
+          "dynamic": true
+        },
+        {
+          "name": "urns",
+          "type": "address[]",
+          "dynamic": true
+        },
+        {
+          "name": "ilks",
+          "type": "bytes32[]",
+          "dynamic": true
+        }
+      ]
+    },
+    "0x38f7acb4": {
+      "signature": "0x38f7acb4",
+      "name": "getCdpsDesc",
+      "inputs": [
+        {
+          "name": "manager",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "guy",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "ids",
+          "type": "uint256[]",
+          "dynamic": true
+        },
+        {
+          "name": "urns",
+          "type": "address[]",
+          "dynamic": true
+        },
+        {
+          "name": "ilks",
+          "type": "bytes32[]",
+          "dynamic": true
+        }
+      ]
+    }
+  },
+  "events": {}
+}

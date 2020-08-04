@@ -1,0 +1,1224 @@
+{
+  "functions": {
+    "0x01a12fd3": {
+      "name": "removeAlerter",
+      "inputs": [
+        {
+          "name": "alerter",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x088322ef": {
+      "name": "tradeWithHint",
+      "inputs": [
+        {
+          "name": "trader",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "src",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "srcAmount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "dest",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "destAddress",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "maxDestAmount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "minConversionRate",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "walletId",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "hint",
+          "type": "bytes",
+          "dynamic": true
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x0902f1ac": {
+      "name": "getReserves",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address[]",
+          "dynamic": true
+        }
+      ]
+    },
+    "0x0c235d96": {
+      "name": "searchBestRate",
+      "inputs": [
+        {
+          "name": "src",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "dest",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "srcAmount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "usePermissionless",
+          "type": "bool",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x1610b59b": {
+      "name": "infoFields",
+      "inputs": [
+        {
+          "name": "",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x1a79464e": {
+      "name": "setFeeBurner",
+      "inputs": [
+        {
+          "name": "feeBurner",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x1dc1f78d": {
+      "name": "findBestRateOnlyPermission",
+      "inputs": [
+        {
+          "name": "src",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "dest",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "srcAmount",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "obsolete",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "rate",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x238dafe0": {
+      "name": "enabled",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x249715b3": {
+      "name": "removeReserve",
+      "inputs": [
+        {
+          "name": "reserve",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "index",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x26782247": {
+      "name": "pendingAdmin",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x27a099d8": {
+      "name": "getOperators",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address[]",
+          "dynamic": true
+        }
+      ]
+    },
+    "0x2ab8fc2d": {
+      "name": "reservesPerTokenSrc",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x39e899ee": {
+      "name": "setWhiteList",
+      "inputs": [
+        {
+          "name": "whiteList",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x3ccdbb28": {
+      "name": "withdrawToken",
+      "inputs": [
+        {
+          "name": "token",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "amount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "sendTo",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x3de39c11": {
+      "name": "maxGasPrice",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x408ee7fe": {
+      "name": "addAlerter",
+      "inputs": [
+        {
+          "name": "newAlerter",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x4cef5a5c": {
+      "name": "negligibleRateDiff",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x579425b7": {
+      "name": "feeBurnerContract",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x5d270cdc": {
+      "name": "setExpectedRate",
+      "inputs": [
+        {
+          "name": "expectedRate",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x5dada964": {
+      "name": "expectedRateContract",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x5ed5ea28": {
+      "name": "whiteListContract",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x5f65d703": {
+      "name": "setInfo",
+      "inputs": [
+        {
+          "name": "field",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "value",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x6432679f": {
+      "name": "getUserCapInWei",
+      "inputs": [
+        {
+          "name": "user",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x6aa633b6": {
+      "name": "isEnabled",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x749f95bf": {
+      "name": "reserveType",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x75829def": {
+      "name": "transferAdmin",
+      "inputs": [
+        {
+          "name": "newAdmin",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x7726bed3": {
+      "name": "setEnable",
+      "inputs": [
+        {
+          "name": "_enable",
+          "type": "bool",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x77f50f97": {
+      "name": "claimAdmin",
+      "inputs": [],
+      "outputs": []
+    },
+    "0x785250da": {
+      "name": "kyberNetworkProxyContract",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x7acc8678": {
+      "name": "transferAdminQuickly",
+      "inputs": [
+        {
+          "name": "newAdmin",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x7c423f54": {
+      "name": "getAlerters",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address[]",
+          "dynamic": true
+        }
+      ]
+    },
+    "0x809a9e55": {
+      "name": "getExpectedRate",
+      "inputs": [
+        {
+          "name": "src",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "dest",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "srcQty",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "expectedRate",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "slippageRate",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x8334278d": {
+      "name": "reserves",
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x85dc0c56": {
+      "name": "getExpectedRateOnlyPermission",
+      "inputs": [
+        {
+          "name": "src",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "dest",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "srcQty",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "expectedRate",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "slippageRate",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x8b98a2c5": {
+      "name": "PERM_HINT",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes",
+          "dynamic": true
+        }
+      ]
+    },
+    "0x8eaaeecf": {
+      "name": "getUserCapInTokenWei",
+      "inputs": [
+        {
+          "name": "user",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "token",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x937e909b": {
+      "name": "reservesPerTokenDest",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x9870d7fe": {
+      "name": "addOperator",
+      "inputs": [
+        {
+          "name": "newOperator",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xa0d7bb1b": {
+      "name": "addReserve",
+      "inputs": [
+        {
+          "name": "reserve",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "isPermissionless",
+          "type": "bool",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xac8a584a": {
+      "name": "removeOperator",
+      "inputs": [
+        {
+          "name": "operator",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xb2d111f6": {
+      "name": "maxGasPriceValue",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xb64a097e": {
+      "name": "info",
+      "inputs": [
+        {
+          "name": "field",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xb8388aca": {
+      "name": "findBestRate",
+      "inputs": [
+        {
+          "name": "src",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "dest",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "srcAmount",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "obsolete",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "rate",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xc0324c77": {
+      "name": "setParams",
+      "inputs": [
+        {
+          "name": "_maxGasPrice",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "_negligibleRateDiff",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xc0919ac6": {
+      "name": "PERM_HINT_GET_RATE",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xc6c3f3f9": {
+      "name": "setKyberProxy",
+      "inputs": [
+        {
+          "name": "networkProxy",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xce56c454": {
+      "name": "withdrawEther",
+      "inputs": [
+        {
+          "name": "amount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "sendTo",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xcfff25bb": {
+      "name": "getNumReserves",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xd4fac45d": {
+      "name": "getBalance",
+      "inputs": [
+        {
+          "name": "token",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "user",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xe02584bf": {
+      "name": "listPairForReserve",
+      "inputs": [
+        {
+          "name": "reserve",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "token",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "ethToToken",
+          "type": "bool",
+          "dynamic": false
+        },
+        {
+          "name": "tokenToEth",
+          "type": "bool",
+          "dynamic": false
+        },
+        {
+          "name": "add",
+          "type": "bool",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xf851a440": {
+      "name": "admin",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    }
+  },
+  "events": {
+    "0x75f33ed68675112c77094e7c5b073890598be1d23e27cd7f6907b4a7d98ac619": {
+      "name": "EtherReceival",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "sender",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "amount",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x4d99ce7cd99dfb1a7692e50c2e9b8d84c1b420f1d439ca8c4de0171acac11907": {
+      "name": "AddReserveToNetwork",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "reserve",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "add",
+          "type": "bool",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "isPermissionless",
+          "type": "bool",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x861f07ab6bad95b71c362ed240dc0082c3d9bbfe75e7830be646ef0d61da3117": {
+      "name": "RemoveReserveFromNetwork",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "reserve",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0xadb5a4f14d89b3a5ffb3900ac1ea4574d991f93887f6199fabaf25393644e01c": {
+      "name": "ListReservePairs",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "reserve",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "src",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "dest",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "add",
+          "type": "bool",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x1eae61fde1a37f65af69f00b4269aa5fda423f684194d303865cba6c650b2366": {
+      "name": "WhiteListContractSet",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "newContract",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "currentContract",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0xa2446ac1a8b17e6d40c1cafcbf076b945fdc5f897c970e6e19915760def475ad": {
+      "name": "ExpectedRateContractSet",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "newContract",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "currentContract",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x91251c8b04e3ed4b921776c3aced2ad433c3701257fc5666cb35239ec4df5411": {
+      "name": "FeeBurnerContractSet",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "newContract",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "currentContract",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0xc1bdc2503431144078ba3cb975f03be0f6c1d365cf490875e7534b4ca70c863e": {
+      "name": "KyberNetwrokParamsSet",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "maxGasPrice",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "negligibleRateDiff",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x8a846a525e22497042ee2f99423a8ff8bbb831d3ae5384692bf6040f591c1eba": {
+      "name": "KyberNetworkSetEnable",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "isEnabled",
+          "type": "bool",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0xfdd305502f7797ff3390aa08825f7f6aec92c27a94e103bfaf45452b4cf1d4f4": {
+      "name": "KyberProxySet",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "proxy",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "sender",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0xd30ca399cb43507ecec6a629a35cf45eb98cda550c27696dcb0d8c4a3873ce6c": {
+      "name": "KyberTrade",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "trader",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "src",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "dest",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "srcAmount",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "dstAmount",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "destAddress",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "ethWeiValue",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "reserve1",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "reserve2",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "hint",
+          "type": "bytes",
+          "dynamic": true,
+          "indexed": false
+        }
+      ]
+    },
+    "0x72cb8a894ddb372ceec3d2a7648d86f17d5a15caae0e986c53109b8a9a9385e6": {
+      "name": "TokenWithdraw",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "token",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "amount",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "sendTo",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0xec47e7ed86c86774d1a72c19f35c639911393fe7c1a34031fdbd260890da90de": {
+      "name": "EtherWithdraw",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "amount",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "sendTo",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x3b81caf78fa51ecbc8acb482fd7012a277b428d9b80f9d156e8a54107496cc40": {
+      "name": "TransferAdminPending",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "pendingAdmin",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x65da1cfc2c2e81576ad96afb24a581f8e109b7a403b35cbd3243a1c99efdb9ed": {
+      "name": "AdminClaimed",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "newAdmin",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "previousAdmin",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x5611bf3e417d124f97bf2c788843ea8bb502b66079fbee02158ef30b172cb762": {
+      "name": "AlerterAdded",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "newAlerter",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "isAdd",
+          "type": "bool",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x091a7a4b85135fdd7e8dbc18b12fabe5cc191ea867aa3c2e1a24a102af61d58b": {
+      "name": "OperatorAdded",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "newOperator",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "isAdd",
+          "type": "bool",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    }
+  }
+}

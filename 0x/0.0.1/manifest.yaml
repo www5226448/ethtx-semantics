@@ -1,0 +1,22 @@
+0xExchange_1:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x080bf510fcbf18b91105470639e9561022937712":
+        network: mainnet
+        label: 0xExchange
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0x1eb08f4905a226eb84c664ee73b6d81cd1a40720e6b3dd946591500a959aeefa"
+OxExchange_2:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x61935cbdd02287b511119ddb11aeb42f1593b7ef":
+        network: mainnet
+        label: 0xExchange
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0xd0f752035039c2b4d0a95187562aee12d21d653f176b9a50df057ceb44c4f37c"

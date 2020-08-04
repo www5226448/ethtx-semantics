@@ -1,0 +1,162 @@
+[
+  {
+    "end": 63,
+    "hashmap": {
+      "key1": "address",
+      "key2": null,
+      "struct": null,
+      "value": "int"
+    },
+    "name": "wards",
+    "slot": 0,
+    "start": 0,
+    "type": "hashmap"
+  },
+  {
+    "end": 63,
+    "hashmap": {
+      "key1": "address",
+      "key2": "address",
+      "struct": null,
+      "value": "int"
+    },
+    "name": "can",
+    "slot": 1,
+    "start": 0,
+    "type": "hashmap"
+  },
+  {
+    "end": 63,
+    "hashmap": {
+      "key1": "string",
+      "key2": null,
+      "struct": [
+        {
+          "name": "Art",
+          "shift": 0,
+          "type": "wad"
+        },
+        {
+          "name": "rate",
+          "shift": 1,
+          "type": "ray"
+        },
+        {
+          "name": "spot",
+          "shift": 2,
+          "type": "ray"
+        },
+        {
+          "name": "line",
+          "shift": 3,
+          "type": "rad"
+        },
+        {
+          "name": "dust",
+          "shift": 4,
+          "type": "rad"
+        }
+      ],
+      "value": "struct"
+    },
+    "name": "ilks",
+    "slot": 2,
+    "start": 0,
+    "type": "hashmap"
+  },
+  {
+    "end": 63,
+    "hashmap": {
+      "key1": "address",
+      "key2": "string",
+      "struct": [
+        {
+          "name": "ink",
+          "shift": 0,
+          "type": "wad"
+        },
+        {
+          "name": "art",
+          "shift": 1,
+          "type": "wad"
+        }
+      ],
+      "value": "struct"
+    },
+    "name": "urns",
+    "slot": 3,
+    "start": 0,
+    "type": "hashmap"
+  },
+  {
+    "end": 63,
+    "hashmap": {
+      "key1": "address",
+      "key2": "string",
+      "struct": null,
+      "value": "wad"
+    },
+    "name": "gem",
+    "slot": 4,
+    "start": 0,
+    "type": "hashmap"
+  },
+  {
+    "end": 63,
+    "hashmap": {
+      "key1": "address",
+      "key2": null,
+      "struct": null,
+      "value": "rad"
+    },
+    "name": "dai",
+    "slot": 5,
+    "start": 0,
+    "type": "hashmap"
+  },
+  {
+    "end": 63,
+    "hashmap": {
+      "key1": "address",
+      "key2": null,
+      "struct": null,
+      "value": "rad"
+    },
+    "name": "sin",
+    "slot": 6,
+    "start": 0,
+    "type": "hashmap"
+  },
+  {
+    "end": 63,
+    "hashmap": null,
+    "name": "debt",
+    "slot": 7,
+    "start": 0,
+    "type": "rad"
+  },
+  {
+    "end": 63,
+    "hashmap": null,
+    "name": "vice",
+    "slot": 8,
+    "start": 0,
+    "type": "rad"
+  },
+  {
+    "end": 63,
+    "hashmap": null,
+    "name": "Line",
+    "slot": 9,
+    "start": 0,
+    "type": "rad"
+  },
+  {
+    "end": 63,
+    "hashmap": null,
+    "name": "live",
+    "slot": 10,
+    "start": 0,
+    "type": "int"
+  }
+]

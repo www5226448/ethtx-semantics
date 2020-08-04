@@ -1,0 +1,157 @@
+{
+  "0x088322ef": {
+    "arguments": {
+      "dest": {
+        "path": "dest",
+        "type": "address",
+        "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(dest, dest)"
+      },
+      "maxDestAmount": {
+        "path": "maxDestAmount",
+        "type": "uint256",
+        "value": "maxDestAmount / 10**18"
+      },
+      "minConversionRate": {
+        "path": "minConversionRate",
+        "type": "uint256",
+        "value": "minConversionRate / 10**18"
+      },
+      "out": {
+        "path": "out",
+        "type": "uint256",
+        "value": "out / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(arguments.get('dest', None), 18)"
+      },
+      "src": {
+        "path": "src",
+        "type": "address",
+        "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(src, src)"
+      },
+      "srcAmount": {
+        "path": "srcAmount",
+        "type": "uint256",
+        "value": "srcAmount / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(src, 18)"
+      }
+    },
+    "name": "tradeWithHint"
+  },
+  "0x0c235d96": {
+    "arguments": {
+      "dest": {
+        "path": "dest",
+        "type": "address",
+        "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(dest, dest)"
+      },
+      "price": {
+        "path": "price",
+        "type": "uint",
+        "value": "price / 10**18"
+      },
+      "src": {
+        "path": "src",
+        "type": "address",
+        "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(src, src)"
+      }
+    },
+    "name": "searchBestRate"
+  },
+  "0x1849bd6a030a1bca28b83437fd3de96f3d27a5d172fa7e9c78e7b61468928a39": {
+    "arguments": {
+      "actualDestAmount": {
+        "path": "actualDestAmount",
+        "type": "uint256",
+        "value": "actualDestAmount / 10**18"
+      },
+      "actualSrcAmount": {
+        "path": "actualSrcAmount",
+        "type": "uint256",
+        "value": "actualSrcAmount / 10**18"
+      },
+      "dest": {
+        "path": "dest",
+        "type": "address",
+        "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(dest, dest)"
+      },
+      "src": {
+        "path": "src",
+        "type": "address",
+        "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(src, src)"
+      }
+    },
+    "name": "ExecuteTrade"
+  },
+  "0x1dc1f78d": {
+    "arguments": {
+      "rate": {
+        "path": "rate",
+        "type": "uint256",
+        "value": "rate / 10**18"
+      },
+      "srcAmount": {
+        "path": "srcAmount",
+        "type": "uint256",
+        "value": "srcAmount / 10**18"
+      }
+    },
+    "name": "findBestRateOnlyPermission"
+  },
+  "0x809a9e55": {
+    "arguments": {
+      "expectedRate": {
+        "path": "expectedRate",
+        "type": "uint256",
+        "value": "expectedRate / 10**18"
+      },
+      "slippageRate": {
+        "path": "slippageRate",
+        "type": "uint256",
+        "value": "slippageRate / 10**18"
+      },
+      "srcQty": {
+        "path": "srcQty",
+        "type": "uint256",
+        "value": "srcQty / 10**18"
+      }
+    },
+    "name": "getExpectedRate"
+  },
+  "0xb8388aca": {
+    "arguments": {
+      "rate": {
+        "path": "rate",
+        "type": "uint256",
+        "value": "rate / 10**18"
+      },
+      "srcAmount": {
+        "path": "srcAmount",
+        "type": "uint256",
+        "value": "srcAmount / 10**18"
+      }
+    },
+    "name": "getExpectedRate"
+  },
+  "0xd30ca399cb43507ecec6a629a35cf45eb98cda550c27696dcb0d8c4a3873ce6c": {
+    "arguments": {
+      "dstAmount": {
+        "path": "dstAmount",
+        "type": "uint256",
+        "value": "dstAmount / 10**18"
+      },
+      "destToken": {
+        "path": "destToken",
+        "type": "address",
+        "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(destToken, destToken)"
+      },
+      "src": {
+        "path": "src",
+        "type": "address",
+        "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(src, src)"
+      },
+      "srcAmount": {
+        "path": "srcAmount",
+        "type": "uint256",
+        "value": "srcAmount / 10**18"
+      }
+    },
+    "name": "KyberTrade"
+  }
+}

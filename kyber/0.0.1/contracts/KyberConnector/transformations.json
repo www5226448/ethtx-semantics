@@ -1,0 +1,32 @@
+{
+  "0xca2c35f41e3c93e960780ee310865b11d03fc119da35b1e769970a0189da71df": {
+    "name": "LogTrade",
+    "arguments": {
+      "_srcTokenValue": {
+        "path": "_srcTokenValue",
+        "type": "uint256",
+        "value": "_srcTokenValue / 10**18"
+      },
+      "_destTokenValue": {
+        "path": "_destTokenValue",
+        "type": "uint256",
+        "value": "_destTokenValue / 10**18"
+      },
+      "_maxDestTokenValue": {
+        "path": "_maxDestTokenValue",
+        "type": "uint256",
+        "value": "_maxDestTokenValue / 10**18"
+      },
+      "_srcTokenValueLeft": {
+        "path": "_srcTokenValueLeft",
+        "type": "uint256",
+        "value": "_srcTokenValueLeft / 10**18"
+      },
+      "_exchangeRate": {
+        "path": "_exchangeRate",
+        "type": "uint256",
+        "value": "_exchangeRate / 10**18"
+      }
+    }
+  }
+}

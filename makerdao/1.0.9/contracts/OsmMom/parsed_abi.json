@@ -1,0 +1,144 @@
+{
+  "functions": {
+    "constructor": {
+      "signature": "constructor",
+      "name": "constructor",
+      "inputs": [],
+      "outputs": []
+    },
+    "0xbf7e214f": {
+      "signature": "0xbf7e214f",
+      "name": "authority",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x6c4ba760": {
+      "signature": "0x6c4ba760",
+      "name": "osms",
+      "inputs": [
+        {
+          "name": "",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x8da5cb5b": {
+      "signature": "0x8da5cb5b",
+      "name": "owner",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x7a9e5e4b": {
+      "signature": "0x7a9e5e4b",
+      "name": "setAuthority",
+      "inputs": [
+        {
+          "name": "authority_",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xc98cdf86": {
+      "signature": "0xc98cdf86",
+      "name": "setOsm",
+      "inputs": [
+        {
+          "name": "ilk",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "osm",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x13af4035": {
+      "signature": "0x13af4035",
+      "name": "setOwner",
+      "inputs": [
+        {
+          "name": "owner_",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x63c4f031": {
+      "signature": "0x63c4f031",
+      "name": "stop",
+      "inputs": [
+        {
+          "name": "ilk",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    }
+  },
+  "events": {
+    "0xd3d8bec38a91a5f4411247483bc030a174e77cda9c0351924c759f41453aa5e8": {
+      "signature": "0xd3d8bec38a91a5f4411247483bc030a174e77cda9c0351924c759f41453aa5e8",
+      "name": "LogNote",
+      "anonymous": true,
+      "parameters": [
+        {
+          "name": "sig",
+          "type": "bytes4",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "usr",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "arg1",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "arg2",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "data",
+          "type": "bytes",
+          "dynamic": true,
+          "indexed": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,374 @@
+{
+  "events": {
+    "0x184450df2e323acec0ed3b5c7531b81f9b4cdef7914dfd4c0a4317416bb5251b": {
+      "anonymous": false,
+      "name": "Deny",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "usr",
+          "type": "address"
+        }
+      ],
+      "signature": "0x184450df2e323acec0ed3b5c7531b81f9b4cdef7914dfd4c0a4317416bb5251b"
+    },
+    "0x8fef588b5fc1afbf5b2f06c1a435d513f208da2e6704c3d8f0e0ec91167066ba": {
+      "anonymous": false,
+      "name": "File",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "what",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "data",
+          "type": "address"
+        }
+      ],
+      "signature": "0x8fef588b5fc1afbf5b2f06c1a435d513f208da2e6704c3d8f0e0ec91167066ba"
+    },
+    "0xbca387acb0ba7d06e329c4372885bb664f19a98153ccf3e74e56c136bf0e88c4": {
+      "anonymous": false,
+      "name": "Join",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "usr",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "gAmt",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "dAmt",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xbca387acb0ba7d06e329c4372885bb664f19a98153ccf3e74e56c136bf0e88c4"
+    },
+    "0xbe0b6e5b3195df91f2e6b2b20501f84b085714f9e38073f499073c8305651009": {
+      "anonymous": false,
+      "name": "Exit",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "usr",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "gAmt",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "dAmt",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xbe0b6e5b3195df91f2e6b2b20501f84b085714f9e38073f499073c8305651009"
+    },
+    "0xdd0e34038ac38b2a1ce960229778ac48a8719bc900b6c4f8d0475c6e8b385a60": {
+      "anonymous": false,
+      "name": "Rely",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "usr",
+          "type": "address"
+        }
+      ],
+      "signature": "0xdd0e34038ac38b2a1ce960229778ac48a8719bc900b6c4f8d0475c6e8b385a60"
+    },
+    "0xe986e40cc8c151830d4f61050f4fb2e4add8567caad2d5f5496f9158e91fe4c7": {
+      "anonymous": false,
+      "name": "File",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "what",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "data",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xe986e40cc8c151830d4f61050f4fb2e4add8567caad2d5f5496f9158e91fe4c7"
+    }
+  },
+  "functions": {
+    "0x01664f66": {
+      "inputs": [],
+      "name": "gemJoin",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x01664f66"
+    },
+    "0x049878f3": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "gAmt",
+          "type": "uint256"
+        }
+      ],
+      "name": "join",
+      "outputs": [],
+      "signature": "0x049878f3"
+    },
+    "0x0696819f": {
+      "inputs": [],
+      "name": "feeOut",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x0696819f"
+    },
+    "0x29ae8114": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "what",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": false,
+          "name": "data",
+          "type": "uint256"
+        }
+      ],
+      "name": "file",
+      "outputs": [],
+      "signature": "0x29ae8114"
+    },
+    "0x36569e77": {
+      "inputs": [],
+      "name": "vat",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x36569e77"
+    },
+    "0x626cb3c5": {
+      "inputs": [],
+      "name": "vow",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x626cb3c5"
+    },
+    "0x65fae35e": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "usr",
+          "type": "address"
+        }
+      ],
+      "name": "rely",
+      "outputs": [],
+      "signature": "0x65fae35e"
+    },
+    "0x6626b26d": {
+      "inputs": [],
+      "name": "off",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x6626b26d"
+    },
+    "0x769a48d9": {
+      "inputs": [],
+      "name": "feeIn",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x769a48d9"
+    },
+    "0x7bd2bea7": {
+      "inputs": [],
+      "name": "gem",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x7bd2bea7"
+    },
+    "0x7f8661a1": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "gAmt",
+          "type": "uint256"
+        }
+      ],
+      "name": "exit",
+      "outputs": [],
+      "signature": "0x7f8661a1"
+    },
+    "0x9c52a7f1": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "usr",
+          "type": "address"
+        }
+      ],
+      "name": "deny",
+      "outputs": [],
+      "signature": "0x9c52a7f1"
+    },
+    "0xbf353dbb": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "wards",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xbf353dbb"
+    },
+    "0xc11645bc": {
+      "inputs": [],
+      "name": "daiJoin",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xc11645bc"
+    },
+    "0xc5ce281e": {
+      "inputs": [],
+      "name": "ilk",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "signature": "0xc5ce281e"
+    },
+    "0xd32b91dd": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "dst",
+          "type": "address"
+        }
+      ],
+      "name": "quit",
+      "outputs": [],
+      "signature": "0xd32b91dd"
+    },
+    "0xd4e8be83": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "what",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": false,
+          "name": "data",
+          "type": "address"
+        }
+      ],
+      "name": "file",
+      "outputs": [],
+      "signature": "0xd4e8be83"
+    },
+    "0xf4b9fa75": {
+      "inputs": [],
+      "name": "dai",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xf4b9fa75"
+    },
+    "constructor": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "vow_",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "gemJoin_",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "daiJoin_",
+          "type": "address"
+        }
+      ],
+      "name": "constructor",
+      "outputs": [],
+      "signature": "constructor"
+    }
+  }
+}

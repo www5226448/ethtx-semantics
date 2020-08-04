@@ -1,0 +1,11 @@
+Augur:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x75228dce4d82566d93068a8d5d49435216551599":
+        network: mainnet
+        label: Augur
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0x753d2a668fdbbc54a9bab46cd95f37d88fa480930d73c52a73514adbddc2f394"

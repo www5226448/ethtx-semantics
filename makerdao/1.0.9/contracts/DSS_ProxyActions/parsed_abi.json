@@ -1,0 +1,1155 @@
+{
+  "events": {},
+  "functions": {
+    "0x036a2395": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "daiJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        }
+      ],
+      "name": "wipeAll",
+      "outputs": [],
+      "signature": "0x036a2395"
+    },
+    "0x08f00e34": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "ethJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "wad",
+          "type": "uint256"
+        }
+      ],
+      "name": "exitETH",
+      "outputs": [],
+      "signature": "0x08f00e34"
+    },
+    "0x0aee8dec": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "daiJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "owner",
+          "type": "address"
+        }
+      ],
+      "name": "safeWipeAll",
+      "outputs": [],
+      "signature": "0x0aee8dec"
+    },
+    "0x1558b048": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "dst",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "wad",
+          "type": "uint256"
+        }
+      ],
+      "name": "flux",
+      "outputs": [],
+      "signature": "0x1558b048"
+    },
+    "0x1c02d846": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "jug",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "ethJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "daiJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "wadD",
+          "type": "uint256"
+        }
+      ],
+      "name": "lockETHAndDraw",
+      "outputs": [],
+      "signature": "0x1c02d846"
+    },
+    "0x1d10f231": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "usr",
+          "type": "address"
+        }
+      ],
+      "name": "give",
+      "outputs": [],
+      "signature": "0x1d10f231"
+    },
+    "0x25cf37d0": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "dst",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "rad",
+          "type": "uint256"
+        }
+      ],
+      "name": "move",
+      "outputs": [],
+      "signature": "0x25cf37d0"
+    },
+    "0x2958f8a5": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "daiJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "wad",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "owner",
+          "type": "address"
+        }
+      ],
+      "name": "safeWipe",
+      "outputs": [],
+      "signature": "0x2958f8a5"
+    },
+    "0x3e29e565": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "gemJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "wad",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "transferFrom",
+          "type": "bool"
+        }
+      ],
+      "name": "lockGem",
+      "outputs": [],
+      "signature": "0x3e29e565"
+    },
+    "0x42dd11bb": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "gemJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "wad",
+          "type": "uint256"
+        }
+      ],
+      "name": "exitGem",
+      "outputs": [],
+      "signature": "0x42dd11bb"
+    },
+    "0x4592aca7": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "dst",
+          "type": "address"
+        }
+      ],
+      "name": "quit",
+      "outputs": [],
+      "signature": "0x4592aca7"
+    },
+    "0x493c2049": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "proxyRegistry",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "dst",
+          "type": "address"
+        }
+      ],
+      "name": "giveToProxy",
+      "outputs": [],
+      "signature": "0x493c2049"
+    },
+    "0x4b666199": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "daiJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "wad",
+          "type": "uint256"
+        }
+      ],
+      "name": "wipe",
+      "outputs": [],
+      "signature": "0x4b666199"
+    },
+    "0x5f6ef447": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "usr",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "ok",
+          "type": "uint256"
+        }
+      ],
+      "name": "urnAllow",
+      "outputs": [],
+      "signature": "0x5f6ef447"
+    },
+    "0x6aa3ee11": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "ilk",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": false,
+          "name": "usr",
+          "type": "address"
+        }
+      ],
+      "name": "open",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x6aa3ee11"
+    },
+    "0x6ab6a491": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "gemJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "wad",
+          "type": "uint256"
+        }
+      ],
+      "name": "freeGem",
+      "outputs": [],
+      "signature": "0x6ab6a491"
+    },
+    "0x6d68b70b": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "ethJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "daiJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "wadC",
+          "type": "uint256"
+        }
+      ],
+      "name": "wipeAllAndFreeETH",
+      "outputs": [],
+      "signature": "0x6d68b70b"
+    },
+    "0x7b5a3b43": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "ethJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "wad",
+          "type": "uint256"
+        }
+      ],
+      "name": "freeETH",
+      "outputs": [],
+      "signature": "0x7b5a3b43"
+    },
+    "0x7bc3bd53": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "cdpSrc",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "cdpOrg",
+          "type": "uint256"
+        }
+      ],
+      "name": "shift",
+      "outputs": [],
+      "signature": "0x7bc3bd53"
+    },
+    "0x7df2eb25": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "apt",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "urn",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "wad",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "transferFrom",
+          "type": "bool"
+        }
+      ],
+      "name": "gemJoin_join",
+      "outputs": [],
+      "signature": "0x7df2eb25"
+    },
+    "0x96e8d72c": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "dink",
+          "type": "int256"
+        },
+        {
+          "dynamic": false,
+          "name": "dart",
+          "type": "int256"
+        }
+      ],
+      "name": "frob",
+      "outputs": [],
+      "signature": "0x96e8d72c"
+    },
+    "0x9f6f3d5b": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "jug",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "daiJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "wad",
+          "type": "uint256"
+        }
+      ],
+      "name": "draw",
+      "outputs": [],
+      "signature": "0x9f6f3d5b"
+    },
+    "0x9f887fde": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "obj",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "usr",
+          "type": "address"
+        }
+      ],
+      "name": "nope",
+      "outputs": [],
+      "signature": "0x9f887fde"
+    },
+    "0xa033df12": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "apt",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "urn",
+          "type": "address"
+        }
+      ],
+      "name": "ethJoin_join",
+      "outputs": [],
+      "signature": "0xa033df12"
+    },
+    "0xa6add011": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "gemJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "daiJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "wadC",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "wadD",
+          "type": "uint256"
+        }
+      ],
+      "name": "wipeAndFreeGem",
+      "outputs": [],
+      "signature": "0xa6add011"
+    },
+    "0xb50a5869": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "obj",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "usr",
+          "type": "address"
+        }
+      ],
+      "name": "hope",
+      "outputs": [],
+      "signature": "0xb50a5869"
+    },
+    "0xba727a95": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "usr",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "ok",
+          "type": "uint256"
+        }
+      ],
+      "name": "cdpAllow",
+      "outputs": [],
+      "signature": "0xba727a95"
+    },
+    "0xbcd6deec": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "gemJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "daiJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "wadC",
+          "type": "uint256"
+        }
+      ],
+      "name": "wipeAllAndFreeGem",
+      "outputs": [],
+      "signature": "0xbcd6deec"
+    },
+    "0xbe5e6c03": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "ethJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "daiJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "wadC",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "wadD",
+          "type": "uint256"
+        }
+      ],
+      "name": "wipeAndFreeETH",
+      "outputs": [],
+      "signature": "0xbe5e6c03"
+    },
+    "0xbeabacc8": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "gem",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "dst",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "wad",
+          "type": "uint256"
+        }
+      ],
+      "name": "transfer",
+      "outputs": [],
+      "signature": "0xbeabacc8"
+    },
+    "0xc0791710": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "jug",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "gntJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "daiJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "ilk",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": false,
+          "name": "wadC",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "wadD",
+          "type": "uint256"
+        }
+      ],
+      "name": "openLockGNTAndDraw",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "bag",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xc0791710"
+    },
+    "0xc56167c6": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "apt",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "urn",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "wad",
+          "type": "uint256"
+        }
+      ],
+      "name": "daiJoin_join",
+      "outputs": [],
+      "signature": "0xc56167c6"
+    },
+    "0xcbd4be3f": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "jug",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "gemJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "daiJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "wadC",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "wadD",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "transferFrom",
+          "type": "bool"
+        }
+      ],
+      "name": "lockGemAndDraw",
+      "outputs": [],
+      "signature": "0xcbd4be3f"
+    },
+    "0xdb802a32": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "jug",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "gemJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "daiJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "ilk",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": false,
+          "name": "wadC",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "wadD",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "transferFrom",
+          "type": "bool"
+        }
+      ],
+      "name": "openLockGemAndDraw",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xdb802a32"
+    },
+    "0xe205c108": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "ethJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        }
+      ],
+      "name": "lockETH",
+      "outputs": [],
+      "signature": "0xe205c108"
+    },
+    "0xe685cc04": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "jug",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "ethJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "daiJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "ilk",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": false,
+          "name": "wadD",
+          "type": "uint256"
+        }
+      ],
+      "name": "openLockETHAndDraw",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xe685cc04"
+    },
+    "0xead64729": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "gemJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "wad",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "transferFrom",
+          "type": "bool"
+        },
+        {
+          "dynamic": false,
+          "name": "owner",
+          "type": "address"
+        }
+      ],
+      "name": "safeLockGem",
+      "outputs": [],
+      "signature": "0xead64729"
+    },
+    "0xeb0b9a85": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "src",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        }
+      ],
+      "name": "enter",
+      "outputs": [],
+      "signature": "0xeb0b9a85"
+    },
+    "0xee284576": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "manager",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "ethJoin",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "cdp",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "owner",
+          "type": "address"
+        }
+      ],
+      "name": "safeLockETH",
+      "outputs": [],
+      "signature": "0xee284576"
+    },
+    "0xfba7591d": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "gemJoin",
+          "type": "address"
+        }
+      ],
+      "name": "makeGemBag",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "bag",
+          "type": "address"
+        }
+      ],
+      "signature": "0xfba7591d"
+    }
+  }
+}
