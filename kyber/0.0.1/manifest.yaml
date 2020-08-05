@@ -227,3 +227,39 @@ KyberWethReserve:
     kovan: {}
   applicable_to_contracts_with_code_hash:
     - "0x0b780c45664f2cfa5ab1980a5e1d683a7d3108615c051e89aa85f1f755029abd"
+Kyber_Eth2DaiReserve:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x1e158c0e93c30d24e918ef83d1e0be23595c3c0f":
+        network: mainnet
+        label: Eth2DaiReserve
+      "0xb5a6de4dafdd7cc377652f7628e1fc40ba5ddb7f":
+        label: Eth2DaiReserve
+        network: mainnet
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0xfe91ce581cb70404fd50858c903c893e58eb3f05eaf34c459914316192350c19"
+Kyber_ExpectedRate:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x38a5cf926a0b9b5fe3a265c57d184ad8c0af05b6":
+        network: mainnet
+        label: ExpectedRate
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0x07b9ae0e161216dcc3fc6b7ad6e14054dfc57fd7abd0ff1a92853d18cbcf961b"
+Kyber_FeeBurner:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x52166528fcc12681af996e409ee3a421a4e128a3":
+        network: mainnet
+        label: FeeBurner
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0xf44d809de042364d87d7d5491fc7c3d0da1ddbe4a0537320d5e3f4e8b1ff7999"

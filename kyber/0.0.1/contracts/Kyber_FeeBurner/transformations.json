@@ -1,0 +1,22 @@
+{
+  "0x366bc34352215bf0bd3b527cfd6718605e1f5938777e42bcd8ed92f578368f52": {
+    "name": "AssignFeeToWallet",
+    "arguments": {
+      "walletFee": {
+        "path": "walletFee",
+        "type": "uint256",
+        "value": "walletFee / 10**18"
+      }
+    }
+  },
+  "0xf838f6ddc89706878e3c3e698e9b5cbfbf2c0e3d3dcd0bd2e00f1ccf313e0185": {
+    "name": "AssignBurnFees",
+    "arguments": {
+      "burnFee": {
+        "path": "burnFee",
+        "type": "uint256",
+        "value": "burnFee / 10**18"
+      }
+    }
+  }
+}
