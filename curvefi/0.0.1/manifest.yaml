@@ -1,55 +1,84 @@
-'0x7586bfb84174e93bec756651e660d15646ed1c795a6cf0f40ba70d2c3349a5bb':
+"0x7586bfb84174e93bec756651e660d15646ed1c795a6cf0f40ba70d2c3349a5bb":
   addresses:
-    '*': {}
+    "*": {}
     mainnet:
-      '0xa2b47e3d5c44877cca798226b7b8118f9bfb7a56':
+      "0xa2b47e3d5c44877cca798226b7b8118f9bfb7a56":
         network: mainnet
         label: Curve.fi
     ropsten: {}
     kovan: {}
   applicable_to_contracts_with_code_hash:
-  - '0x7586bfb84174e93bec756651e660d15646ed1c795a6cf0f40ba70d2c3349a5bb'
-'0xb6a6bce6d994da09c9081e6f4285d1c614c103bc296df32a3db1f0e7b591a24f':
+    - "0x7586bfb84174e93bec756651e660d15646ed1c795a6cf0f40ba70d2c3349a5bb"
+"0xb6a6bce6d994da09c9081e6f4285d1c614c103bc296df32a3db1f0e7b591a24f":
   addresses:
-    '*': {}
+    "*": {}
     mainnet:
-      '0x45f783cce6b7ff23b2ab2d70e416cdb7d6055f51':
+      "0x45f783cce6b7ff23b2ab2d70e416cdb7d6055f51":
         network: mainnet
         label: Curve.fi
     ropsten: {}
     kovan: {}
   applicable_to_contracts_with_code_hash:
-  - '0xb6a6bce6d994da09c9081e6f4285d1c614c103bc296df32a3db1f0e7b591a24f'
-'0xe13551fa3d3f28ac9c56eb4d022364b1345c1e009005f3bfead5842cc3ebdf3f':
+    - "0xb6a6bce6d994da09c9081e6f4285d1c614c103bc296df32a3db1f0e7b591a24f"
+"0xe13551fa3d3f28ac9c56eb4d022364b1345c1e009005f3bfead5842cc3ebdf3f":
   addresses:
-    '*': {}
+    "*": {}
     mainnet:
-      '0x79a8c46dea5ada233abaffd40f3a0a2b1e5a4f27':
+      "0x79a8c46dea5ada233abaffd40f3a0a2b1e5a4f27":
         network: mainnet
         label: Curve.fi
     ropsten: {}
     kovan: {}
   applicable_to_contracts_with_code_hash:
-  - '0xe13551fa3d3f28ac9c56eb4d022364b1345c1e009005f3bfead5842cc3ebdf3f'
-'0x106e99a4bbc1496b2de7bcd09b6db6343e2a1a67a646327528406a465c3f87b4':
+    - "0xe13551fa3d3f28ac9c56eb4d022364b1345c1e009005f3bfead5842cc3ebdf3f"
+"0x106e99a4bbc1496b2de7bcd09b6db6343e2a1a67a646327528406a465c3f87b4":
   addresses:
-    '*': {}
+    "*": {}
     mainnet:
-      '0xa5407eae9ba41422680e2e00537571bcc53efbfd':
+      "0xa5407eae9ba41422680e2e00537571bcc53efbfd":
         network: mainnet
         label: Curve.fi
     ropsten: {}
     kovan: {}
   applicable_to_contracts_with_code_hash:
-  - '0x106e99a4bbc1496b2de7bcd09b6db6343e2a1a67a646327528406a465c3f87b4'
-'0xb5b4bca49ea3b995a6abaf078e2b34dd74311814da7998852304582b532ac7cb':
+    - "0x106e99a4bbc1496b2de7bcd09b6db6343e2a1a67a646327528406a465c3f87b4"
+"0xb5b4bca49ea3b995a6abaf078e2b34dd74311814da7998852304582b532ac7cb":
   addresses:
-    '*': {}
+    "*": {}
     mainnet:
-      '0x93054188d876f558f4a66b2ef1d97d16edf0895b':
+      "0x93054188d876f558f4a66b2ef1d97d16edf0895b":
         network: mainnet
         label: Curve.fi
     ropsten: {}
     kovan: {}
   applicable_to_contracts_with_code_hash:
-  - '0xb5b4bca49ea3b995a6abaf078e2b34dd74311814da7998852304582b532ac7cb'
+    - "0xb5b4bca49ea3b995a6abaf078e2b34dd74311814da7998852304582b532ac7cb"
+"0xcb1d74e22245d0cf403f0be2b26f91d1eeaa0236c94bfaeca3673392aa1b1170":
+  addresses:
+    "*": {}
+    mainnet:
+      "0xdf5e0e81dff6faf3a7e52ba697820c5e32d806a8":
+        label: Vyper_contract
+        network: mainnet
+      "0x9fc689ccada600b6df723d9e47d84d76664a1f23":
+        label: Vyper_contract
+        network: mainnet
+      "0xc25a3a3b969415c80451098fa907ec722572917f":
+        label: Vyper_contract
+        network: mainnet
+      "0x2b645a6a426f22fb7954dc15e583e3737b8d1434":
+        label: Vyper_contract
+        network: mainnet
+      "0x3b3ac5386837dc563660fb6a0937dfaa5924333b":
+        label: Vyper_contract
+        network: mainnet
+      "0xd905e2eaebe188fc92179b6350807d8bd91db0d8":
+        label: Vyper_contract
+        network: mainnet
+      "0x075b1bb99792c9e1041ba13afef80c91a1e70fb3":
+        label: Vyper_contract
+        network: mainnet
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0xcb1d74e22245d0cf403f0be2b26f91d1eeaa0236c94bfaeca3673392aa1b1170"

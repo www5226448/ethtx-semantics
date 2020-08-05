@@ -1,0 +1,304 @@
+{
+  "events": {
+    "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925": {
+      "anonymous": false,
+      "name": "Approval",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "_owner",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "_spender",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925"
+    },
+    "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
+      "anonymous": false,
+      "name": "Transfer",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "_from",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
+    }
+  },
+  "functions": {
+    "0x06fdde03": {
+      "inputs": [],
+      "name": "name",
+      "outputs": [
+        {
+          "dynamic": true,
+          "name": "out",
+          "type": "string"
+        }
+      ],
+      "signature": "0x06fdde03"
+    },
+    "0x095ea7b3": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_spender",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "approve",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "out",
+          "type": "bool"
+        }
+      ],
+      "signature": "0x095ea7b3"
+    },
+    "0x1652e9fc": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_minter",
+          "type": "address"
+        }
+      ],
+      "name": "set_minter",
+      "outputs": [],
+      "signature": "0x1652e9fc"
+    },
+    "0x18160ddd": {
+      "inputs": [],
+      "name": "totalSupply",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "out",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x18160ddd"
+    },
+    "0x23b872dd": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_from",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "transferFrom",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "out",
+          "type": "bool"
+        }
+      ],
+      "signature": "0x23b872dd"
+    },
+    "0x313ce567": {
+      "inputs": [],
+      "name": "decimals",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "out",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x313ce567"
+    },
+    "0x40c10f19": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "mint",
+      "outputs": [],
+      "signature": "0x40c10f19"
+    },
+    "0x42966c68": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "burn",
+      "outputs": [],
+      "signature": "0x42966c68"
+    },
+    "0x70a08231": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "arg0",
+          "type": "address"
+        }
+      ],
+      "name": "balanceOf",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "out",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x70a08231"
+    },
+    "0x79cc6790": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "burnFrom",
+      "outputs": [],
+      "signature": "0x79cc6790"
+    },
+    "0x95d89b41": {
+      "inputs": [],
+      "name": "symbol",
+      "outputs": [
+        {
+          "dynamic": true,
+          "name": "out",
+          "type": "string"
+        }
+      ],
+      "signature": "0x95d89b41"
+    },
+    "0xa9059cbb": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "transfer",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "out",
+          "type": "bool"
+        }
+      ],
+      "signature": "0xa9059cbb"
+    },
+    "0xdd62ed3e": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_owner",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "_spender",
+          "type": "address"
+        }
+      ],
+      "name": "allowance",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "out",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xdd62ed3e"
+    },
+    "constructor": {
+      "inputs": [
+        {
+          "dynamic": true,
+          "name": "_name",
+          "type": "string"
+        },
+        {
+          "dynamic": true,
+          "name": "_symbol",
+          "type": "string"
+        },
+        {
+          "dynamic": false,
+          "name": "_decimals",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "_supply",
+          "type": "uint256"
+        }
+      ],
+      "name": "constructor",
+      "outputs": [],
+      "signature": "constructor"
+    }
+  }
+}
