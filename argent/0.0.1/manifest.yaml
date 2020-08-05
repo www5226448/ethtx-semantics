@@ -1,0 +1,14 @@
+TokenExchanger:
+  addresses:
+    "*": {}
+    mainnet:
+      "0xed0da07aab7257df53efc4dfc076745744138ed9":
+        network: mainnet
+        label: TokenExchanger
+      "0x642a28247b2b91cfb852b01c0e1f76dbf48b0f14":
+        label: TokenExchanger
+        network: mainnet
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0xa750e1445d79e40ae38310757645d4c4b9c2aff19f111092909a2e695f2a9009"
