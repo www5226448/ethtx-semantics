@@ -1,0 +1,833 @@
+BalancerPool:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x57755f7dec33320bca83159c26e93751bfd30fbe":
+        network: mainnet
+        label: BPool
+      "0x987d7cc04652710b74fff380403f5c02f82e290a":
+        label: BPool
+        network: mainnet
+      "0x24f598f7df68f663bcac6f94bec005a48570d7a4":
+        label: BPool
+        network: mainnet
+      "0x70f1c87b22d7371c68e3ea64870833a2a64cf8b3":
+        label: BPool
+        network: mainnet
+      "0x9891832633a83634765952b051bc7fef36714a46":
+        label: BPool
+        network: mainnet
+      "0x53b89ce35928dda346c574d9105a5479cb87231c":
+        label: BPool
+        network: mainnet
+      "0xe5d1fab0c5596ef846dcc0958d6d0b20e1ec4498":
+        label: BPool
+        network: mainnet
+      "0x247ff2b322df7439b78898375be7cdadca11cf17":
+        label: BPool
+        network: mainnet
+      "0x9b208194acc0a8ccb2a8dcafeacfbb7dcc093f81":
+        label: BPool
+        network: mainnet
+      "0x2a498804b8ee42ef7b773646a7e70ad6b19dfc28":
+        label: BPool
+        network: mainnet
+      "0xd6f0d319b2cce75123bf63e2c2bd8ba1f7d6b37a":
+        label: BPool
+        network: mainnet
+      "0x29f55de880d4dcae40ba3e63f16407a31b4d44ee":
+        label: BPool
+        network: mainnet
+      "0xd262e43273ca96214bb02b4036a1f24ad9806739":
+        label: BPool
+        network: mainnet
+      "0x1b09173a0ffbad1cb7670b1a640013c0facfb71f":
+        label: BPool
+        network: mainnet
+      "0x07d13ed39ee291c1506675ff42f9b2b6b50e2d3e":
+        label: BPool
+        network: mainnet
+      "0x165a50bc092f6870dc111c349bae5fc35147ac86":
+        label: BPool
+        network: mainnet
+      "0xc0b2b0c5376cb2e6f73b473a7caa341542f707ce":
+        label: BPool
+        network: mainnet
+      "0xec577a919fca1b682f584a50b1048331ef0f30dd":
+        label: BPool
+        network: mainnet
+      "0x69306157a2191ede35cbb9c4aac72a112b5557c4":
+        label: BPool
+        network: mainnet
+      "0xd4dbf96db2fdf8ed40296d8d104b371adf7dee12":
+        label: BPool
+        network: mainnet
+      "0xeba4dd6771c3e8ba3f168e47d052819abcc87cb2":
+        label: BPool
+        network: mainnet
+      "0x75286e183d923a5f52f52be205e358c5c9101b09":
+        label: BPool
+        network: mainnet
+      "0x8dea3d0c882fb30c47e478aa1d1885de68b9978d":
+        label: BPool
+        network: mainnet
+      "0x95f0aa355f4251291e6413dd0174488f0ca8d2db":
+        label: BPool
+        network: mainnet
+      "0x0e511aa1a137aad267dfe3a6bfca0b856c1a3682":
+        label: BPool
+        network: mainnet
+      "0xe45470787722093be1cbff844cca530f37e020f5":
+        label: BPool
+        network: mainnet
+      "0x10d52b29aba090870661f1715138e3718e7b39ba":
+        label: BPool
+        network: mainnet
+      "0xf218fe414c6b1c6b42e79b7690f1509a634baad5":
+        label: BPool
+        network: mainnet
+      "0x39ee0f29253017d69909b7286caf8c080e9d6da2":
+        label: BPool
+        network: mainnet
+      "0x7f0b4d22b8a9abe2ae9ea1077fe1ab77dc7283a3":
+        label: BPool
+        network: mainnet
+      "0x9ba4f350a6e8841e833dec8da30e3122b824038b":
+        label: BPool
+        network: mainnet
+      "0x3e925a0f8533360b1cc3a639fd25196e59ce1f19":
+        label: BPool
+        network: mainnet
+      "0xc88b0e9cbfdffc1ceac078321442d546874eb3ef":
+        label: BPool
+        network: mainnet
+      "0x384037c4599da16f3e178b89b765e6d1a6737572":
+        label: BPool
+        network: mainnet
+      "0x47a89dbe876ffa34580c86b891e21648130f58b9":
+        label: BPool
+        network: mainnet
+      "0x364b12e8f821edd4a8d7bc3ad545e4021ef2afe6":
+        label: BPool
+        network: mainnet
+      "0x292329c7259771df82e5db9ab7eff3f53aeed450":
+        label: BPool
+        network: mainnet
+      "0x815f8ef4863451f4faf34fbc860034812e7377d9":
+        label: BPool
+        network: mainnet
+      "0xcf5198254f9900c25c5a2e53022af77f7a93fbc3":
+        label: BPool
+        network: mainnet
+      "0x2dbd24322757d2e28de4230b1ca5b88e49a76979":
+        label: BPool
+        network: mainnet
+      "0xa1d31cba7d48731c9fb9359f583dee3d7bcf9e5a":
+        label: BPool
+        network: mainnet
+      "0xb44111d5345e481817443d754b61eb111b6f7c56":
+        label: BPool
+        network: mainnet
+      "0xd0382ad6fe3759ab65fc4bc435f47045ffea77c7":
+        label: BPool
+        network: mainnet
+      "0x7f49d6b0ad873922cd3285a944deb10d28df9335":
+        label: BPool
+        network: mainnet
+      "0x6af60fde043bebb5e1eb6b51b36cc91fb21d5fdc":
+        label: BPool
+        network: mainnet
+      "0x10fd0adaf5de39ddd81165d770367fde8883157d":
+        label: BPool
+        network: mainnet
+      "0x510432e28fa9fe26df6c505104d1d66ff1f66839":
+        label: BPool
+        network: mainnet
+      "0x12d6b6e24fdd9849abd42afd8f5775d36084a828":
+        label: BPool
+        network: mainnet
+      "0x4b47b11c353f0056c73a87fefccb6c43dc0d8065":
+        label: BPool
+        network: mainnet
+      "0x39376719cd74a5eec8b5f726ebfc1be858455088":
+        label: BPool
+        network: mainnet
+      "0xbe6daaf4ab70a1690759331aec740881620856f0":
+        label: BPool
+        network: mainnet
+      "0xb458a1b0d526519a5f36efec4ccafff73d4e749c":
+        label: BPool
+        network: mainnet
+      "0x456a6019e548700f3ebd7d2afa5e2cca44e7c3c8":
+        label: BPool
+        network: mainnet
+      "0xe1a650e1d81dc1ffcf8e43a376cf67f7f07d8c8e":
+        label: BPool
+        network: mainnet
+      "0xbd5db362e58da9425d344cc60b33c02cecb6fc96":
+        label: BPool
+        network: mainnet
+      "0xa74485e5f668bba37b5c044c386b363f4cbd7c8c":
+        label: BPool
+        network: mainnet
+      "0xc45a95642bc59df699364237b80057eadc8d8a14":
+        label: BPool
+        network: mainnet
+      "0xc6d587ab2cd555462f8feda36d6fb36c115052ed":
+        label: BPool
+        network: mainnet
+      "0x454c1d458f9082252750ba42d60fae0887868a3b":
+        label: BPool
+        network: mainnet
+      "0xa7dedaf3d9b1e4241ffb71ac91c3dff5fc39ecfd":
+        label: BPool
+        network: mainnet
+      "0x326ad26fa455535787a518c319d2ec0ad7ee1882":
+        label: BPool
+        network: mainnet
+      "0xe969991ce475bcf817e01e1aad4687da7e1d6f83":
+        label: BPool
+        network: mainnet
+      "0xe58adf1589cf79e12831ca9505d0d784db677ef2":
+        label: BPool
+        network: mainnet
+      "0x3b0f0aae0fbc53173db9e39f9fd46df805518f62":
+        label: BPool
+        network: mainnet
+      "0x2799401f3f9efbfa269e77b4d63dcbc9b3a7db5c":
+        label: BPool
+        network: mainnet
+      "0xa10defd99c6ac13cac3ff85971772a918a2bda79":
+        label: BPool
+        network: mainnet
+      "0x9a01a227d7a6b6f0a821abcce7c4415abeea90a0":
+        label: BPool
+        network: mainnet
+      "0xf8f2339f2df897dd3dea3a4d39df641bd4dc596c":
+        label: BPool
+        network: mainnet
+      "0x99e582374015c1d2f3c0f98d0763b4b1145772b7":
+        label: BPool
+        network: mainnet
+      "0x9c2df5e1e490d4dbed6bd925a59ac73115d84ac8":
+        label: BPool
+        network: mainnet
+      "0x2aeb22cd755fa598b493e4b69ce99effb64e676e":
+        label: BPool
+        network: mainnet
+      "0x4671a2a5cfb5422d5831d2c8604174c0ce9a4706":
+        label: BPool
+        network: mainnet
+      "0x8dd6f714d561cd9ca94f7249be50bf709cbb3a89":
+        label: BPool
+        network: mainnet
+      "0x1521255026b03e5fdbd042d0849e492c2e89f6f8":
+        label: BPool
+        network: mainnet
+      "0xee4148ff794cf1d0976d2063a32a8f562abe6d75":
+        label: BPool
+        network: mainnet
+      "0xe77b04cc44c5ae4227eb9be90d55c5df955e4c74":
+        label: BPool
+        network: mainnet
+      "0x03d80944d9e99288d914c5de7a8a19fa542ed092":
+        label: BPool
+        network: mainnet
+      "0x696c2d4b5646cf7d2b7de895ed638f1fc1ee246a":
+        label: BPool
+        network: mainnet
+      "0xa1eda8392ea716392449d934b0bdef62e8a0cf17":
+        label: BPool
+        network: mainnet
+      "0x55c86e9097ae56ecff34ec41b61bf9d76bc821e2":
+        label: BPool
+        network: mainnet
+      "0x17934de99ffe6de74fddd65e2f116c95814853b0":
+        label: BPool
+        network: mainnet
+      "0x19b04c7264563791d54e449f965548b8a9e2fc3a":
+        label: BPool
+        network: mainnet
+      "0x1d87a19e708ce18e582b52beb5315385ab96a6c8":
+        label: BPool
+        network: mainnet
+      "0x4304ae5fd14cec2299caee4e9a4afbedd046d612":
+        label: BPool
+        network: mainnet
+      "0x5539199f3a3f7f44c8eeccc12bab6048c5ad8796":
+        label: BPool
+        network: mainnet
+      "0x2d2cf55a625008a74da2d04b5ff8650d640f5ff7":
+        label: BPool
+        network: mainnet
+      "0x834fb8276b4e8a24010e2108fdd7f8417c8922bd":
+        label: BPool
+        network: mainnet
+      "0x9579d0d63dcb7ee6277e78849df31296f2b0bd1e":
+        label: BPool
+        network: mainnet
+      "0x1ee383389c621c37ee5aa476f88413a815083c5d":
+        label: BPool
+        network: mainnet
+      "0xddaa60e584338fa251451d6385f6a2b9bde98b2a":
+        label: BPool
+        network: mainnet
+      "0xcf58f8777f8723264690f5ca7ffda9cf0ffbaa74":
+        label: BPool
+        network: mainnet
+      "0xc409d34accb279620b1acdc05e408e287d543d17":
+        label: BPool
+        network: mainnet
+      "0x4c9207e26c1036c41a4d080d69b9f61300ced7ce":
+        label: BPool
+        network: mainnet
+      "0x855bc78f3dfa40a6642cf3a0ecb0570a1fcd7025":
+        label: BPool
+        network: mainnet
+      "0x1f53e5a4dc34bcddf436305c91ac26ef8caec9fb":
+        label: BPool
+        network: mainnet
+      "0xcbdc3bdf78c1df509f94f1f52cc5c5c093d4322b":
+        label: BPool
+        network: mainnet
+      "0x31e0379988c4d51c191723761894d889c723248d":
+        label: BPool
+        network: mainnet
+      "0x0a5712d6f5ac59405935e11ed05d4b07ed56a498":
+        label: BPool
+        network: mainnet
+      "0x44d521045b3302ee665516e4e2a9e9e43398294b":
+        label: BPool
+        network: mainnet
+      "0xaf71d6c242a00e8364ea0ef3c007f3413e975011":
+        label: BPool
+        network: mainnet
+      "0x5508c27321aba85f1af73a2153f4a16c8616fea4":
+        label: BPool
+        network: mainnet
+      "0x258691dbc90e8d725e341300cd22b5f58339a96d":
+        label: BPool
+        network: mainnet
+      "0x4eff1bb38d14fde3dcf92d9a90628f79d8bcd5fd":
+        label: BPool
+        network: mainnet
+      "0xe407a655717b8fcdbd1d0b77c3225d625d8bfeab":
+        label: BPool
+        network: mainnet
+      "0x6c9223ac56c6a808ff6b0c706e5c009c2dd2aea4":
+        label: BPool
+        network: mainnet
+      "0xc1fe5ef78707148f8bad18e5b8fccaef985e62f1":
+        label: BPool
+        network: mainnet
+      "0xe2c7b75ae19d1029935e7c4c497fbfca395c936c":
+        label: BPool
+        network: mainnet
+      "0x00c3b364d7b2e78a3ae9a0befe1419c7f9fd8321":
+        label: BPool
+        network: mainnet
+      "0x2ee268541b96b2b8129a06b006fd247b467f6118":
+        label: BPool
+        network: mainnet
+      "0xcf714cb20d1cfca84631ecfd9031dd1b840dd436":
+        label: BPool
+        network: mainnet
+      "0x59a19d8c652fa0284f44113d0ff9aba70bd46fb4":
+        label: BPool
+        network: mainnet
+      "0x33bb46f1d83b22e4b4ef235da7dda0fe3451a61a":
+        label: BPool
+        network: mainnet
+      "0x5aec4cff7fc3880ade1582e5e37cf89152e70ace":
+        label: BPool
+        network: mainnet
+      "0x569771ecc10741302dfd4119249ba0e739144e97":
+        label: BPool
+        network: mainnet
+      "0xb9eaf49d9f913bc1314e37bb5482891840c8e3c1":
+        label: BPool
+        network: mainnet
+      "0xe8fcadd337bf8de5ddb77c0369946ecd8092ded6":
+        label: BPool
+        network: mainnet
+      "0x594415978a756c5b02eabdff98d867cdda65e888":
+        label: BPool
+        network: mainnet
+      "0x2e41132dab88a9bad80740a1392d322bf023d494":
+        label: BPool
+        network: mainnet
+      "0x68198e4ed6975204b3467dc217166d9ff1cbb57a":
+        label: BPool
+        network: mainnet
+      "0x890d00d4f34a6dc471d8230655a1cbe4acfd5cdf":
+        label: BPool
+        network: mainnet
+      "0x24d97eed6e171e70c82bc60afd37c7d1e549a0ad":
+        label: BPool
+        network: mainnet
+      "0xeefb11ca05c6f0d5252757dbe35ffc4458108e89":
+        label: BPool
+        network: mainnet
+      "0x4fa407ec9fad5b87a2c15ed579e021f8320017dd":
+        label: BPool
+        network: mainnet
+      "0x8e249b94a6df92dd33c56b623de3109c3eb867c9":
+        label: BPool
+        network: mainnet
+      "0x09772046e7e33c15acdf15a3ed495cc9557f269c":
+        label: BPool
+        network: mainnet
+      "0x57deed1a0e86b92bd30037317f61aa76bf000a94":
+        label: BPool
+        network: mainnet
+      "0x9acc9e81e4d1bfeec7f9847b2085b87247e46b4c":
+        label: BPool
+        network: mainnet
+      "0x40b0249eea9631a46819ab7bbd2d5cafceb76c49":
+        label: BPool
+        network: mainnet
+      "0xc6ecc714b8e50a34314244a8165a4aa0f7d16308":
+        label: BPool
+        network: mainnet
+      "0x5e37910cfb8de1b14ec4e4bac0bec27c35dc07d5":
+        label: BPool
+        network: mainnet
+      "0xb0e7c0ea48f4d1bf187ee64795e1adc180dbd889":
+        label: BPool
+        network: mainnet
+      "0x3a0ddb5f674b5ecb590d6b1d204d9b382cc1cb8d":
+        label: BPool
+        network: mainnet
+      "0x0d95c71c76503c8d5c81dc3211a6326e927c19ee":
+        label: BPool
+        network: mainnet
+      "0xfe670043c158adc057b5ef2f66e753847e1c3d1d":
+        label: BPool
+        network: mainnet
+      "0x5867f9688a6a80560a9648c80f543b344957bc24":
+        label: BPool
+        network: mainnet
+      "0xa55a0baaab6741d446986322751b8cc8484c6c81":
+        label: BPool
+        network: mainnet
+      "0x00ca860ed54805ea8c7e86433b06fb20a9c296f6":
+        label: BPool
+        network: mainnet
+      "0x505a8630c87f8e9ad1eb478b68c51cf456d714e6":
+        label: BPool
+        network: mainnet
+      "0x0f8707ffc6e3ce004b5bdbe6f332e91f10d400ba":
+        label: BPool
+        network: mainnet
+      "0xfb44d6ebd1c659ecdb199111f9dce55a8b4d5df1":
+        label: BPool
+        network: mainnet
+      "0x7ad8f9ab85107fcb60e7423930adf00141fc9b39":
+        label: BPool
+        network: mainnet
+      "0x32e574b0400cdb93dc33a34a30986737186bde43":
+        label: BPool
+        network: mainnet
+      "0xe0545558de0ef7da9dddba3ab35365ae32d76bb1":
+        label: BPool
+        network: mainnet
+      "0x21e7fd84385d47076208ca3ba993ecf292691394":
+        label: BPool
+        network: mainnet
+      "0x80b42669f3d8bba7618800efe6aed60d90f72e9d":
+        label: BPool
+        network: mainnet
+      "0x048bb3c32cc9b47109d397a17d1c5a6b0c8b2899":
+        label: BPool
+        network: mainnet
+      "0x09bc559189d309695804cfe0ed64d8fa23128206":
+        label: BPool
+        network: mainnet
+      "0x43fd7c3427a274fa96a76289dbb7bdd37ba8ec57":
+        label: BPool
+        network: mainnet
+      "0xe2eb726bce7790e57d978c6a2649186c4d481658":
+        label: BPool
+        network: mainnet
+      "0xe33177ac4e2e1f1129542af74fc062b1838e2c5f":
+        label: BPool
+        network: mainnet
+      "0xac1ec0df7575ebbfd02a976c72b2d13b8af42e16":
+        label: BPool
+        network: mainnet
+      "0xb11f3fc864fa4b879907c7897d316d81fc8a81da":
+        label: BPool
+        network: mainnet
+      "0xed3d99d838ab16e8a0543bb91f254139a0fcb8dd":
+        label: BPool
+        network: mainnet
+      "0xac5e692689d78269c4cdb07d654ebdb96c1fb30c":
+        label: BPool
+        network: mainnet
+      "0x476f31e7e45ff115506be486c8e7009acc1988ff":
+        label: BPool
+        network: mainnet
+      "0x3c70193054e55ee47abedb239e653d4c30825eda":
+        label: BPool
+        network: mainnet
+      "0x381479aef601d864a0b3882e96e23438ff3011e5":
+        label: BPool
+        network: mainnet
+      "0xd764bb9822ee16097140031b017640e7a293e57f":
+        label: BPool
+        network: mainnet
+      "0x6c305fbb4bd2e3b8d130694beb16f1561443203d":
+        label: BPool
+        network: mainnet
+      "0x6b9887422e2a4ae11577f59ea9c01a6c998752e2":
+        label: BPool
+        network: mainnet
+      "0xb2238181f08fa8447c8319ce8294b113ccef22bd":
+        label: BPool
+        network: mainnet
+      "0xd58eef5b3741919d62d68c14958d0418166edb2b":
+        label: BPool
+        network: mainnet
+      "0x838d504010d83a343db2462256180ca311d29d90":
+        label: BPool
+        network: mainnet
+      "0x330416c863f2acce7af9c9314b422d24c672534a":
+        label: BPool
+        network: mainnet
+      "0x77d0ab174ebb453684ea7bdf371f72664d7a2148":
+        label: BPool
+        network: mainnet
+      "0x6041c6866cfff77db037a3ed72464f9b6b930edd":
+        label: BPool
+        network: mainnet
+      "0x2471de1547296aadb02cc1af84afe369b6f67c87":
+        label: BPool
+        network: mainnet
+      "0x8e4c10ff4dfe7c641363fb1e1f11704b84f8de1d":
+        label: BPool
+        network: mainnet
+      "0xa83ad52cd2b491c2fdac837583c61139ab5e7446":
+        label: BPool
+        network: mainnet
+      "0x018eb7fc00dac24d26b3ec1b50ead021efa616de":
+        label: BPool
+        network: mainnet
+      "0xf7f98cacc470dd82627424387c53ecb9d58ff098":
+        label: BPool
+        network: mainnet
+      "0x9dfa6626eaf26635d48210714ff7fe5ef09fb72f":
+        label: BPool
+        network: mainnet
+      "0xee9a6009b926645d33e10ee5577e9c8d3c95c165":
+        label: BPool
+        network: mainnet
+      "0xa93ba67b2f5009274ead2322a11183ebdd9f3421":
+        label: BPool
+        network: mainnet
+      "0xa56086fdf0f7a32e6b7d9eb49c0ac6774d2e2251":
+        label: BPool
+        network: mainnet
+      "0x074682b399ce47cfe50ac48c21cd4be1ad76301a":
+        label: BPool
+        network: mainnet
+      "0x910fa45d3d2e87a71ce73140839cd270b56060cc":
+        label: BPool
+        network: mainnet
+      "0x2a7fbace8b01b3f0bb268fc698d1a2415a98eca9":
+        label: BPool
+        network: mainnet
+      "0xf103c397078c4d28eaf99d2925f4dbbd9737bb28":
+        label: BPool
+        network: mainnet
+      "0xfb2a3b99c33895570adf893885b3fde807788cf5":
+        label: BPool
+        network: mainnet
+      "0x5fed4171bf4fb9ebff871160d6ed1853db0c14ee":
+        label: BPool
+        network: mainnet
+      "0x4b6b06de9a52e8a3fb91df2d1615e17705371f86":
+        label: BPool
+        network: mainnet
+      "0xcd461b73d5fc8ea1d69a600f44618bdfac98364d":
+        label: BPool
+        network: mainnet
+      "0xee60ca08cca968dc1b36e7bbcc779efe34d7ef62":
+        label: BPool
+        network: mainnet
+      "0xa35321206760f3d979e88d8a1b8c536bfcc68177":
+        label: BPool
+        network: mainnet
+      "0x782b71f069e35bda5ae0dae2704f985751b44190":
+        label: BPool
+        network: mainnet
+      "0x6339f81d166b074c661f837df4560ca267ef05fe":
+        label: BPool
+        network: mainnet
+      "0x516bd93d659a8e3b6028022bb07e49b435a1e74a":
+        label: BPool
+        network: mainnet
+      "0x054af886d5554ceaf67159bbac29e6cc83785888":
+        label: BPool
+        network: mainnet
+      "0x5dab55b276301951a6efd857be05a82b018c3196":
+        label: BPool
+        network: mainnet
+      "0x7af7b094039ecb4392477de037e4fcaa1002ae25":
+        label: BPool
+        network: mainnet
+      "0x9866772a9bdb4dc9d2c5a4753e8658b8b0ca1fc3":
+        label: BPool
+        network: mainnet
+      "0x52086ef7800bb9779be98e6f5e635842486b4528":
+        label: BPool
+        network: mainnet
+      "0xf07d1402de8307d4d97c6744e52806ebc7ed9756":
+        label: BPool
+        network: mainnet
+      "0xb9d190485026abd119d892161b1ebaac1732e53b":
+        label: BPool
+        network: mainnet
+      "0xe036cce08cf4e23d33bc6b18e53caf532afa8513":
+        label: BPool
+        network: mainnet
+      "0x9e04b421149043c04b33865d5ecd8f6c87f174b6":
+        label: BPool
+        network: mainnet
+      "0xa69e2d058d50394cc3b4f1a1aacb41e6809d4be9":
+        label: BPool
+        network: mainnet
+      "0x77f5f3dfd95d0b061c9ef47c4f4ca4681d807776":
+        label: BPool
+        network: mainnet
+      "0x4567fc23d02fc4ba0b960639d43ecfe8cac6e68f":
+        label: BPool
+        network: mainnet
+      "0xa8ec63bf15459600f983e43fffa82deb999a9f93":
+        label: BPool
+        network: mainnet
+      "0x59d6a6fa7877fe9faac6be2adb70ba0df201fd64":
+        label: BPool
+        network: mainnet
+      "0x8287913adfa69adca06beb00deab68a99c9e8d46":
+        label: BPool
+        network: mainnet
+      "0xa2dfeac16d3101328aa6e9b54e85258e4397bd95":
+        label: BPool
+        network: mainnet
+      "0xc7a9b022f69acc638717a25ebe3d2692bb881803":
+        label: BPool
+        network: mainnet
+      "0x294de1cde8b04bf6d25f98f1d547052f8080a177":
+        label: BPool
+        network: mainnet
+      "0x8b8a9dc738273621e7c7294a1f0ca79faea67907":
+        label: BPool
+        network: mainnet
+      "0x72cd8f4504941bf8c5a21d1fd83a96499fd71d2c":
+        label: BPool
+        network: mainnet
+      "0x73a775b6e3c9b3ae2a4b06db369c9d4ff79b8c40":
+        label: BPool
+        network: mainnet
+      "0xe010fcda8894c16a8acfef7b37741a760faeddc4":
+        label: BPool
+        network: mainnet
+      "0x73c3435423bf9f6b9af406c1166813aee2552d3e":
+        label: BPool
+        network: mainnet
+      "0x66840d5c7b99a0b133ea982915ad24e5ee78bd64":
+        label: BPool
+        network: mainnet
+      "0xa2f520acdfebc891c25f4541c8485c0b95ecbfd4":
+        label: BPool
+        network: mainnet
+      "0x66cbee6044101be57b43272962541336788ffcbb":
+        label: BPool
+        network: mainnet
+      "0xba90b27f91b3ee09004f15d156349f5c65f2d05c":
+        label: BPool
+        network: mainnet
+      "0xb4d31d005ad163943a222dff0f1f7b14ab500c6d":
+        label: BPool
+        network: mainnet
+      "0x7a6b48884ce0431412e7f0614c22c1fbabdf18b2":
+        label: BPool
+        network: mainnet
+      "0x653911da49db4cdb0b7c3e4d929cfb56024cd4e6":
+        label: BPool
+        network: mainnet
+      "0x4d4629567309a78f8221394604cfa70be4dd5d31":
+        label: BPool
+        network: mainnet
+      "0x5be683a3827cc57964161d628cdd707f4e9e598d":
+        label: BPool
+        network: mainnet
+      "0xb908ca330af4a18a6067b3d77af0873403f787d8":
+        label: BPool
+        network: mainnet
+      "0xbfee82ff0402b1a24f895ccc2545f6187369b4c3":
+        label: BPool
+        network: mainnet
+      "0x3d67f5fa074f39d946b29fe86bd2539709771e1c":
+        label: BPool
+        network: mainnet
+      "0xabe39cc76cc51ef53a99f5127b5104310c703b3c":
+        label: BPool
+        network: mainnet
+      "0x7c7ff6ad5ad2b55e496f99db58b040875416cb71":
+        label: BPool
+        network: mainnet
+      "0xcdbe46fe9102098f7596f35a9ef1d93eeca5a403":
+        label: BPool
+        network: mainnet
+      "0x4a22ec018f1f72ebba9620001b992ac86c40d1ad":
+        label: BPool
+        network: mainnet
+      "0x7e2105a44c1e316a87591c99bb8d65f9ecd64791":
+        label: BPool
+        network: mainnet
+      "0xfd6088cfe26434d9fea8b696aa0b34da3c300c3b":
+        label: BPool
+        network: mainnet
+      "0x99ba95cd5d8781ed8369da8699b0934644e502f3":
+        label: BPool
+        network: mainnet
+      "0x5b84174e567d141d9029a5e369c3dbc415bfecb0":
+        label: BPool
+        network: mainnet
+      "0x1b09f2fb13d3e6b35fc6b8391c57fe4fcf195fc0":
+        label: BPool
+        network: mainnet
+      "0xb38b0c480a451db976837a1a464af95bb0f3f5e2":
+        label: BPool
+        network: mainnet
+      "0x0ce374be0d5d403e5204dd5be6bfbbb18cc28747":
+        label: BPool
+        network: mainnet
+      "0x4601c6ee8dc2ab033f2b1116e5eaed5a29b9c1a1":
+        label: BPool
+        network: mainnet
+      "0xc48b8329d47ae8fd504c0b81cf8435486380e858":
+        label: BPool
+        network: mainnet
+      "0x5df340aee23aee3feedeead6890fa1aaa94c19ed":
+        label: BPool
+        network: mainnet
+      "0x918b5d94ec11f889ef5a1fe7df799ddfc3397776":
+        label: BPool
+        network: mainnet
+      "0x49e4cb1bebc5a060505d4571ec50bd2b65c3ed11":
+        label: BPool
+        network: mainnet
+      "0x622a71fdae6428d015052cf991816f70bb6a4a01":
+        label: BPool
+        network: mainnet
+      "0x8f67ec34b2ca96962b3ea0997af3cf6d639b70a7":
+        label: BPool
+        network: mainnet
+      "0xcc731f5f1bb960daa0a812e9374688c71f832773":
+        label: BPool
+        network: mainnet
+      "0x60626db611a9957c1ae4ac5b7ede69e24a3b76c5":
+        label: BPool
+        network: mainnet
+      "0x5a5274316a9ef4091262ecef3b0124d4237eb8b6":
+        label: BPool
+        network: mainnet
+      "0x95c4b6c7cff608c0ca048df8b81a484aa377172b":
+        label: BPool
+        network: mainnet
+      "0xa5910940b97b7b8771a01b202583fd9331cb8be3":
+        label: BPool
+        network: mainnet
+      "0x1be21dd1fa2aced16656b7d765b88afa6853cc98":
+        label: BPool
+        network: mainnet
+      "0xee8337f497f234442160935f210c73dc47eb2676":
+        label: BPool
+        network: mainnet
+      "0xfb23a5806c7beeeb13a2519fae6253eec9239617":
+        label: BPool
+        network: mainnet
+      "0xf7c3bdc804bf95652f09a472702b0ceb867b0593":
+        label: BPool
+        network: mainnet
+      "0x814c01ecb99b090cae15adfe662d949b3244c51c":
+        label: BPool
+        network: mainnet
+      "0xe969ca46097953e24471415c50dc65e1f4fd5cef":
+        label: BPool
+        network: mainnet
+      "0x52ce421f7cc47ff2e22736a79a230733ea2781ec":
+        label: BPool
+        network: mainnet
+      "0xe9a2c7a19e47bac855fad9c3147ffe95aea8c4c4":
+        label: BPool
+        network: mainnet
+      "0x003a70265a3662342010823bea15dc84c6f7ed54":
+        label: BPool
+        network: mainnet
+      "0x6d36cb38781cd947b4dec2dad48f078ed85f7a79":
+        label: BPool
+        network: mainnet
+      "0x3d6906d338ea7bb3a956f71ed39776827be1e17e":
+        label: BPool
+        network: mainnet
+      "0x4e0e4e352448f528b7f26d9261be70c963105058":
+        label: BPool
+        network: mainnet
+      "0x371a47394006224e38c9da28c17738e4f9a7900e":
+        label: BPool
+        network: mainnet
+      "0xfbdfe28989d231e70b93c9ed1df0b48ddb6a7b27":
+        label: BPool
+        network: mainnet
+      "0xca31dc75aa718d30c23c674b2f4f313475c5c597":
+        label: BPool
+        network: mainnet
+      "0xc81d50c17754b379f1088574cf723be4fb00307d":
+        label: BPool
+        network: mainnet
+      "0x01dfeaf2f6b648296b4c9dc4f0c5fddcb0984c0d":
+        label: BPool
+        network: mainnet
+      "0x292515d1ebf861ca5c1e0edfd45ffa87bee3644e":
+        label: BPool
+        network: mainnet
+      "0x9dcc2104f25d40db2f455b458fcbe538c6812bbc":
+        label: BPool
+        network: mainnet
+      "0xa33a45749d4a4118ad119f7e6c1474ab568f5928":
+        label: BPool
+        network: mainnet
+      "0x7f032763009b53c7dbbc72697724ca83c1c239b1":
+        label: BPool
+        network: mainnet
+      "0x223f75bf1800db6082e627ffb3371ceb95bf7b3a":
+        label: BPool
+        network: mainnet
+      "0x502a375d3b5df4fa6c754aa3ff0acb2add01365b":
+        label: BPool
+        network: mainnet
+      "0x0fc96c922fd2b457a7d6507b61b7af7d9f7c95e5":
+        label: BPool
+        network: mainnet
+      "0x1eff8af5d577060ba4ac8a29a13525bb0ee2a3d5":
+        label: BPool
+        network: mainnet
+      "0xd7067192df19c415ee35cc86708020eaf924cd75":
+        label: BPool
+        network: mainnet
+      "0x16cac1403377978644e78769daa49d8f6b6cf565":
+        label: BPool
+        network: mainnet
+      "0x9e7cbc6e96993e7c5abb3ec4cb30aa8275618b2b":
+        label: BPool
+        network: mainnet
+      "0xf9ab7776c7baeed1d65f0492fe2bb3951a1787ef":
+        label: BPool
+        network: mainnet
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0x974df1c33872ba8aab782be5117ff348802441590f84ed7701d734bb9c21683e"
