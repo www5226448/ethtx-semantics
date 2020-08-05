@@ -1,4 +1,4 @@
-0xExchange_1:
+0xExchange_2_1:
   addresses:
     "*": {}
     mainnet:
@@ -9,7 +9,7 @@
     kovan: {}
   applicable_to_contracts_with_code_hash:
     - "0x1eb08f4905a226eb84c664ee73b6d81cd1a40720e6b3dd946591500a959aeefa"
-OxExchange_2:
+0xExchange_3:
   addresses:
     "*": {}
     mainnet:
@@ -20,3 +20,25 @@ OxExchange_2:
     kovan: {}
   applicable_to_contracts_with_code_hash:
     - "0xd0f752035039c2b4d0a95187562aee12d21d653f176b9a50df057ceb44c4f37c"
+0xExchange_2_0:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x4f833a24e1f95d70f028921e27040ca56e09ab0b":
+        network: mainnet
+        label: Exchange
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0x3e4bb5894f487fbf7d6db7340a5b2b0e43899c17030cf5b92a530f43a9878c8c"
+PositionTokenLogicV2:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x579ad3c8abc3658341044c1c6d6dc48f9e015026":
+        network: mainnet
+        label: PositionTokenLogicV2
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0x67865df2ff24506389983142703d0e01a1c4ab2e96d5a310c49ef988d9d35f6c"

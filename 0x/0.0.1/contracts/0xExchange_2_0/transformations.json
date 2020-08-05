@@ -1,0 +1,37 @@
+{
+  "0x0bcc4c97732e47d9946f229edb95f5b6323f601300e4690de719993f3c371129": {
+    "name": "Fill",
+    "arguments": {
+      "makerAssetFilledAmount": {
+        "path": "makerAssetFilledAmount",
+        "type": "uint256",
+        "value": "makerAssetFilledAmount / 10**18"
+      },
+      "takerAssetFilledAmount": {
+        "path": "takerAssetFilledAmount",
+        "type": "uint256",
+        "value": "takerAssetFilledAmount / 10**18"
+      },
+      "makerFeePaid": {
+        "path": "makerFeePaid",
+        "type": "uint256",
+        "value": "makerFeePaid / 10**18"
+      },
+      "takerFeePaid": {
+        "path": "takerFeePaid",
+        "type": "uint256",
+        "value": "takerFeePaid / 10**18"
+      },
+      "makerAssetData": {
+        "path": "makerAssetData",
+        "type": "address",
+        "value": "'0x' + makerAssetData[-40:]"
+      },
+      "takerAssetData": {
+        "path": "takerAssetData",
+        "type": "address",
+        "value": "'0x' + takerAssetData[-40:]"
+      }
+    }
+  }
+}
