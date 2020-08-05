@@ -1,0 +1,54 @@
+Comptroller:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x178053c06006e67e09879c09ff012ff9d263df29":
+        network: mainnet
+        label: Comptroller
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0x5da67242d51545b3123cc69bcf930a62cd01860568c6aff9bcc9763e5ff9b7f0"
+CompoundErc20:
+  addresses:
+    "*": {}
+    mainnet:
+      "0xf5dce57282a584d2746faf1593d3121fcac444dc":
+        network: mainnet
+        label: CErc20
+        erc20:
+          name: "Compound Dai"
+          symbol: "cDAI"
+          dec: 8
+      "0x39aa39c021dfbae8fac545936693ac917d5e7563":
+        label: CErc20
+        network: mainnet
+        erc20:
+          name: "Compound USD Coin"
+          symbol: "cUSDC"
+          dec: 8
+      "0xb3319f5d18bc0d84dd1b4825dcde5d5f7266d407":
+        label: CErc20
+        network: mainnet
+        erc20:
+          name: "Compound 0x"
+          symbol: "cZRX"
+          dec: 8
+      "0x158079ee67fce2f58472a96584a73c7ab9ac95c1":
+        label: CErc20
+        network: mainnet
+        erc20:
+          name: "Compound Augur"
+          symbol: "cREP"
+          dec: 8
+      "0x6c8c6b02e7b2be14d4fa6022dfd6d75921d90e4e":
+        label: CErc20
+        network: mainnet
+        erc20:
+          name: "Compound Basic Attention Token"
+          symbol: "cBAT"
+          dec: 8
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0x37ead445e87de4842ff3f791ad73f3c3d1fd963d5b7a1735f8d3490547152074"

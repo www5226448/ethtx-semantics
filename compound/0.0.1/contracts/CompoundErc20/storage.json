@@ -1,0 +1,79 @@
+[
+  {
+    "end": 63,
+    "hashmap": null,
+    "name": "accrualBlockNumber",
+    "slot": 10,
+    "start": 0,
+    "type": "int"
+  },
+  {
+    "end": 63,
+    "hashmap": null,
+    "name": "borrowIndex",
+    "slot": 11,
+    "start": 0,
+    "type": "int"
+  },
+  {
+    "end": 63,
+    "hashmap": null,
+    "name": "totalBorrows",
+    "slot": 12,
+    "start": 0,
+    "type": "int"
+  },
+  {
+    "end": 63,
+    "hashmap": null,
+    "name": "totalReserves",
+    "slot": 13,
+    "start": 0,
+    "type": "int"
+  },
+  {
+    "end": 63,
+    "hashmap": null,
+    "name": "totalSupply",
+    "slot": 14,
+    "start": 0,
+    "type": "int"
+  },
+  {
+    "end": 63,
+    "hashmap": {
+      "key1": "address",
+      "key2": null,
+      "struct": null,
+      "value": "int"
+    },
+    "name": "accountTokens",
+    "slot": 15,
+    "start": 0,
+    "type": "hashmap"
+  },
+  {
+    "end": 63,
+    "hashmap": {
+      "key1": "address",
+      "key2": null,
+      "struct": [
+        {
+          "name": "principal",
+          "shift": 0,
+          "type": "int"
+        },
+        {
+          "name": "interestIndex",
+          "shift": 1,
+          "type": "int"
+        }
+      ],
+      "value": "struct"
+    },
+    "name": "accountBorrows",
+    "slot": 17,
+    "start": 0,
+    "type": "hashmap"
+  }
+]
