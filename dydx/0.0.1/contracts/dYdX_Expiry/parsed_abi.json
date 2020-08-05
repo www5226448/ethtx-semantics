@@ -1,0 +1,384 @@
+{
+  "functions": {
+    "0x1b1fe68a": {
+      "name": "SOLO_MARGIN",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x1be7dd83": {
+      "name": "getExpiry",
+      "inputs": [
+        {
+          "name": "account",
+          "type": "tuple",
+          "components": [
+            {
+              "name": "owner",
+              "type": "address",
+              "dynamic": false
+            },
+            {
+              "name": "number",
+              "type": "uint256",
+              "dynamic": false
+            }
+          ],
+          "dynamic": false
+        },
+        {
+          "name": "marketId",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint32",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x448f7065": {
+      "name": "getTradeCost",
+      "inputs": [
+        {
+          "name": "inputMarketId",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "outputMarketId",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "makerAccount",
+          "type": "tuple",
+          "components": [
+            {
+              "name": "owner",
+              "type": "address",
+              "dynamic": false
+            },
+            {
+              "name": "number",
+              "type": "uint256",
+              "dynamic": false
+            }
+          ],
+          "dynamic": false
+        },
+        {
+          "name": "",
+          "type": "tuple",
+          "components": [
+            {
+              "name": "owner",
+              "type": "address",
+              "dynamic": false
+            },
+            {
+              "name": "number",
+              "type": "uint256",
+              "dynamic": false
+            }
+          ],
+          "dynamic": false
+        },
+        {
+          "name": "oldInputPar",
+          "type": "tuple",
+          "components": [
+            {
+              "name": "sign",
+              "type": "bool",
+              "dynamic": false
+            },
+            {
+              "name": "value",
+              "type": "uint128",
+              "dynamic": false
+            }
+          ],
+          "dynamic": false
+        },
+        {
+          "name": "newInputPar",
+          "type": "tuple",
+          "components": [
+            {
+              "name": "sign",
+              "type": "bool",
+              "dynamic": false
+            },
+            {
+              "name": "value",
+              "type": "uint128",
+              "dynamic": false
+            }
+          ],
+          "dynamic": false
+        },
+        {
+          "name": "inputWei",
+          "type": "tuple",
+          "components": [
+            {
+              "name": "sign",
+              "type": "bool",
+              "dynamic": false
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "dynamic": false
+            }
+          ],
+          "dynamic": false
+        },
+        {
+          "name": "data",
+          "type": "bytes",
+          "dynamic": true
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "tuple",
+          "components": [
+            {
+              "name": "sign",
+              "type": "bool",
+              "dynamic": false
+            },
+            {
+              "name": "denomination",
+              "type": "uint8",
+              "dynamic": false
+            },
+            {
+              "name": "ref",
+              "type": "uint8",
+              "dynamic": false
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "dynamic": false
+            }
+          ],
+          "dynamic": false
+        }
+      ]
+    },
+    "0x715018a6": {
+      "name": "renounceOwnership",
+      "inputs": [],
+      "outputs": []
+    },
+    "0x8b418713": {
+      "name": "callFunction",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "account",
+          "type": "tuple",
+          "components": [
+            {
+              "name": "owner",
+              "type": "address",
+              "dynamic": false
+            },
+            {
+              "name": "number",
+              "type": "uint256",
+              "dynamic": false
+            }
+          ],
+          "dynamic": false
+        },
+        {
+          "name": "data",
+          "type": "bytes",
+          "dynamic": true
+        }
+      ],
+      "outputs": []
+    },
+    "0x8da5cb5b": {
+      "name": "owner",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x8f32d59b": {
+      "name": "isOwner",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xb1396542": {
+      "name": "getSpreadAdjustedPrices",
+      "inputs": [
+        {
+          "name": "heldMarketId",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "owedMarketId",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "expiry",
+          "type": "uint32",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "tuple",
+          "components": [
+            {
+              "name": "value",
+              "type": "uint256",
+              "dynamic": false
+            }
+          ],
+          "dynamic": false
+        },
+        {
+          "name": "",
+          "type": "tuple",
+          "components": [
+            {
+              "name": "value",
+              "type": "uint256",
+              "dynamic": false
+            }
+          ],
+          "dynamic": false
+        }
+      ]
+    },
+    "0xd8862484": {
+      "name": "g_expiryRampTime",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xf2fde38b": {
+      "name": "transferOwnership",
+      "inputs": [
+        {
+          "name": "newOwner",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xf64e654c": {
+      "name": "ownerSetExpiryRampTime",
+      "inputs": [
+        {
+          "name": "newExpiryRampTime",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    }
+  },
+  "events": {
+    "0x00cee2201664da23900ada76f5e96bcae576e5d7253b36f10dc1b379597d521b": {
+      "name": "ExpirySet",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "owner",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "number",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "marketId",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "time",
+          "type": "uint32",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0xd08f204a092297d87c6a408c8d66cb1b189734e8284e655f896717b45a93a536": {
+      "name": "LogExpiryRampTimeSet",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "expiryRampTime",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0": {
+      "name": "OwnershipTransferred",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "previousOwner",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "newOwner",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        }
+      ]
+    }
+  }
+}

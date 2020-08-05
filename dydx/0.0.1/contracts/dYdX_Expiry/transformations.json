@@ -1,0 +1,17 @@
+{
+  "0x00cee2201664da23900ada76f5e96bcae576e5d7253b36f10dc1b379597d521b": {
+    "name": "ExpirySet",
+    "arguments": {
+      "marketId": {
+        "path": "marketId",
+        "type": "string",
+        "value": "{0: 'WETH', 1: 'DAI'}.get(marketId, marketId)"
+      },
+      "time": {
+        "path": "time",
+        "type": "timestamp",
+        "value": "time"
+      }
+    }
+  }
+}

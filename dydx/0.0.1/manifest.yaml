@@ -9,3 +9,58 @@ dYdX_SoloMargin:
     kovan: {}
   applicable_to_contracts_with_code_hash:
     - "0xc25645e567422abb6e9f50390ab9b6670c67f96d1268dab175a8d7a32b5307da"
+dYdX_DaiPriceOracle:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x787f552bdc17332c98aa360748884513e3cb401a":
+        network: mainnet
+        label: DaiPriceOracle
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0xac6619c82434b49cb0b7d42b4e00fd2c37617e31fd1a14264073505c36c46217"
+dYdX_Expiry:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x0ece224fbc24d40b446c6a94a142dc41fae76f2d":
+        network: mainnet
+        label: Expiry
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0x239a0487586a2a62065df42f53148fd9981478d3a4d31c9d22a0d3d53f921cf0"
+dYdX_OperationImpl:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x56e7d4520abfecf10b38368b00723d9bd3c21ee1":
+        network: mainnet
+        label: OperationImpl
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0x22935d29002629b268de39feee493eb41c7c6c8bf1dc067f0861051241341516"
+dYdX_PolynomialInterestSetter:
+  addresses:
+    "*": {}
+    mainnet:
+      "0xad91a0ddf799176a0a87a32dafe8f3dd28479918":
+        network: mainnet
+        label: PolynomialInterestSetter
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0x615d8ba1ff3fdc03b9395a120716f044c0c7c4565ceb131e383beebe0319beac"
+dYdX_WethPriceOracle:
+  addresses:
+    "*": {}
+    mainnet:
+      "0xf61ae328463cd997c7b58e7045cdc613e1cfdb69":
+        network: mainnet
+        label: WethPriceOracle
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0x922744027981323733a1e2e492feda947aac49ed4ad53a960e3e6eccff92c828"
