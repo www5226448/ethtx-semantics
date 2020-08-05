@@ -919,3 +919,18 @@ UniswapV1Pair:
     kovan: {}
   applicable_to_contracts_with_code_hash:
     - "0x72e826e5ec1e970f37af4b41635535232c58bcb7795871b2738347fd8c1314ca"
+UniswapExchangeInterfaceV1:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x2157a7894439191e520825fe9399ab8655e0f708":
+        network: mainnet
+        label: "UniswapExchangeInterfaceV1"
+        erc20:
+          name:
+          symbol:
+          dec: 18
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0xb9205fc3f30b0ad30c6f03a0f464f8fd435fbf28cdbb6071054d62fb506a4b96"
