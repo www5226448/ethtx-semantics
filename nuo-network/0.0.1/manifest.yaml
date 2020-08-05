@@ -1,0 +1,33 @@
+KernelEscrow:
+  addresses:
+    "*": {}
+    mainnet:
+      "0xaf38668f4719ecf9452dc0300be3f6c83cbf3721":
+        network: mainnet
+        label: KernelEscrow
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0x33abe7d0224e012523aeb0e134acb9b850a3096d7c268e8e62ef0c18e8975aa1"
+MKernel:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x740f8b58f5562c8379f2a8c2230c9be5c03ac3fc":
+        network: mainnet
+        label: MKernel
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0x1435ecbd6c612625a2bb037f7074a135c2be803b75ecd7dd00792cd9d6baa7db"
+Reserve:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x64d14595152b430cf6940da15c6e39545c7c5b7e":
+        network: mainnet
+        label: Reserve
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0xfa7d94b933998fc686bf09ad57877c5957ec0051f0fc68b6ac2690d46f4170ae"

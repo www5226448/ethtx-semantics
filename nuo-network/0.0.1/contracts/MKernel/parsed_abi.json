@@ -1,0 +1,902 @@
+{
+  "functions": {
+    "0x07da68f5": {
+      "name": "stop",
+      "inputs": [],
+      "outputs": []
+    },
+    "0x13af4035": {
+      "name": "setOwner",
+      "inputs": [
+        {
+          "name": "owner_",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x162cfaac": {
+      "name": "initialTradeAmount",
+      "inputs": [
+        {
+          "name": "",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x20e3dbd4": {
+      "name": "setConfig",
+      "inputs": [
+        {
+          "name": "_config",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x2fcdb8dd": {
+      "name": "isDefaulted",
+      "inputs": [
+        {
+          "name": "",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x359abaed": {
+      "name": "getOrdersForAccount",
+      "inputs": [
+        {
+          "name": "_account",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32[]",
+          "dynamic": true
+        }
+      ]
+    },
+    "0x431025e1": {
+      "name": "isLiquidated",
+      "inputs": [
+        {
+          "name": "",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x4459c9a3": {
+      "name": "processTradeForExpiry",
+      "inputs": [
+        {
+          "name": "_orderHash",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "_exchangeConnector",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x5778472a": {
+      "name": "getOrder",
+      "inputs": [
+        {
+          "name": "_orderHash",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "_account",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_byUser",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_principalToken",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_collateralToken",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_principalAmount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "_collateralAmount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "_premium",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "_expirationTimestamp",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "_salt",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "_fee",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "_createdTimestamp",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x67222326": {
+      "name": "createOrder",
+      "inputs": [
+        {
+          "name": "_orderAddresses",
+          "type": "address[6]",
+          "dynamic": false
+        },
+        {
+          "name": "_orderValues",
+          "type": "uint256[8]",
+          "dynamic": false
+        },
+        {
+          "name": "_exchangeConnector",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_signature",
+          "type": "bytes",
+          "dynamic": true
+        }
+      ],
+      "outputs": []
+    },
+    "0x687cd9c1": {
+      "name": "accountFactory",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x6dec3260": {
+      "name": "accountToOrders",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x75f12b21": {
+      "name": "stopped",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x79502c55": {
+      "name": "config",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x7959f20a": {
+      "name": "processTradeForStopLoss",
+      "inputs": [
+        {
+          "name": "_orderHash",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "_exchangeConnector",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_tokenPrices",
+          "type": "uint256[2]",
+          "dynamic": false
+        },
+        {
+          "name": "_bufferInPrincipal",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x7a9e5e4b": {
+      "name": "setAuthority",
+      "inputs": [
+        {
+          "name": "authority_",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x7bea0d1c": {
+      "name": "getAllOrders",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32[]",
+          "dynamic": true
+        }
+      ]
+    },
+    "0x8723555e": {
+      "name": "isOrder",
+      "inputs": [
+        {
+          "name": "",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x8da5cb5b": {
+      "name": "owner",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x90d49b9d": {
+      "name": "setFeeWallet",
+      "inputs": [
+        {
+          "name": "_feeWallet",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x9cecc80a": {
+      "name": "setReserve",
+      "inputs": [
+        {
+          "name": "_reserve",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xa3b13799": {
+      "name": "getTrade",
+      "inputs": [
+        {
+          "name": "_orderHash",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "_tradeToken",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_closingToken",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_initExchangeConnector",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_stopProfit",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "_stopLoss",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xa85c38ef": {
+      "name": "orders",
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xaddc1a76": {
+      "name": "setAccountFactory",
+      "inputs": [
+        {
+          "name": "_accountFactory",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xbe9a6555": {
+      "name": "start",
+      "inputs": [],
+      "outputs": []
+    },
+    "0xbf7e214f": {
+      "name": "authority",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xc046229e": {
+      "name": "processTradeForStopProfit",
+      "inputs": [
+        {
+          "name": "_orderHash",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "_exchangeConnector",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_tokenPrices",
+          "type": "uint256[2]",
+          "dynamic": false
+        },
+        {
+          "name": "_bufferInPrincipal",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xc10c3546": {
+      "name": "setEscrow",
+      "inputs": [
+        {
+          "name": "_escrow",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xc559f686": {
+      "name": "hashToOrder",
+      "inputs": [
+        {
+          "name": "",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "account",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "byUser",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "principalToken",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "collateralToken",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "trade",
+          "type": "tuple",
+          "components": [
+            {
+              "name": "tradeToken",
+              "type": "address",
+              "dynamic": false
+            },
+            {
+              "name": "closingToken",
+              "type": "address",
+              "dynamic": false
+            },
+            {
+              "name": "exchangeConnector",
+              "type": "address",
+              "dynamic": false
+            },
+            {
+              "name": "stopProfit",
+              "type": "uint256",
+              "dynamic": false
+            },
+            {
+              "name": "stopLoss",
+              "type": "uint256",
+              "dynamic": false
+            }
+          ],
+          "dynamic": false
+        },
+        {
+          "name": "principalAmount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "collateralAmount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "premium",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "expirationTimestamp",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "duration",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "salt",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "fee",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "createdTimestamp",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "orderHash",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xcd3293de": {
+      "name": "reserve",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xe2fdcc17": {
+      "name": "escrow",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xebac0bd9": {
+      "name": "liquidateOrder",
+      "inputs": [
+        {
+          "name": "_orderHash",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "_exchangeConnector",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_signature",
+          "type": "bytes",
+          "dynamic": true
+        }
+      ],
+      "outputs": []
+    },
+    "0xf25f4b56": {
+      "name": "feeWallet",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    }
+  },
+  "events": {
+    "0xea0bf587ab60e35e1551a895f638f97223b5471e71aef9e3102dfe8ceb87dc01": {
+      "name": "LogOrderCreated",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "orderHash",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "tradeAmount",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "expirationTimestamp",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x6cc69d7894fbf109ad278f7e331e91f734cd486332ee4e1eb3625bb2538eea49": {
+      "name": "LogOrderLiquidatedByUser",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "orderHash",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": true
+        }
+      ]
+    },
+    "0xc614d231c29c73ae067f16cd5460d0050c98401008b3cce99b3abb37302e5485": {
+      "name": "LogOrderStoppedAtProfit",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "orderHash",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": true
+        }
+      ]
+    },
+    "0x98e393d0760ecfe8e3907134d357e8a4fa5b37e364c3baeb0b059a98317638c4": {
+      "name": "LogOrderDefaulted",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "orderHash",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "reason",
+          "type": "string",
+          "dynamic": true,
+          "indexed": false
+        }
+      ]
+    },
+    "0x8650502f673626c4578406e6c3670ef7b0a9ab7a6bce3a735ec0a63fecaf41d2": {
+      "name": "LogNoActionPerformed",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "orderHash",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": true
+        }
+      ]
+    },
+    "0xd5620126c5a9c2d177d7302570339d14ed881b5f6d3fdb8f63bd6fa00601bc6b": {
+      "name": "LogOrderSettlement",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "orderHash",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "valueRepaid",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "reserveProfit",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "reserveLoss",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "collateralLeft",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "userProfit",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "fee",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0xb070cb3e4fef70e12d8e599444f6395a8ff59f4db70ac633f9d5c5db734a4d37": {
+      "name": "LogError",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "methodSig",
+          "type": "string",
+          "dynamic": true,
+          "indexed": false
+        },
+        {
+          "name": "errMsg",
+          "type": "string",
+          "dynamic": true,
+          "indexed": false
+        }
+      ]
+    },
+    "0xdb0b341562703a7cbd47efa0b024b1ed2e3c68e2d313e46d276db9a46d8a6f80": {
+      "name": "LogErrorWithHintBytes32",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "bytes32Value",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "methodSig",
+          "type": "string",
+          "dynamic": true,
+          "indexed": false
+        },
+        {
+          "name": "errMsg",
+          "type": "string",
+          "dynamic": true,
+          "indexed": false
+        }
+      ]
+    },
+    "0x19e7927406d07c8b02d655f4363169282f8d3015b8731900c3e9255e08caaca5": {
+      "name": "LogErrorWithHintAddress",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "addressValue",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "methodSig",
+          "type": "string",
+          "dynamic": true,
+          "indexed": false
+        },
+        {
+          "name": "errMsg",
+          "type": "string",
+          "dynamic": true,
+          "indexed": false
+        }
+      ]
+    },
+    "0x1abebea81bfa2637f28358c371278fb15ede7ea8dd28d2e03b112ff6d936ada4": {
+      "name": "LogSetAuthority",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "authority",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        }
+      ]
+    },
+    "0xce241d7ca1f669fee44b6fc00b8eba2df3bb514eed0f6f668f8f89096e81ed94": {
+      "name": "LogSetOwner",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "owner",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        }
+      ]
+    },
+    "0x644843f351d3fba4abcd60109eaff9f54bac8fb8ccf0bab941009c21df21cf31": {
+      "name": "LogNote",
+      "anonymous": true,
+      "parameters": [
+        {
+          "name": "sig",
+          "type": "bytes4",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "guy",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "foo",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "bar",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "wad",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "fax",
+          "type": "bytes",
+          "dynamic": true,
+          "indexed": false
+        }
+      ]
+    }
+  }
+}
