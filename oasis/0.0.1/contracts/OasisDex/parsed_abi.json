@@ -1,0 +1,1350 @@
+{
+  "functions": {
+    "0x01492a0b": {
+      "name": "matchingEnabled",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x0374fc6f": {
+      "name": "getBestOffer",
+      "inputs": [
+        {
+          "name": "sell_gem",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "buy_gem",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x0621b4f6": {
+      "name": "sellAllAmount",
+      "inputs": [
+        {
+          "name": "pay_gem",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "pay_amt",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "buy_gem",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "min_fill_amount",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "fill_amt",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x07da68f5": {
+      "name": "stop",
+      "inputs": [],
+      "outputs": []
+    },
+    "0x093f5198": {
+      "name": "make",
+      "inputs": [
+        {
+          "name": "pay_gem",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "buy_gem",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "pay_amt",
+          "type": "uint128",
+          "dynamic": false
+        },
+        {
+          "name": "buy_amt",
+          "type": "uint128",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x13af4035": {
+      "name": "setOwner",
+      "inputs": [
+        {
+          "name": "owner_",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x144a2752": {
+      "name": "getBuyAmount",
+      "inputs": [
+        {
+          "name": "buy_gem",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "pay_gem",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "pay_amt",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "fill_amt",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x1b33d412": {
+      "name": "offer",
+      "inputs": [
+        {
+          "name": "pay_amt",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "pay_gem",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "buy_amt",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "buy_gem",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "pos",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x1d834a1b": {
+      "name": "insert",
+      "inputs": [
+        {
+          "name": "id",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "pos",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x232cae0b": {
+      "name": "last_offer_id",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x2aed1905": {
+      "name": "setMatchingEnabled",
+      "inputs": [
+        {
+          "name": "matchingEnabled_",
+          "type": "bool",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x40e58ee5": {
+      "name": "cancel",
+      "inputs": [
+        {
+          "name": "id",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "success",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x4579268a": {
+      "name": "getOffer",
+      "inputs": [
+        {
+          "name": "id",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x467f0b7b": {
+      "name": "del_rank",
+      "inputs": [
+        {
+          "name": "id",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x49606455": {
+      "name": "take",
+      "inputs": [
+        {
+          "name": "id",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "maxTakeAmount",
+          "type": "uint128",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x511fa487": {
+      "name": "getMinSell",
+      "inputs": [
+        {
+          "name": "pay_gem",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x557ed1ba": {
+      "name": "getTime",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint64",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x61f54a79": {
+      "name": "getNextUnsortedOffer",
+      "inputs": [
+        {
+          "name": "id",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x6377ebca": {
+      "name": "close_time",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint64",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x677170e1": {
+      "name": "_span",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x74c1d7d3": {
+      "name": "_best",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x75f12b21": {
+      "name": "stopped",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x779997c3": {
+      "name": "bump",
+      "inputs": [
+        {
+          "name": "id_",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x7a9e5e4b": {
+      "name": "setAuthority",
+      "inputs": [
+        {
+          "name": "authority_",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x7ca9429a": {
+      "name": "getOfferCount",
+      "inputs": [
+        {
+          "name": "sell_gem",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "buy_gem",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x8185402b": {
+      "name": "buyAllAmount",
+      "inputs": [
+        {
+          "name": "buy_gem",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "buy_amt",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "pay_gem",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "max_fill_amount",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "fill_amt",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x82afd23b": {
+      "name": "isActive",
+      "inputs": [
+        {
+          "name": "id",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "active",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x8a72ea6a": {
+      "name": "offers",
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "pay_amt",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "pay_gem",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "buy_amt",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "buy_gem",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "owner",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "timestamp",
+          "type": "uint64",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x8af82a2e": {
+      "name": "getFirstUnsortedOffer",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x8da5cb5b": {
+      "name": "owner",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x911550f4": {
+      "name": "getBetterOffer",
+      "inputs": [
+        {
+          "name": "id",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x91be90c8": {
+      "name": "_dust",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x943911bc": {
+      "name": "getWorseOffer",
+      "inputs": [
+        {
+          "name": "id",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xa78d4316": {
+      "name": "_near",
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xb4f9b6c8": {
+      "name": "kill",
+      "inputs": [
+        {
+          "name": "id",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xbf7c734e": {
+      "name": "setMinSell",
+      "inputs": [
+        {
+          "name": "pay_gem",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "dust",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xbf7e214f": {
+      "name": "authority",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xc2b6b58c": {
+      "name": "isClosed",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "closed",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xc2d526aa": {
+      "name": "_rank",
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "next",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "prev",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "delb",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xc41a360a": {
+      "name": "getOwner",
+      "inputs": [
+        {
+          "name": "id",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "owner",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xd2b420ce": {
+      "name": "isOfferSorted",
+      "inputs": [
+        {
+          "name": "id",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xd6f15469": {
+      "name": "setBuyEnabled",
+      "inputs": [
+        {
+          "name": "buyEnabled_",
+          "type": "bool",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xd6febde8": {
+      "name": "buy",
+      "inputs": [
+        {
+          "name": "id",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "amount",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xe1a6f014": {
+      "name": "offer",
+      "inputs": [
+        {
+          "name": "pay_amt",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "pay_gem",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "buy_amt",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "buy_gem",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "pos",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "rounding",
+          "type": "bool",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xf09ea2a6": {
+      "name": "offer",
+      "inputs": [
+        {
+          "name": "pay_amt",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "pay_gem",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "buy_amt",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "buy_gem",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xf582d293": {
+      "name": "buyEnabled",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xff1fd974": {
+      "name": "getPayAmount",
+      "inputs": [
+        {
+          "name": "pay_gem",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "buy_gem",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "buy_amt",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "fill_amt",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    }
+  },
+  "events": {
+    "0x644843f351d3fba4abcd60109eaff9f54bac8fb8ccf0bab941009c21df21cf31": {
+      "name": "LogNote",
+      "anonymous": true,
+      "parameters": [
+        {
+          "name": "sig",
+          "type": "bytes4",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "guy",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "foo",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "bar",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "wad",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "fax",
+          "type": "bytes",
+          "dynamic": true,
+          "indexed": false
+        }
+      ]
+    },
+    "0xa2c251311b1a7a475913900a2a73dc9789a21b04bc737e050bbc506dd4eb3488": {
+      "name": "LogItemUpdate",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "id",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x819e390338feffe95e2de57172d6faf337853dfd15c7a09a32d76f7fd2443875": {
+      "name": "LogTrade",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "pay_amt",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "pay_gem",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "buy_amt",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "buy_gem",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        }
+      ]
+    },
+    "0x773ff502687307abfa024ac9f62f9752a0d210dac2ffd9a29e38e12e2ea82c82": {
+      "name": "LogMake",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "id",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "pair",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "maker",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "pay_gem",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "buy_gem",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "pay_amt",
+          "type": "uint128",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "buy_amt",
+          "type": "uint128",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "timestamp",
+          "type": "uint64",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x70a14c213064359ede031fd2a1645a11ce2ec825ffe6ab5cfb5b160c3ef4d0a2": {
+      "name": "LogBump",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "id",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "pair",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "maker",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "pay_gem",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "buy_gem",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "pay_amt",
+          "type": "uint128",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "buy_amt",
+          "type": "uint128",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "timestamp",
+          "type": "uint64",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x3383e3357c77fd2e3a4b30deea81179bc70a795d053d14d5b7f2f01d0fd4596f": {
+      "name": "LogTake",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "id",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "pair",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "maker",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "pay_gem",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "buy_gem",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "taker",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "take_amt",
+          "type": "uint128",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "give_amt",
+          "type": "uint128",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "timestamp",
+          "type": "uint64",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x9577941d28fff863bfbee4694a6a4a56fb09e169619189d2eaa750b5b4819995": {
+      "name": "LogKill",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "id",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "pair",
+          "type": "bytes32",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "maker",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "pay_gem",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "buy_gem",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "pay_amt",
+          "type": "uint128",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "buy_amt",
+          "type": "uint128",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "timestamp",
+          "type": "uint64",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x1abebea81bfa2637f28358c371278fb15ede7ea8dd28d2e03b112ff6d936ada4": {
+      "name": "LogSetAuthority",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "authority",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        }
+      ]
+    },
+    "0xce241d7ca1f669fee44b6fc00b8eba2df3bb514eed0f6f668f8f89096e81ed94": {
+      "name": "LogSetOwner",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "owner",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        }
+      ]
+    },
+    "0x7089e4f0bcc948f9f723a361590c32d9c2284da7ab1981b1249ad2edb9f953c1": {
+      "name": "LogBuyEnabled",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "isEnabled",
+          "type": "bool",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0xc28d56449b0bb31e64ee7487e061f57a2e72aea8019d810832f26dda099823d0": {
+      "name": "LogMinSell",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "pay_gem",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "min_amount",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0xea11e00ec1642be9b494019b756440e2c57dbe9e59242c4f9c64ce33fb4f41d9": {
+      "name": "LogMatchingEnabled",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "isEnabled",
+          "type": "bool",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x8173832a493e0a3989e521458e55bfe9feac9f9b675a94e100b9d5a85f814862": {
+      "name": "LogUnsortedOffer",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "id",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x20fb9bad86c18f7e22e8065258790d9416a7d2df8ff05f80f82c46d38b925acd": {
+      "name": "LogSortedOffer",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "id",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x6d5c16212bdea16850dce4d9fa2314c446bd30ce84700d9c36c7677c6d283940": {
+      "name": "LogInsert",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "keeper",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "id",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0xcb9d6176c6aac6478ebb9a2754cdce22a944de29ed1f2642f8613884eba4b40c": {
+      "name": "LogDelete",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "keeper",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "id",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    }
+  }
+}

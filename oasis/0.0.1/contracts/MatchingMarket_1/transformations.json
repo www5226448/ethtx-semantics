@@ -1,0 +1,192 @@
+{
+  "0x0621b4f6": {
+    "arguments": {
+      "fill_amt": {
+        "path": "fill_amt",
+        "type": "uint256",
+        "value": "fill_amt / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(arguments.get('buy_gem', None), 18)"
+      },
+      "min_fill_amount": {
+        "path": "min_fill_amount",
+        "type": "uint256",
+        "value": "min_fill_amount / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(pay_gem, 18)"
+      },
+      "pay_amt": {
+        "path": "pay_amt",
+        "type": "uint256",
+        "value": "pay_amt / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(pay_gem, 18)"
+      }
+    },
+    "name": "sellAllAmount"
+  },
+  "0x1b33d412": {
+    "arguments": {
+      "buy_amt": {
+        "path": "buy_amt",
+        "type": "uint256",
+        "value": "buy_amt / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(buy_gem, 18)"
+      },
+      "pay_amt": {
+        "path": "pay_amt",
+        "type": "uint256",
+        "value": "pay_amt / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(pay_gem, 18)"
+      }
+    },
+    "name": "offer"
+  },
+  "0x3383e3357c77fd2e3a4b30deea81179bc70a795d053d14d5b7f2f01d0fd4596f": {
+    "arguments": {
+      "give_amt": {
+        "path": "give_amt",
+        "type": "uint128",
+        "value": "give_amt / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(buy_gem, 18)"
+      },
+      "id": {
+        "path": "id",
+        "type": "uint256",
+        "value": "id"
+      },
+      "pair": {
+        "path": "pair",
+        "type": "string",
+        "value": "{'0x7509deda9e17580c94915865c0c0c56190cc733e6c835a6ca2e497c1e4a50a5d': 'DAI/MKR', '0xd5285799330658f31f8d1d4fe456bd7630e1fc16abbec08016bcab3b6643dae6': 'MKR/DAI', '0x204053929a0ef66ee09fa2295cc078531ee0339fa4d3e02ce9bb3f1a5d0116dd': 'MKR/WETH', '0x203e3b62e033f1548774797f9135c574dddd995f86e1c55fe1bab1610d35094f': 'WETH/MKR', '0x10aed75aa327f09ef87e5bdfaedf498ca260499a251ae5e049ddbd5e1633cd9c': 'DAI/WETH', '0x9dd48110dcc444fdc242510c09bbbbe21a5975cac061d82f7b843bce061ba391': 'WETH/DAI'}.get(pair, pair)"
+      },
+      "take_amt": {
+        "path": "take_amt",
+        "type": "uint128",
+        "value": "take_amt / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(pay_gem, 18)"
+      },
+      "timestamp": {
+        "path": "timestamp",
+        "type": "timestamp",
+        "value": "timestamp"
+      }
+    },
+    "name": "LogTake"
+  },
+  "0x49606455": {
+    "arguments": {
+      "id": {
+        "path": "id",
+        "type": "uint256",
+        "value": "id"
+      }
+    },
+    "name": "take"
+  },
+  "0x773ff502687307abfa024ac9f62f9752a0d210dac2ffd9a29e38e12e2ea82c82": {
+    "arguments": {
+      "buy_amt": {
+        "path": "buy_amt",
+        "type": "uint128",
+        "value": "buy_amt / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(buy_gem, 18)"
+      },
+      "id": {
+        "path": "id",
+        "type": "uint256",
+        "value": "id"
+      },
+      "pair": {
+        "path": "pair",
+        "type": "string",
+        "value": "{'0x7509deda9e17580c94915865c0c0c56190cc733e6c835a6ca2e497c1e4a50a5d': 'DAI/MKR', '0xd5285799330658f31f8d1d4fe456bd7630e1fc16abbec08016bcab3b6643dae6': 'MKR/DAI', '0x204053929a0ef66ee09fa2295cc078531ee0339fa4d3e02ce9bb3f1a5d0116dd': 'MKR/WETH', '0x203e3b62e033f1548774797f9135c574dddd995f86e1c55fe1bab1610d35094f': 'WETH/MKR', '0x10aed75aa327f09ef87e5bdfaedf498ca260499a251ae5e049ddbd5e1633cd9c': 'DAI/WETH', '0x9dd48110dcc444fdc242510c09bbbbe21a5975cac061d82f7b843bce061ba391': 'WETH/DAI'}.get(pair, pair)"
+      },
+      "pay_amt": {
+        "path": "pay_amt",
+        "type": "uint128",
+        "value": "pay_amt / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(pay_gem, 18)"
+      },
+      "timestamp": {
+        "path": "timestamp",
+        "type": "timestamp",
+        "value": "timestamp"
+      }
+    },
+    "name": "LogMake"
+  },
+  "0x8185402b": {
+    "arguments": {
+      "buy_amt": {
+        "path": "buy_amt",
+        "type": "uint256",
+        "value": "buy_amt / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(buy_gem, 18)"
+      },
+      "fill_amt": {
+        "path": "fill_amt",
+        "type": "uint256",
+        "value": "fill_amt / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(arguments.get('pay_gem', None), 18)"
+      },
+      "max_fill_amount": {
+        "path": "max_fill_amount",
+        "type": "uint256",
+        "value": "max_fill_amount / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(pay_gem, 18)"
+      }
+    },
+    "name": "buyAllAmount"
+  },
+  "0x819e390338feffe95e2de57172d6faf337853dfd15c7a09a32d76f7fd2443875": {
+    "arguments": {
+      "buy_amt": {
+        "path": "buy_amt",
+        "type": "uint256",
+        "value": "buy_amt / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(buy_gem, 18)"
+      },
+      "pay_amt": {
+        "path": "pay_amt",
+        "type": "uint256",
+        "value": "pay_amt / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(pay_gem, 18)"
+      }
+    },
+    "name": "LogTrade"
+  },
+  "0x9577941d28fff863bfbee4694a6a4a56fb09e169619189d2eaa750b5b4819995": {
+    "arguments": {
+      "buy_amt": {
+        "path": "buy_amt",
+        "type": "uint256",
+        "value": "buy_amt / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(buy_gem, 18)"
+      },
+      "id": {
+        "path": "id",
+        "type": "uint256",
+        "value": "id"
+      },
+      "pair": {
+        "path": "pair",
+        "type": "string",
+        "value": "{'0x7509deda9e17580c94915865c0c0c56190cc733e6c835a6ca2e497c1e4a50a5d': 'DAI/MKR', '0xd5285799330658f31f8d1d4fe456bd7630e1fc16abbec08016bcab3b6643dae6': 'MKR/DAI', '0x204053929a0ef66ee09fa2295cc078531ee0339fa4d3e02ce9bb3f1a5d0116dd': 'MKR/WETH', '0x203e3b62e033f1548774797f9135c574dddd995f86e1c55fe1bab1610d35094f': 'WETH/MKR', '0x10aed75aa327f09ef87e5bdfaedf498ca260499a251ae5e049ddbd5e1633cd9c': 'DAI/WETH', '0x9dd48110dcc444fdc242510c09bbbbe21a5975cac061d82f7b843bce061ba391': 'WETH/DAI'}.get(pair, pair)"
+      },
+      "pay_amt": {
+        "path": "pay_amt",
+        "type": "uint256",
+        "value": "pay_amt / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(pay_gem, 18)"
+      }
+    },
+    "name": "LogKill"
+  },
+  "0xd6febde8": {
+    "arguments": {
+      "id": {
+        "path": "id",
+        "type": "uint256",
+        "value": "id"
+      }
+    },
+    "name": "buy"
+  },
+  "0xe1a6f014": {
+    "arguments": {
+      "buy_amt": {
+        "path": "buy_amt",
+        "type": "uint256",
+        "value": "buy_amt / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(buy_gem, 18)"
+      },
+      "pay_amt": {
+        "path": "pay_amt",
+        "type": "uint256",
+        "value": "pay_amt / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(pay_gem, 18)"
+      }
+    },
+    "name": "offer"
+  }
+}

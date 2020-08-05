@@ -1,0 +1,207 @@
+[
+  {
+    "end": 63,
+    "hashmap": null,
+    "name": "authority",
+    "slot": 0,
+    "start": 0,
+    "type": "address"
+  },
+  {
+    "end": 63,
+    "hashmap": null,
+    "name": "owner",
+    "slot": 1,
+    "start": 0,
+    "type": "address"
+  },
+  {
+    "end": 63,
+    "hashmap": null,
+    "name": "last_offer_id",
+    "slot": 2,
+    "start": 0,
+    "type": "int"
+  },
+  {
+    "end": 63,
+    "hashmap": {
+      "key1": "int",
+      "key2": null,
+      "struct": [
+        {
+          "name": "pay_amt",
+          "shift": 0,
+          "type": "wad"
+        },
+        {
+          "name": "pay_gem",
+          "shift": 1,
+          "type": "address"
+        },
+        {
+          "name": "buy_amt",
+          "shift": 2,
+          "type": "wad"
+        },
+        {
+          "name": "buy_gem",
+          "shift": 3,
+          "type": "address"
+        },
+        {
+          "name": "owner",
+          "shift": 4,
+          "type": "address"
+        },
+        {
+          "name": "timestamp",
+          "shift": 5,
+          "type": "timestamp"
+        }
+      ],
+      "value": "struct"
+    },
+    "name": "offers",
+    "slot": 3,
+    "start": 0,
+    "type": "hashmap"
+  },
+  {
+    "end": 63,
+    "hashmap": null,
+    "name": "locked",
+    "slot": 4,
+    "start": 61,
+    "type": "bool"
+  },
+  {
+    "end": 61,
+    "hashmap": null,
+    "name": "close_time",
+    "slot": 4,
+    "start": 45,
+    "type": "timestamp"
+  },
+  {
+    "end": 45,
+    "hashmap": null,
+    "name": "stopped",
+    "slot": 4,
+    "start": 43,
+    "type": "bool"
+  },
+  {
+    "end": 43,
+    "hashmap": null,
+    "name": "buy_enabled",
+    "slot": 4,
+    "start": 41,
+    "type": "bool"
+  },
+  {
+    "end": 41,
+    "hashmap": null,
+    "name": "matching_enabled",
+    "slot": 4,
+    "start": 39,
+    "type": "bool"
+  },
+  {
+    "end": 63,
+    "hashmap": {
+      "key1": "int",
+      "key2": null,
+      "struct": [
+        {
+          "name": "next",
+          "shift": 0,
+          "type": "int"
+        },
+        {
+          "name": "prev",
+          "shift": 1,
+          "type": "int"
+        },
+        {
+          "name": "delb",
+          "shift": 2,
+          "type": "int"
+        }
+      ],
+      "value": "struct"
+    },
+    "name": "_rank",
+    "slot": 5,
+    "start": 0,
+    "type": "hashmap"
+  },
+  {
+    "end": 63,
+    "hashmap": {
+      "key1": "address",
+      "key2": "address",
+      "struct": null,
+      "value": "int"
+    },
+    "name": "_best",
+    "slot": 6,
+    "start": 0,
+    "type": "hashmap"
+  },
+  {
+    "end": 63,
+    "hashmap": {
+      "key1": "address",
+      "key2": "address",
+      "struct": null,
+      "value": "int"
+    },
+    "name": "_span",
+    "slot": 7,
+    "start": 0,
+    "type": "hashmap"
+  },
+  {
+    "end": 63,
+    "hashmap": {
+      "key1": "address",
+      "key2": null,
+      "struct": null,
+      "value": "wad"
+    },
+    "name": "_dust",
+    "slot": 8,
+    "start": 0,
+    "type": "hashmap"
+  },
+  {
+    "end": 63,
+    "hashmap": {
+      "key1": "address",
+      "key2": null,
+      "struct": null,
+      "value": "int"
+    },
+    "name": "_near",
+    "slot": 9,
+    "start": 0,
+    "type": "hashmap"
+  },
+  {
+    "end": 63,
+    "hashmap": null,
+    "name": "_head",
+    "slot": 10,
+    "start": 0,
+    "type": "int"
+  },
+  {
+    "end": 63,
+    "hashmap": null,
+    "name": "dustId",
+    "slot": 11,
+    "start": 0,
+    "type": "int"
+  }
+]

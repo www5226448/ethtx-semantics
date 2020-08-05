@@ -1,0 +1,44 @@
+MatchingMarket_1:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x39755357759ce0d7f32dc8dc45414cca409ae24e":
+        network: mainnet
+        label: MatchingMarket
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0xbf74f03d3e130cefc1145477a8a102319db1ee874e9e626740f04de477176316"
+OasisDex_Old:
+  addresses:
+    "*": {}
+    mainnet:
+      "0xb7ac09c2c0217b07d7c103029b4918a2c401eecb":
+        network: mainnet
+        label: MatchingMarket
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0xc45280960960ebe32e8f180e4cc82383ea3387922ce0985cee2cc34a841700b3"
+OasisDex:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x794e6e91555438afc3ccf1c5076a74f42133d08d":
+        network: mainnet
+        label: MatchingMarket
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0x3c818ac7ab49b0cec55abffa9b2c141632d3bf21ab9a634f2ee19c3264f9db48"
+OasisCdpManager:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x60762005be465901ca18ba34416b35143de72c0c":
+        network: mainnet
+        label: OasisCdpManager
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0xfd3da071e9ec2041303912ad2303119f02184c314d161aee917998553ad9ded0"

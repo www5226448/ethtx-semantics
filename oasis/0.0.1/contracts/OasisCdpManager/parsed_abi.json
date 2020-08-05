@@ -1,0 +1,398 @@
+{
+  "events": {
+    "0x3e7f6e9e9edece28b1fc40be06cf84269b80bd123936aa86e45d8cbd72a911d7": {
+      "anonymous": false,
+      "name": "FluxEvent",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "usr",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "ilk",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "urn",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "dst",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "wad",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x3e7f6e9e9edece28b1fc40be06cf84269b80bd123936aa86e45d8cbd72a911d7"
+    },
+    "0x63be0c612ee6020e80cb90261895d4d0ab79074ff37cc5e7b58769eaad9959a2": {
+      "anonymous": false,
+      "name": "OpenEvent",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "usr",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "ilk",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "urn",
+          "type": "address"
+        }
+      ],
+      "signature": "0x63be0c612ee6020e80cb90261895d4d0ab79074ff37cc5e7b58769eaad9959a2"
+    },
+    "0x69c58aaf3ba554d3e8a6ffb4d77038d44a49f406081a8b7738e21fd00c0c7fac": {
+      "anonymous": false,
+      "name": "FrobEvent",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "usr",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "ilk",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "urn",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "dink",
+          "type": "int256"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "dart",
+          "type": "int256"
+        }
+      ],
+      "signature": "0x69c58aaf3ba554d3e8a6ffb4d77038d44a49f406081a8b7738e21fd00c0c7fac"
+    },
+    "0x6adef2df3cc6d02161c27b8d79c4238f6cb00a346093f61e034d2673a6f1e9a1": {
+      "anonymous": false,
+      "name": "EnterEvent",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "usr",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "ilk",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "urn",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "dink",
+          "type": "int256"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "dart",
+          "type": "int256"
+        }
+      ],
+      "signature": "0x6adef2df3cc6d02161c27b8d79c4238f6cb00a346093f61e034d2673a6f1e9a1"
+    },
+    "0x7522b676f0c017f489b8628217ec8c133f6ed0039d8b8825ff254ee75bae1cc8": {
+      "anonymous": false,
+      "name": "MoveEvent",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "usr",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "ilk",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "urn",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "dst",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "rad",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x7522b676f0c017f489b8628217ec8c133f6ed0039d8b8825ff254ee75bae1cc8"
+    },
+    "0xa20afa023d44c0db30d87d7a36f1c6d18ce7ff18f171c26880a58c45e6db5f1b": {
+      "anonymous": false,
+      "name": "QuitEvent",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "usr",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "ilk",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "urn",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "dink",
+          "type": "int256"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "dart",
+          "type": "int256"
+        }
+      ],
+      "signature": "0xa20afa023d44c0db30d87d7a36f1c6d18ce7ff18f171c26880a58c45e6db5f1b"
+    }
+  },
+  "functions": {
+    "0x23063f0f": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "ilk",
+          "type": "bytes32"
+        }
+      ],
+      "name": "quit",
+      "outputs": [],
+      "signature": "0x23063f0f"
+    },
+    "0x290ce596": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "name": "urns",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x290ce596"
+    },
+    "0x36569e77": {
+      "inputs": [],
+      "name": "vat",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x36569e77"
+    },
+    "0x42343e31": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "ilk",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": false,
+          "name": "dst",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "rad",
+          "type": "uint256"
+        }
+      ],
+      "name": "move",
+      "outputs": [],
+      "signature": "0x42343e31"
+    },
+    "0x45a96ce4": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "ilk",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": false,
+          "name": "ilkExtract",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": false,
+          "name": "dst",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "wad",
+          "type": "uint256"
+        }
+      ],
+      "name": "flux",
+      "outputs": [],
+      "signature": "0x45a96ce4"
+    },
+    "0x5082fcf6": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "ilk",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": false,
+          "name": "dst",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "wad",
+          "type": "uint256"
+        }
+      ],
+      "name": "flux",
+      "outputs": [],
+      "signature": "0x5082fcf6"
+    },
+    "0x568ab21e": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "ilk",
+          "type": "bytes32"
+        }
+      ],
+      "name": "enter",
+      "outputs": [],
+      "signature": "0x568ab21e"
+    },
+    "0x5a984ded": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "ilk",
+          "type": "bytes32"
+        },
+        {
+          "dynamic": false,
+          "name": "dink",
+          "type": "int256"
+        },
+        {
+          "dynamic": false,
+          "name": "dart",
+          "type": "int256"
+        }
+      ],
+      "name": "frob",
+      "outputs": [],
+      "signature": "0x5a984ded"
+    },
+    "0xd3b3f73a": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "ilk",
+          "type": "bytes32"
+        }
+      ],
+      "name": "open",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "urn",
+          "type": "address"
+        }
+      ],
+      "signature": "0xd3b3f73a"
+    },
+    "constructor": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "vat_",
+          "type": "address"
+        }
+      ],
+      "name": "constructor",
+      "outputs": [],
+      "signature": "constructor"
+    }
+  }
+}
