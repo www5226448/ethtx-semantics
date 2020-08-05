@@ -1,0 +1,266 @@
+{
+  "events": {
+    "0x7d76860f120f877ecdc289aa48a7ccc6d0782d9fc59f154c29bc262b7f8308cc": {
+      "anonymous": false,
+      "name": "Trade",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "_from",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "toAmount",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "trader",
+          "type": "address"
+        },
+        {
+          "dynamic": true,
+          "indexed": false,
+          "name": "exchanges",
+          "type": "address[]"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "tradeType",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x7d76860f120f877ecdc289aa48a7ccc6d0782d9fc59f154c29bc262b7f8308cc"
+    },
+    "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0": {
+      "anonymous": false,
+      "name": "OwnershipTransferred",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "previousOwner",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "signature": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0"
+    }
+  },
+  "functions": {
+    "0x2922a751": {
+      "inputs": [],
+      "name": "approvalHandler",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x2922a751"
+    },
+    "0x5a862dcc": {
+      "inputs": [],
+      "name": "withdrawWeth",
+      "outputs": [],
+      "signature": "0x5a862dcc"
+    },
+    "0x5d46ec34": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_from",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "fromAmount",
+          "type": "uint256"
+        },
+        {
+          "dynamic": true,
+          "name": "exchanges",
+          "type": "address[]"
+        },
+        {
+          "dynamic": true,
+          "name": "approvals",
+          "type": "address[]"
+        },
+        {
+          "dynamic": true,
+          "name": "data",
+          "type": "bytes"
+        },
+        {
+          "dynamic": true,
+          "name": "offsets",
+          "type": "uint256[]"
+        },
+        {
+          "dynamic": true,
+          "name": "etherValues",
+          "type": "uint256[]"
+        },
+        {
+          "dynamic": false,
+          "name": "limitAmount",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "tradeType",
+          "type": "uint256"
+        }
+      ],
+      "name": "trade",
+      "outputs": [],
+      "signature": "0x5d46ec34"
+    },
+    "0x715018a6": {
+      "inputs": [],
+      "name": "renounceOwnership",
+      "outputs": [],
+      "signature": "0x715018a6"
+    },
+    "0x8da5cb5b": {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x8da5cb5b"
+    },
+    "0x8f32d59b": {
+      "inputs": [],
+      "name": "isOwner",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "signature": "0x8f32d59b"
+    },
+    "0xad5c4648": {
+      "inputs": [],
+      "name": "WETH",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xad5c4648"
+    },
+    "0xef3f3d0b": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "to",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "recipient",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "fromAmount",
+          "type": "uint256"
+        },
+        {
+          "dynamic": true,
+          "name": "exchanges",
+          "type": "address[]"
+        },
+        {
+          "dynamic": true,
+          "name": "approvals",
+          "type": "address[]"
+        },
+        {
+          "dynamic": true,
+          "name": "data",
+          "type": "bytes"
+        },
+        {
+          "dynamic": true,
+          "name": "offsets",
+          "type": "uint256[]"
+        },
+        {
+          "dynamic": true,
+          "name": "etherValues",
+          "type": "uint256[]"
+        },
+        {
+          "dynamic": false,
+          "name": "limitAmount",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "tradeType",
+          "type": "uint256"
+        }
+      ],
+      "name": "tradeAndSend",
+      "outputs": [],
+      "signature": "0xef3f3d0b"
+    },
+    "0xf2fde38b": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "transferOwnership",
+      "outputs": [],
+      "signature": "0xf2fde38b"
+    },
+    "constructor": {
+      "inputs": [],
+      "name": "constructor",
+      "outputs": [],
+      "signature": "constructor"
+    },
+    "fallback": {}
+  }
+}
