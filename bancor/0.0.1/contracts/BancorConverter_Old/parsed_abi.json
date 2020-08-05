@@ -1,0 +1,1152 @@
+{
+  "functions": {
+    "0x0c87355e": {
+      "name": "BANCOR_CONVERTER_UPGRADER",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x0ca78923": {
+      "name": "updateConnector",
+      "inputs": [
+        {
+          "name": "_connectorToken",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_weight",
+          "type": "uint32",
+          "dynamic": false
+        },
+        {
+          "name": "_enableVirtualBalance",
+          "type": "bool",
+          "dynamic": false
+        },
+        {
+          "name": "_virtualBalance",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x0e53aae9": {
+      "name": "connectors",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "virtualBalance",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "weight",
+          "type": "uint32",
+          "dynamic": false
+        },
+        {
+          "name": "isVirtualBalanceEnabled",
+          "type": "bool",
+          "dynamic": false
+        },
+        {
+          "name": "isSaleEnabled",
+          "type": "bool",
+          "dynamic": false
+        },
+        {
+          "name": "isSet",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x19b64015": {
+      "name": "connectorTokens",
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x1d000b61": {
+      "name": "BNT_TOKEN",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x1e1401f8": {
+      "name": "getReturn",
+      "inputs": [
+        {
+          "name": "_fromToken",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_toToken",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_amount",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x20d7d367": {
+      "name": "allowRegistryUpdate",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x21e6b53d": {
+      "name": "transferTokenOwnership",
+      "inputs": [
+        {
+          "name": "_newOwner",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x22742564": {
+      "name": "quickConvertPrioritized",
+      "inputs": [
+        {
+          "name": "_path",
+          "type": "address[]",
+          "dynamic": true
+        },
+        {
+          "name": "_amount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "_minReturn",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "_block",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "_v",
+          "type": "uint8",
+          "dynamic": false
+        },
+        {
+          "name": "_r",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "_s",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x228d2820": {
+      "name": "disableConversions",
+      "inputs": [
+        {
+          "name": "_disable",
+          "type": "bool",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x25f9bfef": {
+      "name": "CONTRACT_REGISTRY",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x2a2e2f0c": {
+      "name": "convertInternal",
+      "inputs": [
+        {
+          "name": "_fromToken",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_toToken",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_amount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "_minReturn",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x38a5e016": {
+      "name": "acceptTokenOwnership",
+      "inputs": [],
+      "outputs": []
+    },
+    "0x3aa0145a": {
+      "name": "getFinalAmount",
+      "inputs": [
+        {
+          "name": "_amount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "_magnitude",
+          "type": "uint8",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x3e8ff43f": {
+      "name": "converterType",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "string",
+          "dynamic": true
+        }
+      ]
+    },
+    "0x3f4d2fc2": {
+      "name": "addConnector",
+      "inputs": [
+        {
+          "name": "_token",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_weight",
+          "type": "uint32",
+          "dynamic": false
+        },
+        {
+          "name": "_enableVirtualBalance",
+          "type": "bool",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x415f1240": {
+      "name": "liquidate",
+      "inputs": [
+        {
+          "name": "_amount",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x41a5b33d": {
+      "name": "withdrawFromToken",
+      "inputs": [
+        {
+          "name": "_token",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_to",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_amount",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x42906029": {
+      "name": "newManager",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x481c6a75": {
+      "name": "manager",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x49d10b64": {
+      "name": "updateRegistry",
+      "inputs": [],
+      "outputs": []
+    },
+    "0x4af80f0e": {
+      "name": "setConversionWhitelist",
+      "inputs": [
+        {
+          "name": "_whitelist",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x50057351": {
+      "name": "completeXConversion",
+      "inputs": [
+        {
+          "name": "_path",
+          "type": "address[]",
+          "dynamic": true
+        },
+        {
+          "name": "_minReturn",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "_conversionId",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "_block",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "_v",
+          "type": "uint8",
+          "dynamic": false
+        },
+        {
+          "name": "_r",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "_s",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x54fd4d50": {
+      "name": "version",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint16",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x579cd3ca": {
+      "name": "conversionFee",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint32",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x5a46f06c": {
+      "name": "BANCOR_CONVERTER_FACTORY",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x5e35359e": {
+      "name": "withdrawTokens",
+      "inputs": [
+        {
+          "name": "_token",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_to",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_amount",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x5e5144eb": {
+      "name": "change",
+      "inputs": [
+        {
+          "name": "_fromToken",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_toToken",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_amount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "_minReturn",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x61cd756e": {
+      "name": "prevRegistry",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x62614ae6": {
+      "name": "BNT_CONVERTER",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x6d7bd3fc": {
+      "name": "BANCOR_FORMULA",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x71f52bf3": {
+      "name": "connectorTokenCount",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint16",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x72b44b2c": {
+      "name": "getSaleReturn",
+      "inputs": [
+        {
+          "name": "_connectorToken",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_sellAmount",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x75892cf1": {
+      "name": "convert",
+      "inputs": [
+        {
+          "name": "_fromToken",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_toToken",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_amount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "_minReturn",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x79ba5097": {
+      "name": "acceptOwnership",
+      "inputs": [],
+      "outputs": []
+    },
+    "0x7b103999": {
+      "name": "registry",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x83315b6e": {
+      "name": "CONTRACT_FEATURES",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x85d5e631": {
+      "name": "disableTokenTransfers",
+      "inputs": [
+        {
+          "name": "_disable",
+          "type": "bool",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x8b34839f": {
+      "name": "claimTokensEnabled",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x8da5cb5b": {
+      "name": "owner",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x8e3047e0": {
+      "name": "getCrossConnectorReturn",
+      "inputs": [
+        {
+          "name": "_fromConnectorToken",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_toConnectorToken",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_sellAmount",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x9232494e": {
+      "name": "BANCOR_NETWORK",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x9249993a": {
+      "name": "BANCOR_GAS_PRICE_LIMIT",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x92d1abb7": {
+      "name": "CONVERTER_CONVERSION_WHITELIST",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x94c275ad": {
+      "name": "maxConversionFee",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint32",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x9e568553": {
+      "name": "disableConnectorSale",
+      "inputs": [
+        {
+          "name": "_connectorToken",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_disable",
+          "type": "bool",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xa2c4c336": {
+      "name": "getPurchaseReturn",
+      "inputs": [
+        {
+          "name": "_connectorToken",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_depositAmount",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xad374f5b": {
+      "name": "enableClaimTokens",
+      "inputs": [
+        {
+          "name": "_enable",
+          "type": "bool",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xb4a176d3": {
+      "name": "restoreRegistry",
+      "inputs": [],
+      "outputs": []
+    },
+    "0xbf754558": {
+      "name": "conversionsEnabled",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xc45d3d92": {
+      "name": "conversionWhitelist",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xc4a8598e": {
+      "name": "BANCOR_X",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xc8c2fe6c": {
+      "name": "acceptManagement",
+      "inputs": [],
+      "outputs": []
+    },
+    "0xca1d209d": {
+      "name": "fund",
+      "inputs": [
+        {
+          "name": "_amount",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xcc97b38f": {
+      "name": "BANCOR_X_UPGRADER",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xd4ee1d90": {
+      "name": "newOwner",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xd55ec697": {
+      "name": "upgrade",
+      "inputs": [],
+      "outputs": []
+    },
+    "0xd8959512": {
+      "name": "getConnectorBalance",
+      "inputs": [
+        {
+          "name": "_connectorToken",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xe4edf852": {
+      "name": "transferManagement",
+      "inputs": [
+        {
+          "name": "_newManager",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xecbca55d": {
+      "name": "setConversionFee",
+      "inputs": [
+        {
+          "name": "_conversionFee",
+          "type": "uint32",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xf0843ba9": {
+      "name": "quickConvert",
+      "inputs": [
+        {
+          "name": "_path",
+          "type": "address[]",
+          "dynamic": true
+        },
+        {
+          "name": "_amount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "_minReturn",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xf2fde38b": {
+      "name": "transferOwnership",
+      "inputs": [
+        {
+          "name": "_newOwner",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xfa1c594e": {
+      "name": "disableRegistryUpdate",
+      "inputs": [
+        {
+          "name": "_disable",
+          "type": "bool",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xfc0c546a": {
+      "name": "token",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xfe417fa5": {
+      "name": "claimTokens",
+      "inputs": [
+        {
+          "name": "_from",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_amount",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    }
+  },
+  "events": {
+    "0x276856b36cbc45526a0ba64f44611557a2a8b68662c5388e9fe6d72e86e1c8cb": {
+      "name": "Conversion",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "_fromToken",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "_toToken",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "_trader",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "_amount",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "_return",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "_conversionFee",
+          "type": "int256",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x8a6a7f53b3c8fa1dc4b83e3f1be668c1b251ff8d44cdcb83eb3acec3fec6a788": {
+      "name": "PriceDataUpdate",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "_connectorToken",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "_tokenSupply",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "_connectorBalance",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "_connectorWeight",
+          "type": "uint32",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x81cd2ffb37dd237c0e4e2a3de5265fcf9deb43d3e7801e80db9f1ccfba7ee600": {
+      "name": "ConversionFeeUpdate",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "_prevFee",
+          "type": "uint32",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "_newFee",
+          "type": "uint32",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0xb8e670608a57255ce4f35952b324cba70211a4200a91ce81d26e06d488c1f66b": {
+      "name": "ConversionsEnable",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "_conversionsEnabled",
+          "type": "bool",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0xbe4cc281795971a471c980e842627a7f1ea3892ddfce8c5b6357cd2611c19732": {
+      "name": "ManagerUpdate",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "_prevManager",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "_newManager",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        }
+      ]
+    },
+    "0x343765429aea5a34b3ff6a3785a98a5abb2597aca87bfbb58632c173d585373a": {
+      "name": "OwnerUpdate",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "_prevOwner",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "_newOwner",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        }
+      ]
+    }
+  }
+}

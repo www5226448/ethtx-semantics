@@ -1,0 +1,227 @@
+BancorConverter_Old:
+  addresses:
+    "*": {}
+    mainnet:
+      "0xcbc6a023eb975a1e2630223a7959988948e664f3":
+        network: mainnet
+        label: BancorConverter
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0x15ab951169d2c085f279f2eb4a9f3fd09a64577116987727de0ccdabaa4664cc"
+BancorConverter_1:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x06f7bf937dec0c413a2e0464bb300c4d464bb891":
+        network: mainnet
+        label: BancorConverter
+      "0x868229b43a8bcbdffb244dde874f52ade0b1c132":
+        label: BancorConverter
+        network: mainnet
+      "0xbd19f30adde367fe06c0076d690d434bf945a8fc":
+        label: BancorConverter
+        network: mainnet
+      "0xa260306fe5e57cae7bdcc7ff0488061eace32b58":
+        label: BancorConverter
+        network: mainnet
+      "0x2493774b43ef7f6d2f4bc39a535cd2b5b765cbf8":
+        label: BancorConverter
+        network: mainnet
+      "0x39e5aae547752c1239b4738e75cdf705c25adea6":
+        label: BancorConverter
+        network: mainnet
+      "0xa5ee22c4ec7e4c0f2b037147697dde1fb79aa6fb":
+        label: BancorConverter
+        network: mainnet
+      "0xbfc4933f5180589ef76dac288b1ffc4a0d11884a":
+        label: BancorConverter
+        network: mainnet
+      "0xf55c7d64703e879f279bb65b47b65b3d450130bc":
+        label: BancorConverter
+        network: mainnet
+      "0x247ac58cd31541c65b3aaa47e047745107d13873":
+        label: BancorConverter
+        network: mainnet
+      "0xfa15985038633f5497eb4554b4224ad8510179e2":
+        label: BancorConverter
+        network: mainnet
+      "0xcbc2fa314a33ae52fc29e0144d4a7747a532e0dc":
+        label: BancorConverter
+        network: mainnet
+      "0x886f00bc5feb7ec1b1c18441c4dc6dcd341d0e69":
+        label: BancorConverter
+        network: mainnet
+      "0x66540a3fcd929774a8dab59d56fe7a2d3538450f":
+        label: BancorConverter
+        network: mainnet
+      "0x08b61ded2f558071fbdb827715e7aef16e76dd4f":
+        label: BancorConverter
+        network: mainnet
+      "0xdfe1582f156b3d2b8346714e9f94574a8448e27c":
+        label: BancorConverter
+        network: mainnet
+      "0x9e7addaeca0069f1539b03f104d8a1846d722b93":
+        label: BancorConverter
+        network: mainnet
+      "0xda764901e0a424a3356633d592a179de65e310fe":
+        label: BancorConverter
+        network: mainnet
+      "0x6850809aaac4ced0f453d7f4edafc5bb6d0f96dd":
+        label: BancorConverter
+        network: mainnet
+      "0xf5185ee048ae4fb3e8db4e1ccaa4e847cd382d5a":
+        label: BancorConverter
+        network: mainnet
+      "0xa2caf0d7495360cfa58dec48faf6b4977ca3df93":
+        label: BancorConverter
+        network: mainnet
+      "0x66c5603fb424fd9f2e3a0fd51ff63eeec9857bc3":
+        label: BancorConverter
+        network: mainnet
+      "0x8591afdf50093938a7f608e2f15b114dcddd8b9a":
+        label: BancorConverter
+        network: mainnet
+      "0xc89bc9cbb8237c58587b5f907ed6b3163bfdd1b9":
+        label: BancorConverter
+        network: mainnet
+      "0x73b9081946021dc6b9ce3e335a11a6a5bb2879fe":
+        label: BancorConverter
+        network: mainnet
+      "0x3a8cc07f17eb10e628c74b1a442c7adc2bfd854d":
+        label: BancorConverter
+        network: mainnet
+      "0x6ba3e97dee101edacc3b58ed59273693acb4c79e":
+        label: BancorConverter
+        network: mainnet
+      "0xb622b86a65d2fbd5d7f28803dc6e5c9810f6a746":
+        label: BancorConverter
+        network: mainnet
+      "0x5dcf7ae55c91e0216d9ff5bec88924640f1f9581":
+        label: BancorConverter
+        network: mainnet
+      "0x3cfd18f931d449405ddc26e6b5b6b90f181f5bb9":
+        label: BancorConverter
+        network: mainnet
+      "0x3a706af4bfc1d30394256a434e092e23f611e39b":
+        label: BancorConverter
+        network: mainnet
+      "0x790c95ef074b77a8f92a5163cc056f163a8631e6":
+        label: BancorConverter
+        network: mainnet
+      "0xb2ecd60764a3a800358bb252976bd57c05554b71":
+        label: BancorConverter
+        network: mainnet
+      "0xe1437f404451a00a9c555000b6f3cba2480291c8":
+        label: BancorConverter
+        network: mainnet
+      "0xf02182da935b810cdd3b5c92f324c16fc0413c3b":
+        label: BancorConverter
+        network: mainnet
+      "0x89f26fff3f690b19057e6beb7a82c5c29adfe20b":
+        label: BancorConverter
+        network: mainnet
+      "0xe037d37898e6f6ffe8ace3eb93cd0f78ff107a8e":
+        label: BancorConverter
+        network: mainnet
+      "0xacc03e1fd72cddc66c736cce84626fbc63dd953b":
+        label: BancorConverter
+        network: mainnet
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0xffd550d60f4a13290b69dea7875c7c2e591435e755d5f4e91637c772ca45e573"
+BancorConverter_2:
+  addresses:
+    "*": {}
+    mainnet:
+      "0xd3ec78814966ca1eb4c923af4da86bf7e6c743ba":
+        network: mainnet
+        label: BancorConverter
+      "0x0f4063bc044a4ce02f075293f50cd72850553acb":
+        label: BancorConverter
+        network: mainnet
+      "0xd99b0efeea095b87c5ad8bcc8b955ed5ca5ba146":
+        label: BancorConverter
+        network: mainnet
+      "0xc4bf6dc46537aa77428cd87cfe57d817e76285a2":
+        label: BancorConverter
+        network: mainnet
+      "0x2727da5fb75aa61876ad90ec09c031c01919176b":
+        label: BancorConverter
+        network: mainnet
+      "0xfdc38f68177634317146431e834f0838d4d0dfd3":
+        label: BancorConverter
+        network: mainnet
+      "0x86a43a57cc762472b01d50009c4ed7c1ccd77c28":
+        label: BancorConverter
+        network: mainnet
+      "0x5caa37cba585c216d39e3a02d8c0dfd4843ca5f9":
+        label: BancorConverter
+        network: mainnet
+      "0xdba193795e33b445b8c215252b0055a58db4f0af":
+        label: BancorConverter
+        network: mainnet
+      "0x12c8c7db420fa1d76fe8c7187658a40710e5ed46":
+        label: BancorConverter
+        network: mainnet
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0x930c23d33621ddf6c4b69ba60ebc59366f4d5e24f1bccdab1c7f742b305b0ea7"
+BancorConverter_3:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x220c400bc0a4347276b432843cf293f1fac6762a":
+        network: mainnet
+        label: BancorConverter
+      "0xc0b6d74940601af8a8e720a9974e95dda88b41b8":
+        label: BancorConverter
+        network: mainnet
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0xe7e19255adceff93cbc7210eb5d37b0020ade5c49b58eaf83d83c22631ee80dd"
+BancorConverter_4:
+  addresses:
+    "*": {}
+    mainnet:
+      "0xceab75d622feeabf02a2a3d40af00956f0707702":
+        network: mainnet
+        label: BancorConverter
+      "0x5d5c737dd3e2314b31bce6c15acc6dbb40020cab":
+        label: BancorConverter
+        network: mainnet
+      "0x43c552eb8669d60929ce3d41f4632fe3b6cb79f2":
+        label: BancorConverter
+        network: mainnet
+      "0x21685ee264580020135ae2866bb9e32cb5b1e8e7":
+        label: BancorConverter
+        network: mainnet
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0x62defd3507b917996b33c25fdd3f85d655008b4179416c573ffc5db071acfd45"
+EtherToken:
+  addresses:
+    "*": {}
+    mainnet:
+      "0xc0829421c1d260bd3cb3e0f06cfe2d52db2ce315":
+        network: mainnet
+        label: EtherToken
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0xa97e7b5fafbaaae7f264dcaba4415e7374db347150d7ef446afadcdcc238d4d6"
+SmartToken:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c":
+        network: mainnet
+        label: SmartToken
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0xf1495e99bb63cf244df1a4e88c356e556d15497028e15842edccb032e3463bb4"

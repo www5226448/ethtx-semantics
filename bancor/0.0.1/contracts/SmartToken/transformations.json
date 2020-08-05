@@ -1,0 +1,12 @@
+{
+  "0x9a1b418bc061a5d80270261562e6986a35d995f8051145f277be16103abd3453": {
+    "name": "Destruction",
+    "arguments": {
+      "_amount": {
+        "path": "_amount",
+        "type": "uint256",
+        "value": "_amount / 10**18"
+      }
+    }
+  }
+}

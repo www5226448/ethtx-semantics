@@ -1,0 +1,37 @@
+{
+  "0x276856b36cbc45526a0ba64f44611557a2a8b68662c5388e9fe6d72e86e1c8cb": {
+    "name": "Conversion",
+    "arguments": {
+      "_amount": {
+        "path": "_amount",
+        "type": "uint256",
+        "value": "_amount / 10**18"
+      },
+      "_return": {
+        "path": "_return",
+        "type": "uint256",
+        "value": "_return / 10**18"
+      },
+      "_conversionFee": {
+        "path": "_conversionFee",
+        "type": "uint256",
+        "value": "_conversionFee / 10**18"
+      }
+    }
+  },
+  "0x8a6a7f53b3c8fa1dc4b83e3f1be668c1b251ff8d44cdcb83eb3acec3fec6a788": {
+    "name": "PriceDataUpdate",
+    "arguments": {
+      "_tokenSupply": {
+        "path": "_tokenSupply",
+        "type": "uint256",
+        "value": "_tokenSupply / 10**18"
+      },
+      "_connectorBalance": {
+        "path": "_connectorBalance",
+        "type": "uint256",
+        "value": "_connectorBalance / 10**18"
+      }
+    }
+  }
+}
