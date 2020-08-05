@@ -1,0 +1,33 @@
+DeFiSaverExchange:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x64c5cc449bd253d7fd57751c9080accd0216126d":
+        network: mainnet
+        label: SaverExchange
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0x0f07a65d324ab7b2cf44825e995bce2b90955e07227561e49c1b330444c01176"
+DeFiSaverProxy:
+  addresses:
+    "*": {}
+    mainnet:
+      "0xb88c8df4cb3291b808292938a334e2ca5652af72":
+        network: mainnet
+        label: SaverProxy
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0xeebb0138c294a4a5a6641f5eec3056fa09c80b3b30f0fe8e6e35a45cbb68ee9c"
+MCDMonitorProxyV2:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x47d9f61badec4378842d809077a5e87b9c996898":
+        network: mainnet
+        label: MCDMonitorProxyV2
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0x187cb54ac6ee00d2433374a424b9eb05902fd27622963106c08dbdd8e87eaa12"

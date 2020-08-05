@@ -1,0 +1,12 @@
+{
+  "0x8a0e833f": {
+    "arguments": {
+      "_data": {
+        "path": "_data",
+        "type": "string",
+        "value": "_print_input(_owner, _data, _transaction, network)"
+      }
+    },
+    "name": "callExecute"
+  }
+}

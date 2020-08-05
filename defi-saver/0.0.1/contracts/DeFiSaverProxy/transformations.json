@@ -1,0 +1,17 @@
+{
+  "0x67dc7736": {
+    "name": "boost",
+    "arguments": {
+      "_amount": {
+        "path": "_amount",
+        "type": "uint256",
+        "value": "_amount / 10**18"
+      },
+      "_minPrice": {
+        "path": "_minPrice",
+        "type": "uint256",
+        "value": "_minPrice / 10**18"
+      }
+    }
+  }
+}

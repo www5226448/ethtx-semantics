@@ -1,0 +1,270 @@
+{
+  "events": {
+    "0xb39c9bc43f811e1a7ce159c5f147458fdb80266bf23c17322013316e27e086d0": {
+      "anonymous": false,
+      "name": "Swap",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "src",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "dest",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "amountSold",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "amountBought",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "wrapper",
+          "type": "address"
+        }
+      ],
+      "signature": "0xb39c9bc43f811e1a7ce159c5f147458fdb80266bf23c17322013316e27e086d0"
+    }
+  },
+  "functions": {
+    "0x040141e5": {
+      "inputs": [],
+      "name": "WETH_ADDRESS",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x040141e5"
+    },
+    "0x29f7fc9e": {
+      "inputs": [],
+      "name": "KYBER_ETH_ADDRESS",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x29f7fc9e"
+    },
+    "0x2ec1f009": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_amount",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "_srcToken",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "_destToken",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "_exchangeType",
+          "type": "uint256"
+        }
+      ],
+      "name": "getBestPrice",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x2ec1f009"
+    },
+    "0x50c86de5": {
+      "inputs": [],
+      "name": "SERVICE_FEE",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x50c86de5"
+    },
+    "0x7474ff5e": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_wrapper",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "_srcToken",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "_destToken",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "_amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "getExpectedRate",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x7474ff5e"
+    },
+    "0x87407261": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_src",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "_dest",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "_amount",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "_minPrice",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "_exchangeType",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "_exchangeAddress",
+          "type": "address"
+        },
+        {
+          "dynamic": true,
+          "name": "_callData",
+          "type": "bytes"
+        },
+        {
+          "dynamic": false,
+          "name": "_0xPrice",
+          "type": "uint256"
+        }
+      ],
+      "name": "swapTokenToToken",
+      "outputs": [],
+      "signature": "0x87407261"
+    },
+    "0xa46a66c9": {
+      "inputs": [],
+      "name": "DISCOUNT_ADDRESS",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xa46a66c9"
+    },
+    "0xb175afa1": {
+      "inputs": [],
+      "name": "KYBER_WRAPPER",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xb175afa1"
+    },
+    "0xc917c2d3": {
+      "inputs": [],
+      "name": "OASIS_WRAPPER",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xc917c2d3"
+    },
+    "0xd0cc7289": {
+      "inputs": [],
+      "name": "ERC20_PROXY_0X",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xd0cc7289"
+    },
+    "0xd3661fa5": {
+      "inputs": [],
+      "name": "WALLET_ID",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xd3661fa5"
+    },
+    "0xddaa293c": {
+      "inputs": [],
+      "name": "UNISWAP_WRAPPER",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xddaa293c"
+    },
+    "fallback": {}
+  }
+}

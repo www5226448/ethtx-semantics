@@ -1,0 +1,271 @@
+{
+  "functions": {
+    "0x040141e5": {
+      "name": "WETH_ADDRESS",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x2a4c0a1a": {
+      "name": "DAI_ADDRESS",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x36e6da11": {
+      "name": "VOX_ADDRESS",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x43fb75e8": {
+      "name": "ETH2DAI_WRAPPER",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x4c3e49f0": {
+      "name": "repay",
+      "inputs": [
+        {
+          "name": "_cup",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "_amount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "_minPrice",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "_exchangeType",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x50c86de5": {
+      "name": "SERVICE_FEE",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x67dc7736": {
+      "name": "boost",
+      "inputs": [
+        {
+          "name": "_cup",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "_amount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "_minPrice",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "_exchangeType",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x730fd680": {
+      "name": "maxFreeDai",
+      "inputs": [
+        {
+          "name": "_tub",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_cup",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x825ffd92": {
+      "name": "MKR_ADDRESS",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x94bfbe74": {
+      "name": "LOGGER_ADDRESS",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xb175afa1": {
+      "name": "KYBER_WRAPPER",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xc387fd86": {
+      "name": "stabilityFeeInMkr",
+      "inputs": [
+        {
+          "name": "_tub",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_cup",
+          "type": "bytes32",
+          "dynamic": false
+        },
+        {
+          "name": "_daiRepay",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xc9fde270": {
+      "name": "PETH_ADDRESS",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xcf1d21c0": {
+      "name": "ETHER_ADDRESS",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xd325a2c1": {
+      "name": "maxFreeCollateral",
+      "inputs": [
+        {
+          "name": "_tub",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_cup",
+          "type": "bytes32",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xd3661fa5": {
+      "name": "WALLET_ID",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xddaa293c": {
+      "name": "UNISWAP_WRAPPER",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xf0d405e5": {
+      "name": "TUB_ADDRESS",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    }
+  },
+  "events": {}
+}
