@@ -1,0 +1,11 @@
+WrappedEther:
+  addresses:
+    "*": {}
+    mainnet:
+      "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2":
+        network: mainnet
+        label: WETH9
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0xd0a06b12ac47863b5c7be4185c2deaad1c61557033f56c7d4ea74429cbb25e23"
