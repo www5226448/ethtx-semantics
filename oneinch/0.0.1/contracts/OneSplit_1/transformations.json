@@ -1,0 +1,27 @@
+{
+  "0xe2a7515e": {
+    "arguments": {
+      "amount": {
+        "path": "amount",
+        "type": "uint256",
+        "value": "amount / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(fromToken, 18)"
+      },
+      "fromToken": {
+        "path": "fromToken",
+        "type": "address",
+        "value": "{'0x0000000000000000000000000000000000000000':'ETH', '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(fromToken, fromToken)"
+      },
+      "minReturn": {
+        "path": "minReturn",
+        "type": "uint256",
+        "value": "minReturn / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(toToken, 18)"
+      },
+      "toToken": {
+        "path": "toToken",
+        "type": "address",
+        "value": "{'0x0000000000000000000000000000000000000000':'ETH', '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(toToken, toToken)"
+      }
+    },
+    "name": "swap"
+  }
+}

@@ -1,0 +1,11 @@
+ParaSwap:
+  addresses:
+    "*": {}
+    mainnet:
+      "0xf92c1ad75005e6436b4ee84e88cb23ed8a290988":
+        network: mainnet
+        label: ParaSwap
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0xffee4cff50a897249f9d618ecc4b377d5ee21d872ac2d5e99e1a789547e6f806"

@@ -1,0 +1,652 @@
+{
+  "events": {
+    "0x4426aa1fb73e391071491fcfe21a88b5c38a0a0333a1f6e77161470439704cf8": {
+      "anonymous": false,
+      "name": "Shutdown",
+      "parameters": [],
+      "signature": "0x4426aa1fb73e391071491fcfe21a88b5c38a0a0333a1f6e77161470439704cf8"
+    },
+    "0x894dbf1262199c24e1750298a384c709160f49d163422cc6cee694c73713f1d2": {
+      "anonymous": false,
+      "name": "History",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "sender",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "fromToken",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "toToken",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "fromAmount",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "toAmount",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x894dbf1262199c24e1750298a384c709160f49d163422cc6cee694c73713f1d2"
+    },
+    "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0": {
+      "anonymous": false,
+      "name": "OwnershipTransferred",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "previousOwner",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "signature": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0"
+    },
+    "0xe2cee3f6836059820b673943853afebd9b3026125dab0d774284e6f28a4855be": {
+      "anonymous": false,
+      "name": "Swapped",
+      "parameters": [
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "fromToken",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "toToken",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": true,
+          "name": "referrer",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "fromAmount",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "toAmount",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "referrerFee",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "indexed": false,
+          "name": "fee",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xe2cee3f6836059820b673943853afebd9b3026125dab0d774284e6f28a4855be"
+    }
+  },
+  "functions": {
+    "0x715018a6": {
+      "inputs": [],
+      "name": "renounceOwnership",
+      "outputs": [],
+      "signature": "0x715018a6"
+    },
+    "0x71a2039a": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "zrx",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "zrxTokenProxy",
+          "type": "address"
+        },
+        {
+          "components": [
+            {
+              "dynamic": false,
+              "name": "makerAddress",
+              "type": "address"
+            },
+            {
+              "dynamic": false,
+              "name": "takerAddress",
+              "type": "address"
+            },
+            {
+              "dynamic": false,
+              "name": "feeRecipientAddress",
+              "type": "address"
+            },
+            {
+              "dynamic": false,
+              "name": "senderAddress",
+              "type": "address"
+            },
+            {
+              "dynamic": false,
+              "name": "makerAssetAmount",
+              "type": "uint256"
+            },
+            {
+              "dynamic": false,
+              "name": "takerAssetAmount",
+              "type": "uint256"
+            },
+            {
+              "dynamic": false,
+              "name": "makerFee",
+              "type": "uint256"
+            },
+            {
+              "dynamic": false,
+              "name": "takerFee",
+              "type": "uint256"
+            },
+            {
+              "dynamic": false,
+              "name": "expirationTimeSeconds",
+              "type": "uint256"
+            },
+            {
+              "dynamic": false,
+              "name": "salt",
+              "type": "uint256"
+            },
+            {
+              "dynamic": true,
+              "name": "makerAssetData",
+              "type": "bytes"
+            },
+            {
+              "dynamic": true,
+              "name": "takerAssetData",
+              "type": "bytes"
+            }
+          ],
+          "dynamic": true,
+          "name": "orders",
+          "type": "tuple[]"
+        }
+      ],
+      "name": "getOrdersInfoRespectingBalancesAndAllowances",
+      "outputs": [
+        {
+          "components": [
+            {
+              "dynamic": false,
+              "name": "orderStatus",
+              "type": "uint8"
+            },
+            {
+              "dynamic": false,
+              "name": "orderHash",
+              "type": "bytes32"
+            },
+            {
+              "dynamic": false,
+              "name": "orderTakerAssetFilledAmount",
+              "type": "uint256"
+            }
+          ],
+          "dynamic": true,
+          "name": "ordersInfo",
+          "type": "tuple[]"
+        }
+      ],
+      "signature": "0x71a2039a"
+    },
+    "0x8da5cb5b": {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x8da5cb5b"
+    },
+    "0x8f32d59b": {
+      "inputs": [],
+      "name": "isOwner",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "signature": "0x8f32d59b"
+    },
+    "0xa96c400e": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "tokenSell",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "tokenBuy",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "zrxExchange",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "zrxTokenProxy",
+          "type": "address"
+        },
+        {
+          "components": [
+            {
+              "dynamic": false,
+              "name": "makerAddress",
+              "type": "address"
+            },
+            {
+              "dynamic": false,
+              "name": "takerAddress",
+              "type": "address"
+            },
+            {
+              "dynamic": false,
+              "name": "feeRecipientAddress",
+              "type": "address"
+            },
+            {
+              "dynamic": false,
+              "name": "senderAddress",
+              "type": "address"
+            },
+            {
+              "dynamic": false,
+              "name": "makerAssetAmount",
+              "type": "uint256"
+            },
+            {
+              "dynamic": false,
+              "name": "takerAssetAmount",
+              "type": "uint256"
+            },
+            {
+              "dynamic": false,
+              "name": "makerFee",
+              "type": "uint256"
+            },
+            {
+              "dynamic": false,
+              "name": "takerFee",
+              "type": "uint256"
+            },
+            {
+              "dynamic": false,
+              "name": "expirationTimeSeconds",
+              "type": "uint256"
+            },
+            {
+              "dynamic": false,
+              "name": "salt",
+              "type": "uint256"
+            },
+            {
+              "dynamic": true,
+              "name": "makerAssetData",
+              "type": "bytes"
+            },
+            {
+              "dynamic": true,
+              "name": "takerAssetData",
+              "type": "bytes"
+            }
+          ],
+          "dynamic": true,
+          "name": "orders",
+          "type": "tuple[]"
+        },
+        {
+          "dynamic": true,
+          "name": "signatures",
+          "type": "bytes[]"
+        },
+        {
+          "dynamic": false,
+          "name": "mul",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "div",
+          "type": "uint256"
+        }
+      ],
+      "name": "marketSellOrdersProportion",
+      "outputs": [],
+      "signature": "0xa96c400e"
+    },
+    "0xae4dd0fc": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "token",
+          "type": "address"
+        }
+      ],
+      "name": "withdrawAllToken",
+      "outputs": [],
+      "signature": "0xae4dd0fc"
+    },
+    "0xbf86d690": {
+      "inputs": [],
+      "name": "isShutdown",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "signature": "0xbf86d690"
+    },
+    "0xc9b27359": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "to",
+          "type": "address"
+        }
+      ],
+      "name": "infiniteApproveIfNeeded",
+      "outputs": [],
+      "signature": "0xc9b27359"
+    },
+    "0xe8edc816": {
+      "inputs": [],
+      "name": "spender",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xe8edc816"
+    },
+    "0xf2fde38b": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "transferOwnership",
+      "outputs": [],
+      "signature": "0xf2fde38b"
+    },
+    "0xf88309d7": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "fromToken",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "toToken",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "fromTokenAmount",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "minReturnAmount",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "guaranteedAmount",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "referrer",
+          "type": "address"
+        },
+        {
+          "dynamic": true,
+          "name": "callAddresses",
+          "type": "address[]"
+        },
+        {
+          "dynamic": true,
+          "name": "callDataConcat",
+          "type": "bytes"
+        },
+        {
+          "dynamic": true,
+          "name": "starts",
+          "type": "uint256[]"
+        },
+        {
+          "dynamic": true,
+          "name": "gasLimitsAndValues",
+          "type": "uint256[]"
+        }
+      ],
+      "name": "swap",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "returnAmount",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xf88309d7"
+    },
+    "0xfc0e74d1": {
+      "inputs": [],
+      "name": "shutdown",
+      "outputs": [],
+      "signature": "0xfc0e74d1"
+    },
+    "0xfcc06f8e": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "makerAsset",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "zrxExchange",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "zrxTokenProxy",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "takerAssetFillAmount",
+          "type": "uint256"
+        },
+        {
+          "components": [
+            {
+              "dynamic": false,
+              "name": "makerAddress",
+              "type": "address"
+            },
+            {
+              "dynamic": false,
+              "name": "takerAddress",
+              "type": "address"
+            },
+            {
+              "dynamic": false,
+              "name": "feeRecipientAddress",
+              "type": "address"
+            },
+            {
+              "dynamic": false,
+              "name": "senderAddress",
+              "type": "address"
+            },
+            {
+              "dynamic": false,
+              "name": "makerAssetAmount",
+              "type": "uint256"
+            },
+            {
+              "dynamic": false,
+              "name": "takerAssetAmount",
+              "type": "uint256"
+            },
+            {
+              "dynamic": false,
+              "name": "makerFee",
+              "type": "uint256"
+            },
+            {
+              "dynamic": false,
+              "name": "takerFee",
+              "type": "uint256"
+            },
+            {
+              "dynamic": false,
+              "name": "expirationTimeSeconds",
+              "type": "uint256"
+            },
+            {
+              "dynamic": false,
+              "name": "salt",
+              "type": "uint256"
+            },
+            {
+              "dynamic": true,
+              "name": "makerAssetData",
+              "type": "bytes"
+            },
+            {
+              "dynamic": true,
+              "name": "takerAssetData",
+              "type": "bytes"
+            }
+          ],
+          "dynamic": true,
+          "name": "orders",
+          "type": "tuple[]"
+        },
+        {
+          "dynamic": true,
+          "name": "signatures",
+          "type": "bytes[]"
+        }
+      ],
+      "name": "marketSellOrders",
+      "outputs": [
+        {
+          "components": [
+            {
+              "dynamic": false,
+              "name": "makerAssetFilledAmount",
+              "type": "uint256"
+            },
+            {
+              "dynamic": false,
+              "name": "takerAssetFilledAmount",
+              "type": "uint256"
+            },
+            {
+              "dynamic": false,
+              "name": "makerFeePaid",
+              "type": "uint256"
+            },
+            {
+              "dynamic": false,
+              "name": "takerFeePaid",
+              "type": "uint256"
+            }
+          ],
+          "dynamic": false,
+          "name": "totalFillResults",
+          "type": "tuple"
+        }
+      ],
+      "signature": "0xfcc06f8e"
+    },
+    "constructor": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_owner",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "_gasToken",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "_fee",
+          "type": "uint256"
+        }
+      ],
+      "name": "constructor",
+      "outputs": [],
+      "signature": "constructor"
+    },
+    "fallback": {}
+  }
+}

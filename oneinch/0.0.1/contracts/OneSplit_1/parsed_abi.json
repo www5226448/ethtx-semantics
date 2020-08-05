@@ -1,0 +1,1082 @@
+{
+  "events": {},
+  "functions": {
+    "0x05d8aa0a": {
+      "inputs": [],
+      "name": "FLAG_ENABLE_UNISWAP_CHAI",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x05d8aa0a"
+    },
+    "0x085e2c5b": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "fromToken",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "toToken",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "parts",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "flags",
+          "type": "uint256"
+        }
+      ],
+      "name": "getExpectedReturn",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "returnAmount",
+          "type": "uint256"
+        },
+        {
+          "dynamic": true,
+          "name": "distribution",
+          "type": "uint256[]"
+        }
+      ],
+      "signature": "0x085e2c5b"
+    },
+    "0x12dea160": {
+      "inputs": [],
+      "name": "bancorContractRegistry",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x12dea160"
+    },
+    "0x1388b420": {
+      "inputs": [],
+      "name": "oasisExchange",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x1388b420"
+    },
+    "0x13989140": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_CURVE_USDT",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x13989140"
+    },
+    "0x1d209b65": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_UNISWAP_V2_ETH",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x1d209b65"
+    },
+    "0x2113240d": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_CURVE_BINANCE",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x2113240d"
+    },
+    "0x21899d3a": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_DFORCE_SWAP",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x21899d3a"
+    },
+    "0x21a360f5": {
+      "inputs": [],
+      "name": "FLAG_ENABLE_KYBER_OASIS_RESERVE",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x21a360f5"
+    },
+    "0x22320c98": {
+      "inputs": [],
+      "name": "curveSynthetix",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x22320c98"
+    },
+    "0x27a7fbd5": {
+      "inputs": [],
+      "name": "FLAG_ENABLE_MULTI_PATH_USDT",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x27a7fbd5"
+    },
+    "0x2ceb90b8": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_SHELL",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x2ceb90b8"
+    },
+    "0x2d3b5207": {
+      "inputs": [],
+      "name": "FLAG_ENABLE_KYBER_UNISWAP_RESERVE",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x2d3b5207"
+    },
+    "0x2e707bd2": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_AAVE",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x2e707bd2"
+    },
+    "0x2f0fe755": {
+      "inputs": [],
+      "name": "hbtc",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x2f0fe755"
+    },
+    "0x2f48ab7d": {
+      "inputs": [],
+      "name": "usdt",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x2f48ab7d"
+    },
+    "0x34b4dabb": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_CHAI",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x34b4dabb"
+    },
+    "0x372a26cb": {
+      "inputs": [],
+      "name": "curveBinance",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x372a26cb"
+    },
+    "0x376e55b7": {
+      "inputs": [],
+      "name": "FLAG_ENABLE_MULTI_PATH_TBTC",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x376e55b7"
+    },
+    "0x3ca5b234": {
+      "inputs": [],
+      "name": "busd",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x3ca5b234"
+    },
+    "0x3cdc5389": {
+      "inputs": [],
+      "name": "wbtc",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x3cdc5389"
+    },
+    "0x3e413bee": {
+      "inputs": [],
+      "name": "usdc",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x3e413bee"
+    },
+    "0x3fc8cef3": {
+      "inputs": [],
+      "name": "weth",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x3fc8cef3"
+    },
+    "0x40ab7b8c": {
+      "inputs": [],
+      "name": "bnt",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x40ab7b8c"
+    },
+    "0x423d03f9": {
+      "inputs": [],
+      "name": "curveY",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x423d03f9"
+    },
+    "0x44211d62": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_COMPOUND",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x44211d62"
+    },
+    "0x4752c680": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_UNISWAP_V2_ALL",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x4752c680"
+    },
+    "0x4a7101d5": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_FULCRUM",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x4a7101d5"
+    },
+    "0x5187c091": {
+      "inputs": [],
+      "name": "uniswapV2",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x5187c091"
+    },
+    "0x51f1985c": {
+      "inputs": [],
+      "name": "curveCompound",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x51f1985c"
+    },
+    "0x52a701b4": {
+      "inputs": [],
+      "name": "pax",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x52a701b4"
+    },
+    "0x5aa8fb48": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_CURVE_Y",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x5aa8fb48"
+    },
+    "0x5ae51b82": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_IEARN",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x5ae51b82"
+    },
+    "0x5c0cb479": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_OASIS",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x5c0cb479"
+    },
+    "0x64ec4e5c": {
+      "inputs": [],
+      "name": "FLAG_ENABLE_MULTI_PATH_USDC",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x64ec4e5c"
+    },
+    "0x68e2a014": {
+      "inputs": [],
+      "name": "FLAG_ENABLE_UNISWAP_COMPOUND",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x68e2a014"
+    },
+    "0x6cbc4a6e": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_WETH",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x6cbc4a6e"
+    },
+    "0x75a8b012": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_BDAI",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x75a8b012"
+    },
+    "0x75b5be2d": {
+      "inputs": [],
+      "name": "tusd",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x75b5be2d"
+    },
+    "0x76c39726": {
+      "inputs": [],
+      "name": "FLAG_ENABLE_MULTI_PATH_RENBTC",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x76c39726"
+    },
+    "0x792e69d7": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_CURVE_RENBTC",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x792e69d7"
+    },
+    "0x7a88bdbd": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_KYBER",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x7a88bdbd"
+    },
+    "0x7e09b9c2": {
+      "inputs": [],
+      "name": "FLAG_ENABLE_UNISWAP_AAVE",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0x7e09b9c2"
+    },
+    "0x819faf7b": {
+      "inputs": [],
+      "name": "aave",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x819faf7b"
+    },
+    "0x851954fa": {
+      "inputs": [],
+      "name": "bancorEtherToken",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x851954fa"
+    },
+    "0x8bdb2afa": {
+      "inputs": [],
+      "name": "uniswapFactory",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x8bdb2afa"
+    },
+    "0x90354872": {
+      "inputs": [],
+      "name": "renbtc",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x90354872"
+    },
+    "0x960d2c19": {
+      "inputs": [],
+      "name": "dforceSwap",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0x960d2c19"
+    },
+    "0xa1b4d011": {
+      "inputs": [],
+      "name": "cETH",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xa1b4d011"
+    },
+    "0xa2878cb1": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_ALL_WRAP_SOURCES",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xa2878cb1"
+    },
+    "0xa4792ab3": {
+      "inputs": [],
+      "name": "mooniswapRegistry",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xa4792ab3"
+    },
+    "0xa734f06e": {
+      "inputs": [],
+      "name": "ETH_ADDRESS",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xa734f06e"
+    },
+    "0xb0a7ef29": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_CURVE_COMPOUND",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xb0a7ef29"
+    },
+    "0xb184a3ae": {
+      "inputs": [],
+      "name": "curvePax",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xb184a3ae"
+    },
+    "0xb3bc7844": {
+      "inputs": [],
+      "name": "FLAG_ENABLE_KYBER_BANCOR_RESERVE",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xb3bc7844"
+    },
+    "0xb69d0456": {
+      "inputs": [],
+      "name": "chai",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xb69d0456"
+    },
+    "0xbf2c5a07": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_UNISWAP_V2_DAI",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xbf2c5a07"
+    },
+    "0xc762a46c": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_UNISWAP",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xc762a46c"
+    },
+    "0xc77b9de6": {
+      "inputs": [],
+      "name": "FLAG_ENABLE_MULTI_PATH_ETH",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xc77b9de6"
+    },
+    "0xc7f112e4": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_CURVE_PAX",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xc7f112e4"
+    },
+    "0xc9257775": {
+      "inputs": [],
+      "name": "susd",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xc9257775"
+    },
+    "0xc989b667": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_IDLE",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xc989b667"
+    },
+    "0xc9b42c67": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_CURVE_SYNTHETIX",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xc9b42c67"
+    },
+    "0xcc26e9fc": {
+      "inputs": [],
+      "name": "DEXES_COUNT",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xcc26e9fc"
+    },
+    "0xcd240d75": {
+      "inputs": [],
+      "name": "curveTBtc",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xcd240d75"
+    },
+    "0xce74b7ac": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_UNISWAP_V2",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xce74b7ac"
+    },
+    "0xcede5f6a": {
+      "inputs": [],
+      "name": "curveUsdt",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xcede5f6a"
+    },
+    "0xd393c3e9": {
+      "inputs": [],
+      "name": "FLAG_ENABLE_MULTI_PATH_DAI",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xd393c3e9"
+    },
+    "0xd70a2d1f": {
+      "inputs": [],
+      "name": "bancorConverterRegistry",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xd70a2d1f"
+    },
+    "0xd77366a4": {
+      "inputs": [],
+      "name": "kyberNetworkProxy",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xd77366a4"
+    },
+    "0xdc1536b2": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_SMART_TOKEN",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xdc1536b2"
+    },
+    "0xddd2f8d0": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_CURVE_TBTC",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xddd2f8d0"
+    },
+    "0xdf1b4e99": {
+      "inputs": [],
+      "name": "FLAG_ENABLE_MULTI_PATH_WBTC",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xdf1b4e99"
+    },
+    "0xe0de8f22": {
+      "inputs": [],
+      "name": "curveRenBtc",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xe0de8f22"
+    },
+    "0xe1308b33": {
+      "inputs": [],
+      "name": "tbtc",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xe1308b33"
+    },
+    "0xe2a7515e": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "fromToken",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "toToken",
+          "type": "address"
+        },
+        {
+          "dynamic": false,
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "dynamic": false,
+          "name": "minReturn",
+          "type": "uint256"
+        },
+        {
+          "dynamic": true,
+          "name": "distribution",
+          "type": "uint256[]"
+        },
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "swap",
+      "outputs": [],
+      "signature": "0xe2a7515e"
+    },
+    "0xe3558123": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_UNISWAP_V2_USDC",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xe3558123"
+    },
+    "0xe44987b4": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_ALL_SPLIT_SOURCES",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xe44987b4"
+    },
+    "0xf11d2ff4": {
+      "inputs": [],
+      "name": "shell",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xf11d2ff4"
+    },
+    "0xf4b9fa75": {
+      "inputs": [],
+      "name": "dai",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xf4b9fa75"
+    },
+    "0xf56e281f": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_BANCOR",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xf56e281f"
+    },
+    "0xf69e2046": {
+      "inputs": [],
+      "name": "compound",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xf69e2046"
+    },
+    "0xfa3f110b": {
+      "inputs": [],
+      "name": "FLAG_DISABLE_MOONISWAP",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "signature": "0xfa3f110b"
+    },
+    "0xfbe4ed95": {
+      "inputs": [],
+      "name": "oneSplitView",
+      "outputs": [
+        {
+          "dynamic": false,
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "signature": "0xfbe4ed95"
+    },
+    "constructor": {
+      "inputs": [
+        {
+          "dynamic": false,
+          "name": "_oneSplitView",
+          "type": "address"
+        }
+      ],
+      "name": "constructor",
+      "outputs": [],
+      "signature": "constructor"
+    },
+    "fallback": {}
+  }
+}

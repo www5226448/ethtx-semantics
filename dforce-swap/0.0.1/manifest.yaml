@@ -1,0 +1,11 @@
+dForceSwap:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x03ef3f37856bd08eb47e2de7abc4ddd2c19b60f2":
+        network: mainnet
+        label: dForceSwap
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0x1c016aa495727320abe1ec0eccd465b630a8e39ac4e3877d4b3170a642e5c406"

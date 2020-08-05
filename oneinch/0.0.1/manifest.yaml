@@ -1,0 +1,44 @@
+OneInchExchange:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x11111254369792b2ca5d084ab5eea397ca8fa48b":
+        network: mainnet
+        label: OneInchExchange
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0x56d1f8b8bfde8b9aab0627cdeb85b0cba0b2e015f2ac25b8f91e5ec171b48dad"
+OneSplit_1:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x0090db2f1171e6134961bc1db52ea916fbb2edac":
+        network: mainnet
+        label: OneSplit
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0x1bb8e28ecf5fde2d717c471f3aada255e80bf3ca14d870b398f774e2c39ea109"
+OneSplit_2:
+  addresses:
+    "*": {}
+    mainnet:
+      "0xcf8a85fc1cbefa2f8502c7334e9f58d6adabe2c3":
+        network: mainnet
+        label: OneSplit
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0xde14a2c9dccb4b73db9b135199df118bb62bf4f7cd0b6547eaa48225aaea9559"
+OneSplit_3:
+  addresses:
+    "*": {}
+    mainnet:
+      "0x3a2d9db352580eb50018fc86eae32e19070a9982":
+        network: mainnet
+        label: OneSplit
+    ropsten: {}
+    kovan: {}
+  applicable_to_contracts_with_code_hash:
+    - "0xbc2e5424ae2c6f60700d6be0226c296b72a6289d0acc6dcf615c045a4de16562"
