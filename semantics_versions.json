@@ -1,10 +1,21 @@
 {
   "makerdao": "1.0.8",
   "0x": "0.0.1",
+  "argent": "0.0.1",
   "augur": "0.0.1",
+  "balancer": "0.0.1",
   "bancor": "0.0.1",
+  "compound": "0.0.1",
   "curvefi": "0.0.1",
+  "defi-saver": "0.0.1",
+  "dex-ag": "0.0.1",
+  "dforce-swap": "0.0.1",
   "dydx": "0.0.1",
   "kyber": "0.0.1",
-  "uniswap": "0.0.1"
+  "nuo-network": "0.0.1",
+  "oasis": "0.0.1",
+  "oneinch": "0.0.1",
+  "paraswap": "0.0.1",
+  "uniswap": "0.0.1",
+  "wrapped-ether": "0.0.1"
 }
