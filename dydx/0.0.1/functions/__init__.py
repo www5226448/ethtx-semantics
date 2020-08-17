@@ -1,6 +1,7 @@
 from enum import Enum
 
-def dydx_parse_signed_number(argument, decimals=None):
+
+def dydx_parse_signed_number(_registry, _transaction, argument, decimals=None):
   is_plus = argument['value'][0]['value']
   number = argument['value'][1]['value']
 
@@ -8,9 +9,11 @@ def dydx_parse_signed_number(argument, decimals=None):
   if not decimals:
     decimals = 0
 
-  return sign * number / 10 ** decimals
+  return sign * number / 10**decimals
 
-def dydx_parse_asset_amount(asset_amount):
+
+def dydx_parse_asset_amount(_registry, _transaction, asset_amount):
+
   class AssetDenomination(Enum):
     Wei = 0
     Par = 1
@@ -35,7 +38,7 @@ def dydx_parse_asset_amount(asset_amount):
   value = asset_amount['value'][3]['value']
 
   if denomination == AssetDenomination.Wei:
-    value = sign * value / 10 ** 18
+    value = sign * value / 10**18
   else:
     value = sign * value
 
@@ -47,7 +50,9 @@ def dydx_parse_asset_amount(asset_amount):
   asset_amount['type'] = "string"
   return asset_amount
 
-def dydx_parse_market(market_argument):
+
+def dydx_parse_market(_registry, _transaction, market_argument):
+
   class DyDxMarket(Enum):
     WETH = 0
     SAI = 1
@@ -60,7 +65,9 @@ def dydx_parse_market(market_argument):
   except:
     market_argument['value'] = f"Unkown Market ({value})"
 
-def dydx_parse_operate(actions):
+
+def dydx_parse_operate(_registry, _transaction, actions):
+
   class ActionType(Enum):
     Deposit = 0
     Withdraw = 1
@@ -112,7 +119,6 @@ def dydx_parse_operate(actions):
     action[6]['type'] = "ignore"
     action[7]['name'] = "orderData"
 
-
   def _parse_sell_args():
     action[0]['value'] = ActionType.Sell.name
     action[1]['name'] = "account"
@@ -153,16 +159,15 @@ def dydx_parse_operate(actions):
     action[6]['name'] = "vaporAccount"
     action[7]['type'] = "ignore"
 
-
   def _parse_call_args():
     return None
 
   def _parse(action):
     action_type = action[0]['value']
 
-    dydx_parse_asset_amount(action[2])
-    dydx_parse_market(action[3])
-    dydx_parse_market(action[4])
+    dydx_parse_asset_amount(_registry, _transaction, action[2])
+    dydx_parse_market(_registry, _transaction, action[3])
+    dydx_parse_market(_registry, _transaction, action[4])
 
     if action_type == ActionType.Deposit.value:
       _parse_deposit_args()
