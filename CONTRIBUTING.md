@@ -53,4 +53,28 @@ cube
     - manifest.yaml
 ```
 
-11. Create a pull request with your semantics changes. Be patient and respond to any questions during the code review.
+11. In the top directory of the repository is a file named `semantics_versions.json`. Add your project with the correct version to it. In the example it should look like this:
+
+```json
+{
+  ...
+  "cube" : "0.0.1",
+  ...
+}
+```
+
+12. Create a pull request with your semantics changes. Be patient and respond to any questions during the code review.
+
+# How to create a new version of the existing semantics?
+
+1. Copy the directory with the previous version of the semantics and name it with a higher number according to the [semantics versioning](https://semver.org/). For example: you copy the `1.0.8` version of the semantics and you will add minor changes as a directory `1.0.9`.
+
+2. Apply your changes. Edit existing semantics, add a new semantics, add addresses to the existing semantics, introduce a new functions available for transformations.
+
+3. Bump the version of the semantics in the `semantics_versions.json` in the directory of the repository.
+
+4. Create a Pull Request with your changes. Be patient and respond to any questions during the code review.
+
+# Can I edit exiting version of the semantics?
+
+Yes, as long as add new addresses for the exiting semantics or add new version of optional semantics files.
