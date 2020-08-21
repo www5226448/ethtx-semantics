@@ -305,4 +305,4 @@ If you deploy your own instance of the EthTx decoder you can pin the version of 
 }
 ```
 
-then the deployed EthTx decoder will use `makerdao/1.0.8` semantics _and_ all other semantics defined in the `semantics_versions.json` file.
+Then the deployed EthTx decoder will use `makerdao/1.0.8` semantics _and_ all other semantics defined in the `semantics_versions.json` file.
