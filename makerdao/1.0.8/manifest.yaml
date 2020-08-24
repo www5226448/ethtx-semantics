@@ -384,7 +384,7 @@ Flipper:
     mainnet:
       "0xd8a04F5412223F513DC55F839574430f5EC15531":
         network: mainnet
-        label: Flipper_test
+        label: Flipper
       "0xaA745404d55f88C108A28c86abE7b5A1E7817c07":
         network: mainnet
         label: MCD_Flipper
