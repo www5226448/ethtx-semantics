@@ -1,0 +1,770 @@
+{
+  "functions": {
+    "constructor": {
+      "signature": "constructor",
+      "name": "constructor",
+      "inputs": [
+        {
+          "name": "_admin",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x408ee7fe": {
+      "signature": "0x408ee7fe",
+      "name": "addAlerter",
+      "inputs": [
+        {
+          "name": "newAlerter",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x9870d7fe": {
+      "signature": "0x9870d7fe",
+      "name": "addOperator",
+      "inputs": [
+        {
+          "name": "newOperator",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xf851a440": {
+      "signature": "0xf851a440",
+      "name": "admin",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x77f50f97": {
+      "signature": "0x77f50f97",
+      "name": "claimAdmin",
+      "inputs": [],
+      "outputs": []
+    },
+    "0x238dafe0": {
+      "signature": "0x238dafe0",
+      "name": "enabled",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x7c423f54": {
+      "signature": "0x7c423f54",
+      "name": "getAlerters",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address[]",
+          "dynamic": true
+        }
+      ]
+    },
+    "0x809a9e55": {
+      "signature": "0x809a9e55",
+      "name": "getExpectedRate",
+      "inputs": [
+        {
+          "name": "src",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "dest",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "srcQty",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "expectedRate",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "worstRate",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x418436bc": {
+      "signature": "0x418436bc",
+      "name": "getExpectedRateAfterFee",
+      "inputs": [
+        {
+          "name": "src",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "dest",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "srcQty",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "platformFeeBps",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "hint",
+          "type": "bytes",
+          "dynamic": true
+        }
+      ],
+      "outputs": [
+        {
+          "name": "expectedRate",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x27a099d8": {
+      "signature": "0x27a099d8",
+      "name": "getOperators",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address[]",
+          "dynamic": true
+        }
+      ]
+    },
+    "0x13c213b7": {
+      "signature": "0x13c213b7",
+      "name": "kyberHintHandler",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xb78b842d": {
+      "signature": "0xb78b842d",
+      "name": "kyberNetwork",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x3de39c11": {
+      "signature": "0x3de39c11",
+      "name": "maxGasPrice",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x26782247": {
+      "signature": "0x26782247",
+      "name": "pendingAdmin",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x01a12fd3": {
+      "signature": "0x01a12fd3",
+      "name": "removeAlerter",
+      "inputs": [
+        {
+          "name": "alerter",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xac8a584a": {
+      "signature": "0xac8a584a",
+      "name": "removeOperator",
+      "inputs": [
+        {
+          "name": "operator",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xb85d950f": {
+      "signature": "0xb85d950f",
+      "name": "setHintHandler",
+      "inputs": [
+        {
+          "name": "_kyberHintHandler",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x54a325a6": {
+      "signature": "0x54a325a6",
+      "name": "setKyberNetwork",
+      "inputs": [
+        {
+          "name": "_kyberNetwork",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x7a2a0456": {
+      "signature": "0x7a2a0456",
+      "name": "swapEtherToToken",
+      "inputs": [
+        {
+          "name": "token",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "minConversionRate",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x3bba21dc": {
+      "signature": "0x3bba21dc",
+      "name": "swapTokenToEther",
+      "inputs": [
+        {
+          "name": "token",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "srcAmount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "minConversionRate",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x7409e2eb": {
+      "signature": "0x7409e2eb",
+      "name": "swapTokenToToken",
+      "inputs": [
+        {
+          "name": "src",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "srcAmount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "dest",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "minConversionRate",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xcb3c28c7": {
+      "signature": "0xcb3c28c7",
+      "name": "trade",
+      "inputs": [
+        {
+          "name": "src",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "srcAmount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "dest",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "destAddress",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "maxDestAmount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "minConversionRate",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "platformWallet",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x29589f61": {
+      "signature": "0x29589f61",
+      "name": "tradeWithHint",
+      "inputs": [
+        {
+          "name": "src",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "srcAmount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "dest",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "destAddress",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "maxDestAmount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "minConversionRate",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "walletId",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "hint",
+          "type": "bytes",
+          "dynamic": true
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xae591d54": {
+      "signature": "0xae591d54",
+      "name": "tradeWithHintAndFee",
+      "inputs": [
+        {
+          "name": "src",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "srcAmount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "dest",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "destAddress",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "maxDestAmount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "minConversionRate",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "platformWallet",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "platformFeeBps",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "hint",
+          "type": "bytes",
+          "dynamic": true
+        }
+      ],
+      "outputs": [
+        {
+          "name": "destAmount",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x75829def": {
+      "signature": "0x75829def",
+      "name": "transferAdmin",
+      "inputs": [
+        {
+          "name": "newAdmin",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x7acc8678": {
+      "signature": "0x7acc8678",
+      "name": "transferAdminQuickly",
+      "inputs": [
+        {
+          "name": "newAdmin",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xce56c454": {
+      "signature": "0xce56c454",
+      "name": "withdrawEther",
+      "inputs": [
+        {
+          "name": "amount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "sendTo",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x3ccdbb28": {
+      "signature": "0x3ccdbb28",
+      "name": "withdrawToken",
+      "inputs": [
+        {
+          "name": "token",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "amount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "sendTo",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    }
+  },
+  "events": {
+    "0x65da1cfc2c2e81576ad96afb24a581f8e109b7a403b35cbd3243a1c99efdb9ed": {
+      "signature": "0x65da1cfc2c2e81576ad96afb24a581f8e109b7a403b35cbd3243a1c99efdb9ed",
+      "name": "AdminClaimed",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "newAdmin",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "previousAdmin",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x5611bf3e417d124f97bf2c788843ea8bb502b66079fbee02158ef30b172cb762": {
+      "signature": "0x5611bf3e417d124f97bf2c788843ea8bb502b66079fbee02158ef30b172cb762",
+      "name": "AlerterAdded",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "newAlerter",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "isAdd",
+          "type": "bool",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0xec47e7ed86c86774d1a72c19f35c639911393fe7c1a34031fdbd260890da90de": {
+      "signature": "0xec47e7ed86c86774d1a72c19f35c639911393fe7c1a34031fdbd260890da90de",
+      "name": "EtherWithdraw",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "amount",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "sendTo",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0xf724b4df6617473612b53d7f88ecc6ea983074b30960a049fcd0657ffe808083": {
+      "signature": "0xf724b4df6617473612b53d7f88ecc6ea983074b30960a049fcd0657ffe808083",
+      "name": "ExecuteTrade",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "trader",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "src",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "dest",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "destAddress",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "actualSrcAmount",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "actualDestAmount",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "platformWallet",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "platformFeeBps",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x6deb3a98fd141d661e9c0fb2d847541cc0c629cfb100c61011a76f57cb3b3a9b": {
+      "signature": "0x6deb3a98fd141d661e9c0fb2d847541cc0c629cfb100c61011a76f57cb3b3a9b",
+      "name": "KyberHintHandlerSet",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "kyberHintHandler",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x8936e1f096bf0a8c9df862b3d1d5b82774cad78116200175f00b5b7ba3010b02": {
+      "signature": "0x8936e1f096bf0a8c9df862b3d1d5b82774cad78116200175f00b5b7ba3010b02",
+      "name": "KyberNetworkSet",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "newKyberNetwork",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "previousKyberNetwork",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x091a7a4b85135fdd7e8dbc18b12fabe5cc191ea867aa3c2e1a24a102af61d58b": {
+      "signature": "0x091a7a4b85135fdd7e8dbc18b12fabe5cc191ea867aa3c2e1a24a102af61d58b",
+      "name": "OperatorAdded",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "newOperator",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "isAdd",
+          "type": "bool",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x72cb8a894ddb372ceec3d2a7648d86f17d5a15caae0e986c53109b8a9a9385e6": {
+      "signature": "0x72cb8a894ddb372ceec3d2a7648d86f17d5a15caae0e986c53109b8a9a9385e6",
+      "name": "TokenWithdraw",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "token",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "amount",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "sendTo",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x3b81caf78fa51ecbc8acb482fd7012a277b428d9b80f9d156e8a54107496cc40": {
+      "signature": "0x3b81caf78fa51ecbc8acb482fd7012a277b428d9b80f9d156e8a54107496cc40",
+      "name": "TransferAdminPending",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "pendingAdmin",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    }
+  }
+}
