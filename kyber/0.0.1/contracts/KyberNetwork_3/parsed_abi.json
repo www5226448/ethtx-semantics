@@ -1,0 +1,957 @@
+{
+  "functions": {
+    "constructor": {
+      "signature": "constructor",
+      "name": "constructor",
+      "inputs": [
+        {
+          "name": "_admin",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_kyberStorage",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x408ee7fe": {
+      "signature": "0x408ee7fe",
+      "name": "addAlerter",
+      "inputs": [
+        {
+          "name": "newAlerter",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x52dd35b9": {
+      "signature": "0x52dd35b9",
+      "name": "addKyberProxy",
+      "inputs": [
+        {
+          "name": "kyberProxy",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x9870d7fe": {
+      "signature": "0x9870d7fe",
+      "name": "addOperator",
+      "inputs": [
+        {
+          "name": "newOperator",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xf851a440": {
+      "signature": "0xf851a440",
+      "name": "admin",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x77f50f97": {
+      "signature": "0x77f50f97",
+      "name": "claimAdmin",
+      "inputs": [],
+      "outputs": []
+    },
+    "0x238dafe0": {
+      "signature": "0x238dafe0",
+      "name": "enabled",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x7c423f54": {
+      "signature": "0x7c423f54",
+      "name": "getAlerters",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address[]",
+          "dynamic": true
+        }
+      ]
+    },
+    "0xdbe2dc9b": {
+      "signature": "0xdbe2dc9b",
+      "name": "getAndUpdateNetworkFee",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "networkFeeBps",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xc3a2a93a": {
+      "signature": "0xc3a2a93a",
+      "name": "getContracts",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "kyberFeeHandlerAddress",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "kyberDaoAddress",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "kyberMatchingEngineAddress",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "kyberStorageAddress",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "gasHelperAddress",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "kyberProxyAddresses",
+          "type": "address[]",
+          "dynamic": true
+        }
+      ]
+    },
+    "0x809a9e55": {
+      "signature": "0x809a9e55",
+      "name": "getExpectedRate",
+      "inputs": [
+        {
+          "name": "src",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "dest",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "srcQty",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "expectedRate",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "worstRate",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x8ff68a80": {
+      "signature": "0x8ff68a80",
+      "name": "getExpectedRateWithHintAndFee",
+      "inputs": [
+        {
+          "name": "src",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "dest",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "srcQty",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "platformFeeBps",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "hint",
+          "type": "bytes",
+          "dynamic": true
+        }
+      ],
+      "outputs": [
+        {
+          "name": "rateWithNetworkFee",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "rateWithAllFees",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x8881654e": {
+      "signature": "0x8881654e",
+      "name": "getNetworkData",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "negligibleDiffBps",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "networkFeeBps",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "expiryTimestamp",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x27a099d8": {
+      "signature": "0x27a099d8",
+      "name": "getOperators",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address[]",
+          "dynamic": true
+        }
+      ]
+    },
+    "0x7bb0ea82": {
+      "signature": "0x7bb0ea82",
+      "name": "listReservesForToken",
+      "inputs": [
+        {
+          "name": "token",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "startIndex",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "endIndex",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "add",
+          "type": "bool",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x32c8bd9f": {
+      "signature": "0x32c8bd9f",
+      "name": "listTokenForReserve",
+      "inputs": [
+        {
+          "name": "reserve",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "token",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "add",
+          "type": "bool",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x3de39c11": {
+      "signature": "0x3de39c11",
+      "name": "maxGasPrice",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x26782247": {
+      "signature": "0x26782247",
+      "name": "pendingAdmin",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x01a12fd3": {
+      "signature": "0x01a12fd3",
+      "name": "removeAlerter",
+      "inputs": [
+        {
+          "name": "alerter",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x803d58c8": {
+      "signature": "0x803d58c8",
+      "name": "removeKyberProxy",
+      "inputs": [
+        {
+          "name": "kyberProxy",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xac8a584a": {
+      "signature": "0xac8a584a",
+      "name": "removeOperator",
+      "inputs": [
+        {
+          "name": "operator",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xb3066d49": {
+      "signature": "0xb3066d49",
+      "name": "setContracts",
+      "inputs": [
+        {
+          "name": "_kyberFeeHandler",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_kyberMatchingEngine",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "_gasHelper",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x7726bed3": {
+      "signature": "0x7726bed3",
+      "name": "setEnable",
+      "inputs": [
+        {
+          "name": "enable",
+          "type": "bool",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x6ff277de": {
+      "signature": "0x6ff277de",
+      "name": "setKyberDaoContract",
+      "inputs": [
+        {
+          "name": "_kyberDao",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xc0324c77": {
+      "signature": "0xc0324c77",
+      "name": "setParams",
+      "inputs": [
+        {
+          "name": "_maxGasPrice",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "_negligibleRateDiffBps",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x088322ef": {
+      "signature": "0x088322ef",
+      "name": "tradeWithHint",
+      "inputs": [
+        {
+          "name": "trader",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "src",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "srcAmount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "dest",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "destAddress",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "maxDestAmount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "minConversionRate",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "walletId",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "hint",
+          "type": "bytes",
+          "dynamic": true
+        }
+      ],
+      "outputs": [
+        {
+          "name": "destAmount",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0xc43190f5": {
+      "signature": "0xc43190f5",
+      "name": "tradeWithHintAndFee",
+      "inputs": [
+        {
+          "name": "trader",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "src",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "srcAmount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "dest",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "destAddress",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "maxDestAmount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "minConversionRate",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "platformWallet",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "platformFeeBps",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "hint",
+          "type": "bytes",
+          "dynamic": true
+        }
+      ],
+      "outputs": [
+        {
+          "name": "destAmount",
+          "type": "uint256",
+          "dynamic": false
+        }
+      ]
+    },
+    "0x75829def": {
+      "signature": "0x75829def",
+      "name": "transferAdmin",
+      "inputs": [
+        {
+          "name": "newAdmin",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x7acc8678": {
+      "signature": "0x7acc8678",
+      "name": "transferAdminQuickly",
+      "inputs": [
+        {
+          "name": "newAdmin",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0xce56c454": {
+      "signature": "0xce56c454",
+      "name": "withdrawEther",
+      "inputs": [
+        {
+          "name": "amount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "sendTo",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    },
+    "0x3ccdbb28": {
+      "signature": "0x3ccdbb28",
+      "name": "withdrawToken",
+      "inputs": [
+        {
+          "name": "token",
+          "type": "address",
+          "dynamic": false
+        },
+        {
+          "name": "amount",
+          "type": "uint256",
+          "dynamic": false
+        },
+        {
+          "name": "sendTo",
+          "type": "address",
+          "dynamic": false
+        }
+      ],
+      "outputs": []
+    }
+  },
+  "events": {
+    "0x65da1cfc2c2e81576ad96afb24a581f8e109b7a403b35cbd3243a1c99efdb9ed": {
+      "signature": "0x65da1cfc2c2e81576ad96afb24a581f8e109b7a403b35cbd3243a1c99efdb9ed",
+      "name": "AdminClaimed",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "newAdmin",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "previousAdmin",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x5611bf3e417d124f97bf2c788843ea8bb502b66079fbee02158ef30b172cb762": {
+      "signature": "0x5611bf3e417d124f97bf2c788843ea8bb502b66079fbee02158ef30b172cb762",
+      "name": "AlerterAdded",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "newAlerter",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "isAdd",
+          "type": "bool",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x75f33ed68675112c77094e7c5b073890598be1d23e27cd7f6907b4a7d98ac619": {
+      "signature": "0x75f33ed68675112c77094e7c5b073890598be1d23e27cd7f6907b4a7d98ac619",
+      "name": "EtherReceival",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "sender",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "amount",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0xec47e7ed86c86774d1a72c19f35c639911393fe7c1a34031fdbd260890da90de": {
+      "signature": "0xec47e7ed86c86774d1a72c19f35c639911393fe7c1a34031fdbd260890da90de",
+      "name": "EtherWithdraw",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "amount",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "sendTo",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x95ba6becebde78de944071b522d81414292f67e3d95db7d9df46bb8e8b3da8b8": {
+      "signature": "0x95ba6becebde78de944071b522d81414292f67e3d95db7d9df46bb8e8b3da8b8",
+      "name": "GasHelperUpdated",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "newGasHelper",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x16a2e1af8449067f38aa765b54d479785c94d8ebdfbba7b410e3488b0877c1e4": {
+      "signature": "0x16a2e1af8449067f38aa765b54d479785c94d8ebdfbba7b410e3488b0877c1e4",
+      "name": "KyberDaoUpdated",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "newKyberDao",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x5128fc9be01065f3cabe4c8b72796eb6b8a00284f39a2390cd71e91b509f90b6": {
+      "signature": "0x5128fc9be01065f3cabe4c8b72796eb6b8a00284f39a2390cd71e91b509f90b6",
+      "name": "KyberFeeHandlerUpdated",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "newKyberFeeHandler",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x92b5317eb7846d2e62df8ff23b97a564e012e63defef32777f017249f76bf264": {
+      "signature": "0x92b5317eb7846d2e62df8ff23b97a564e012e63defef32777f017249f76bf264",
+      "name": "KyberMatchingEngineUpdated",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "newKyberMatchingEngine",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0xc1e6729d7fd9a615adc03ebe7d8ff15649d8eed7516bf6c30538a1e722bb1975": {
+      "signature": "0xc1e6729d7fd9a615adc03ebe7d8ff15649d8eed7516bf6c30538a1e722bb1975",
+      "name": "KyberNetworkParamsSet",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "maxGasPrice",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "negligibleRateDiffBps",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x8a846a525e22497042ee2f99423a8ff8bbb831d3ae5384692bf6040f591c1eba": {
+      "signature": "0x8a846a525e22497042ee2f99423a8ff8bbb831d3ae5384692bf6040f591c1eba",
+      "name": "KyberNetworkSetEnable",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "isEnabled",
+          "type": "bool",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x0b008ff10c7e378a96d6566635e1aa748886d16fb87659faee2aa20608fec815": {
+      "signature": "0x0b008ff10c7e378a96d6566635e1aa748886d16fb87659faee2aa20608fec815",
+      "name": "KyberProxyAdded",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "kyberProxy",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0xbb9ee888852ae070b75270fa50ea2845ba32102d3a96842c7c416d12aad2f487": {
+      "signature": "0xbb9ee888852ae070b75270fa50ea2845ba32102d3a96842c7c416d12aad2f487",
+      "name": "KyberProxyRemoved",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "kyberProxy",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x30bbea603a7b36858fe5e3ec6ba5ff59dde039d02120d758eacfaed01520577d": {
+      "signature": "0x30bbea603a7b36858fe5e3ec6ba5ff59dde039d02120d758eacfaed01520577d",
+      "name": "KyberTrade",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "src",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "dest",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "ethWeiValue",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "networkFeeWei",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "customPlatformFeeWei",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "t2eIds",
+          "type": "bytes32[]",
+          "dynamic": true,
+          "indexed": false
+        },
+        {
+          "name": "e2tIds",
+          "type": "bytes32[]",
+          "dynamic": true,
+          "indexed": false
+        },
+        {
+          "name": "t2eSrcAmounts",
+          "type": "uint256[]",
+          "dynamic": true,
+          "indexed": false
+        },
+        {
+          "name": "e2tSrcAmounts",
+          "type": "uint256[]",
+          "dynamic": true,
+          "indexed": false
+        },
+        {
+          "name": "t2eRates",
+          "type": "uint256[]",
+          "dynamic": true,
+          "indexed": false
+        },
+        {
+          "name": "e2tRates",
+          "type": "uint256[]",
+          "dynamic": true,
+          "indexed": false
+        }
+      ]
+    },
+    "0xd4b0877e3beef91cd767680ac04114217ec7c9cb3a4705c03fc8061de81168fc": {
+      "signature": "0xd4b0877e3beef91cd767680ac04114217ec7c9cb3a4705c03fc8061de81168fc",
+      "name": "ListedReservesForToken",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "token",
+          "type": "address",
+          "dynamic": false,
+          "indexed": true
+        },
+        {
+          "name": "reserves",
+          "type": "address[]",
+          "dynamic": true,
+          "indexed": false
+        },
+        {
+          "name": "add",
+          "type": "bool",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x091a7a4b85135fdd7e8dbc18b12fabe5cc191ea867aa3c2e1a24a102af61d58b": {
+      "signature": "0x091a7a4b85135fdd7e8dbc18b12fabe5cc191ea867aa3c2e1a24a102af61d58b",
+      "name": "OperatorAdded",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "newOperator",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "isAdd",
+          "type": "bool",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x72cb8a894ddb372ceec3d2a7648d86f17d5a15caae0e986c53109b8a9a9385e6": {
+      "signature": "0x72cb8a894ddb372ceec3d2a7648d86f17d5a15caae0e986c53109b8a9a9385e6",
+      "name": "TokenWithdraw",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "token",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "amount",
+          "type": "uint256",
+          "dynamic": false,
+          "indexed": false
+        },
+        {
+          "name": "sendTo",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    },
+    "0x3b81caf78fa51ecbc8acb482fd7012a277b428d9b80f9d156e8a54107496cc40": {
+      "signature": "0x3b81caf78fa51ecbc8acb482fd7012a277b428d9b80f9d156e8a54107496cc40",
+      "name": "TransferAdminPending",
+      "anonymous": false,
+      "parameters": [
+        {
+          "name": "pendingAdmin",
+          "type": "address",
+          "dynamic": false,
+          "indexed": false
+        }
+      ]
+    }
+  }
+}
