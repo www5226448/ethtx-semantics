@@ -339,17 +339,6 @@ ProxyRegistry:
     kovan: {}
   applicable_to_contracts_with_code_hash:
     - "0xb4c077062fe2c92b9870274a34940f361c5765703df380b088c289e01fa3222e"
-WETH9:
-  addresses:
-    "*": {}
-    mainnet:
-      "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2":
-        network: mainnet
-        label: WETH9
-    ropsten: {}
-    kovan: {}
-  applicable_to_contracts_with_code_hash:
-    - "0xd0a06b12ac47863b5c7be4185c2deaad1c61557033f56c7d4ea74429cbb25e23"
 MCD_OSM:
   addresses:
     "*": {}
