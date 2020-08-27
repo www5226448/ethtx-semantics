@@ -2,22 +2,18 @@
   "0x3e5691bfb48667c037c1014f0b320bbf4095c37ad5cd1f0b2573366756f54ac6": {
     "arguments": {
       "destAmount": {
-        "path": "destAmount",
         "type": "uint256",
         "value": "destAmount / 10**18"
       },
       "destToken": {
-        "path": "destToken",
         "type": "string",
         "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(destToken, destToken)"
       },
       "src": {
-        "path": "src",
         "type": "string",
         "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(src, src)"
       },
       "srcAmount": {
-        "path": "srcAmount",
         "type": "uint256",
         "value": "srcAmount / 10**18"
       }
@@ -27,12 +23,10 @@
   "0x6cf69811": {
     "arguments": {
       "destToken": {
-        "path": "destToken",
         "type": "address",
         "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(destToken, destToken)"
       },
       "srcToken": {
-        "path": "srcToken",
         "type": "address",
         "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(srcToken, srcToken)"
       }
@@ -41,17 +35,14 @@
   "0x7cd44272": {
     "arguments": {
       "dest": {
-        "path": "dest",
         "type": "address",
         "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(dest, dest)"
       },
       "src": {
-        "path": "src",
         "type": "address",
         "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(src, src)"
       },
       "srcQty": {
-        "path": "srcQty",
         "type": "uint256",
         "value": "srcQty / 10**18"
       }

@@ -3,12 +3,11 @@
     "arguments": {
       "actions": {
         "decode": false,
-        "path": "actions",
+
         "type": "tuple[]",
         "value": "dydx_parse_operate(actions)"
       },
       "state": {
-        "path": "state",
         "type": "string",
         "value": "[]"
       }

@@ -3,7 +3,6 @@
     "name": "AssignFeeToWallet",
     "arguments": {
       "walletFee": {
-        "path": "walletFee",
         "type": "uint256",
         "value": "walletFee / 10**18"
       }
@@ -13,7 +12,6 @@
     "name": "AssignBurnFees",
     "arguments": {
       "burnFee": {
-        "path": "burnFee",
         "type": "uint256",
         "value": "burnFee / 10**18"
       }

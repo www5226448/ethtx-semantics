@@ -2,7 +2,6 @@
   "0xc5ce281e": {
     "arguments": {
       "ilk": {
-        "path": "ilk",
         "type": "string",
         "value": "ilk"
       }
@@ -12,7 +11,6 @@
   "0x3b4da69f": {
     "arguments": {
       "wad": {
-        "path": "wad",
         "type": "uint",
         "value": "wad/10**18"
       }

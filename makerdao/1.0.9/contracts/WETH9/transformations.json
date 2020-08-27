@@ -3,7 +3,6 @@
     "name": "Deposit",
     "arguments": {
       "wad": {
-        "path": "wad",
         "type": "uint256",
         "value": "wad / 10**18"
       }
@@ -13,7 +12,6 @@
     "name": "Withdrawal",
     "arguments": {
       "wad": {
-        "path": "wad",
         "type": "uint256",
         "value": "wad / 10**18"
       }

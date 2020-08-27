@@ -3,32 +3,26 @@
     "name": "LogOrderSettlement",
     "arguments": {
       "valueRepaid": {
-        "path": "valueRepaid",
         "type": "uint256",
         "value": "valueRepaid / 10**18"
       },
       "reserveProfit": {
-        "path": "reserveProfit",
         "type": "uint256",
         "value": "reserveProfit / 10**18"
       },
       "reserveLoss": {
-        "path": "reserveLoss",
         "type": "uint256",
         "value": "reserveLoss / 10**18"
       },
       "collateralLeft": {
-        "path": "collateralLeft",
         "type": "uint256",
         "value": "collateralLeft / 10**18"
       },
       "userProfit": {
-        "path": "userProfit",
         "type": "uint256",
         "value": "userProfit / 10**18"
       },
       "fee": {
-        "path": "fee",
         "type": "uint256",
         "value": "fee / 10**18"
       }

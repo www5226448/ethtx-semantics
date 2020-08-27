@@ -3,17 +3,14 @@
     "name": "LogLock",
     "arguments": {
       "value": {
-        "path": "value",
         "type": "uint256",
         "value": "value / 10**18"
       },
       "profit": {
-        "path": "profit",
         "type": "uint256",
         "value": "profit / 10**18"
       },
       "loss": {
-        "path": "loss",
         "type": "uint256",
         "value": "loss / 10**18"
       }

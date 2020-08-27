@@ -2,7 +2,6 @@
   "0x95e3c50b": {
     "arguments": {
       "deadline": {
-        "path": "deadline",
         "type": "timestamp",
         "value": "deadline"
       },

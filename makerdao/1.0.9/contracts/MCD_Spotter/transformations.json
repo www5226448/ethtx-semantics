@@ -10,7 +10,6 @@
         "type": "ignore"
       },
       "data": {
-        "path": "data",
         "type": "string",
         "value": "_print_input(_contract, data, transaction, network)"
       }
@@ -20,12 +19,10 @@
   "0xebecb39d": {
     "arguments": {
       "ilk": {
-        "path": "ilk",
         "type": "string",
         "value": "ilk"
       },
       "what": {
-        "path": "what",
         "type": "string",
         "value": "what"
       }

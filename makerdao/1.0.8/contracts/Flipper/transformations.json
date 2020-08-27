@@ -2,12 +2,10 @@
   "0x351de600": {
     "arguments": {
       "tab": {
-        "path": "tab",
         "type": "uint",
         "value": "tab/10**45"
       },
       "lot": {
-        "path": "lot",
         "type": "uint",
         "value": "lot/10**18"
       }
@@ -25,7 +23,6 @@
         "type": "ignore"
       },
       "data": {
-        "path": "data",
         "type": "string",
         "value": "_print_input(_contract, data, transaction, network)"
       }

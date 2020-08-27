@@ -3,12 +3,10 @@
     "name": "ExpirySet",
     "arguments": {
       "marketId": {
-        "path": "marketId",
         "type": "string",
         "value": "{0: 'WETH', 1: 'DAI'}.get(marketId, marketId)"
       },
       "time": {
-        "path": "time",
         "type": "timestamp",
         "value": "time"
       }

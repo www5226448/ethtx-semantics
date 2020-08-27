@@ -2,17 +2,14 @@
   "0x6cf69811": {
     "arguments": {
       "destToken": {
-        "path": "destToken",
         "type": "address",
         "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(destToken, destToken)"
       },
       "srcAmount": {
-        "path": "srcAmount",
         "type": "uint256",
         "value": "srcAmount / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(srcToken, 18)"
       },
       "srcToken": {
-        "path": "srcToken",
         "type": "address",
         "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(srcToken, srcToken)"
       }
@@ -22,17 +19,14 @@
   "0x7cd44272": {
     "arguments": {
       "dest": {
-        "path": "dest",
         "type": "address",
         "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(dest, dest)"
       },
       "src": {
-        "path": "src",
         "type": "address",
         "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(src, src)"
       },
       "srcQty": {
-        "path": "srcQty",
         "type": "uint256",
         "value": "srcQty / 10**18"
       }
@@ -42,22 +36,18 @@
   "0xea9415385bae08fe9f6dc457b02577166790cde83bb18cc340aac6cb81b824de": {
     "arguments": {
       "destAmount": {
-        "path": "destAmount",
         "type": "uint256",
         "value": "destAmount / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(destToken, 18)"
       },
       "destToken": {
-        "path": "destToken",
         "type": "address",
         "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(destToken, destToken)"
       },
       "src": {
-        "path": "src",
         "type": "address",
         "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(src, src)"
       },
       "srcAmount": {
-        "path": "srcAmount",
         "type": "uint256",
         "value": "srcAmount / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(src, 18)"
       }

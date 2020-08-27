@@ -2,12 +2,10 @@
   "0x7c5e9ea4": {
     "arguments": {
       "tokenAmountIn": {
-        "path": "tokenAmountIn",
         "type": "uint256",
         "value": "tokenAmountIn / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(arguments.get('tokenIn'), 18)"
       },
       "tokenAmountOut": {
-        "path": "tokenAmountOut",
         "type": "uint256",
         "value": "tokenAmountOut / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(tokenOut, 18)"
       }
@@ -17,12 +15,10 @@
   "0x8201aa3f": {
     "arguments": {
       "tokenAmountIn": {
-        "path": "tokenAmountIn",
         "type": "uint256",
         "value": "tokenAmountIn / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(tokenIn, 18)"
       },
       "tokenAmountOut": {
-        "path": "tokenAmountOut",
         "type": "uint256",
         "value": "tokenAmountOut / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(arguments.get('tokenOut'), 18)"
       }

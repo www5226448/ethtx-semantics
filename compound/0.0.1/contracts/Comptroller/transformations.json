@@ -2,7 +2,6 @@
   "0x4ef4c3e1": {
     "arguments": {
       "mintAmount": {
-        "path": "mintAmount",
         "type": "uint256",
         "value": "mintAmount / 10**18"
       }

@@ -3,7 +3,6 @@
     "name": "EtherReceival",
     "arguments": {
       "amount": {
-        "path": "amount",
         "type": "uint256",
         "value": "amount / 10**18"
       }
@@ -13,27 +12,22 @@
     "name": "KyberTrade",
     "arguments": {
       "srcAmount": {
-        "path": "srcAmount",
         "type": "uint256",
         "value": "srcAmount / 10**18"
       },
       "dstAmount": {
-        "path": "dstAmount",
         "type": "uint256",
         "value": "dstAmount / 10**18"
       },
       "ethWeiValue": {
-        "path": "ethWeiValue",
         "type": "uint256",
         "value": "ethWeiValue / 10**18"
       },
       "src": {
-        "path": "src",
         "type": "address",
         "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH_Token'}.get(src, src)"
       },
       "dest": {
-        "path": "dest",
         "type": "address",
         "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH_Token'}.get(dest, dest)"
       }

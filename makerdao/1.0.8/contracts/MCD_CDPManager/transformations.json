@@ -2,12 +2,10 @@
   "0x45e6bdcd": {
     "arguments": {
       "dart": {
-        "path": "dart",
         "type": "uint",
         "value": "dart/10**18"
       },
       "dink": {
-        "path": "dink",
         "type": "uint",
         "value": "dink/10**18"
       }
@@ -17,7 +15,6 @@
   "0xf9f30db6": {
     "arguments": {
       "rad": {
-        "path": "rad",
         "type": "uint",
         "value": "rad/10**45"
       }
@@ -27,7 +24,6 @@
   "0x6090dec5": {
     "arguments": {
       "ilk": {
-        "path": "ilk",
         "type": "string",
         "value": "ilk"
       }
@@ -45,7 +41,6 @@
         "type": "ignore"
       },
       "data": {
-        "path": "data",
         "type": "string",
         "value": "_print_input(_contract, data, _transaction, network)"
       }

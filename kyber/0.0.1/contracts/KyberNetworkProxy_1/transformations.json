@@ -2,22 +2,18 @@
   "0x1849bd6a030a1bca28b83437fd3de96f3d27a5d172fa7e9c78e7b61468928a39": {
     "arguments": {
       "actualDestAmount": {
-        "path": "actualDestAmount",
         "type": "uint256",
         "value": "actualDestAmount / 10**18"
       },
       "actualSrcAmount": {
-        "path": "actualSrcAmount",
         "type": "uint256",
         "value": "actualSrcAmount / 10**18"
       },
       "dest": {
-        "path": "dest",
         "type": "address",
         "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(dest, dest)"
       },
       "src": {
-        "path": "src",
         "type": "address",
         "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(src, src)"
       }
@@ -27,32 +23,26 @@
   "0x29589f61": {
     "arguments": {
       "boughtQnt": {
-        "path": "boughtQnt",
         "type": "uint256",
         "value": "boughtQnt / 10**18"
       },
       "dest": {
-        "path": "dest",
         "type": "address",
         "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(dest, dest)"
       },
       "maxDestAmount": {
-        "path": "maxDestAmount",
         "type": "uint256",
         "value": "maxDestAmount / 10**18"
       },
       "minConversionRate": {
-        "path": "minConversionRate",
         "type": "uint256",
         "value": "minConversionRate / 10**18"
       },
       "src": {
-        "path": "src",
         "type": "address",
         "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(src, src)"
       },
       "srcAmount": {
-        "path": "srcAmount",
         "type": "uint256",
         "value": "srcAmount / 10**18"
       }
@@ -62,17 +52,14 @@
   "0x809a9e55": {
     "arguments": {
       "expectedRate": {
-        "path": "expectedRate",
         "type": "uint256",
         "value": "expectedRate / 10**18"
       },
       "slippageRate": {
-        "path": "slippageRate",
         "type": "uint256",
         "value": "slippageRate / 10**18"
       },
       "srcQty": {
-        "path": "srcQty",
         "type": "uint256",
         "value": "srcQty / 10**18"
       }

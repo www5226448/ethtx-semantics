@@ -7,7 +7,6 @@
         "value": "eth_bought / 10**18"
       },
       "out": {
-        "path": "out",
         "type": "uint256",
         "value": "out / 10**18"
       }
@@ -17,7 +16,6 @@
   "0x0b573638": {
     "arguments": {
       "out": {
-        "path": "out",
         "type": "uint256",
         "value": "out / 10**18"
       },
@@ -32,7 +30,6 @@
   "0x6b1d4db7": {
     "arguments": {
       "out": {
-        "path": "out",
         "type": "uint256",
         "value": "out / 10**18"
       },
@@ -47,7 +44,6 @@
   "0x7237e031": {
     "arguments": {
       "out": {
-        "path": "out",
         "type": "uint256",
         "value": "out / 10**18"
       },
@@ -62,7 +58,6 @@
   "0x95e3c50b": {
     "arguments": {
       "out": {
-        "path": "out",
         "type": "uint256",
         "value": "out / 10**18"
       },
@@ -77,7 +72,6 @@
   "0xad65d76d": {
     "arguments": {
       "out": {
-        "path": "out",
         "type": "uint256",
         "value": "out / 10**18"
       }
@@ -87,7 +81,6 @@
   "0xb040d545": {
     "arguments": {
       "out": {
-        "path": "out",
         "type": "uint256",
         "value": "out / 10**18"
       },
@@ -107,7 +100,6 @@
         "value": "eth_bought / 10**18"
       },
       "out": {
-        "path": "out",
         "type": "uint256",
         "value": "out / 10**18"
       }
@@ -117,7 +109,6 @@
   "0xddf7e1a7": {
     "arguments": {
       "out": {
-        "path": "out",
         "type": "uint256",
         "value": "out / 10**18"
       },
@@ -132,7 +123,6 @@
   "0xf39b5b9b": {
     "arguments": {
       "out": {
-        "path": "out",
         "type": "uint256",
         "value": "out / 10**18"
       }

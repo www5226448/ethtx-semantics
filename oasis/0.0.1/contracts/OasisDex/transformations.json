@@ -3,7 +3,6 @@
     "name": "LogTake",
     "arguments": {
       "id": {
-        "path": "id",
         "type": "uint256",
         "value": "id"
       },
@@ -13,7 +12,6 @@
         "value": "take_amt / 10**18"
       },
       "pair": {
-        "path": "pair",
         "type": "string",
         "value": "{'0x7509deda9e17580c94915865c0c0c56190cc733e6c835a6ca2e497c1e4a50a5d': 'DAI/MKR', '0xd5285799330658f31f8d1d4fe456bd7630e1fc16abbec08016bcab3b6643dae6': 'MKR/DAI', '0x204053929a0ef66ee09fa2295cc078531ee0339fa4d3e02ce9bb3f1a5d0116dd': 'MKR/WETH', '0x203e3b62e033f1548774797f9135c574dddd995f86e1c55fe1bab1610d35094f': 'WETH/MKR', '0x10aed75aa327f09ef87e5bdfaedf498ca260499a251ae5e049ddbd5e1633cd9c': 'DAI/WETH', '0x9dd48110dcc444fdc242510c09bbbbe21a5975cac061d82f7b843bce061ba391': 'WETH/DAI'}.get(pair, pair)"
       },
@@ -23,7 +21,6 @@
         "value": "give_amt / 10**18"
       },
       "timestamp": {
-        "path": "timestamp",
         "type": "timestamp",
         "value": "timestamp"
       }
@@ -33,7 +30,6 @@
     "name": "LogMake",
     "arguments": {
       "id": {
-        "path": "id",
         "type": "uint256",
         "value": "id"
       },
@@ -43,7 +39,6 @@
         "value": "buy_amt / 10**18"
       },
       "pair": {
-        "path": "pair",
         "type": "string",
         "value": "{'0x7509deda9e17580c94915865c0c0c56190cc733e6c835a6ca2e497c1e4a50a5d': 'DAI/MKR', '0xd5285799330658f31f8d1d4fe456bd7630e1fc16abbec08016bcab3b6643dae6': 'MKR/DAI', '0x204053929a0ef66ee09fa2295cc078531ee0339fa4d3e02ce9bb3f1a5d0116dd': 'MKR/WETH', '0x203e3b62e033f1548774797f9135c574dddd995f86e1c55fe1bab1610d35094f': 'WETH/MKR', '0x10aed75aa327f09ef87e5bdfaedf498ca260499a251ae5e049ddbd5e1633cd9c': 'DAI/WETH', '0x9dd48110dcc444fdc242510c09bbbbe21a5975cac061d82f7b843bce061ba391': 'WETH/DAI'}.get(pair, pair)"
       },
@@ -53,7 +48,6 @@
         "value": "pay_amt / 10**18"
       },
       "timestamp": {
-        "path": "timestamp",
         "type": "timestamp",
         "value": "timestamp"
       }
@@ -78,12 +72,10 @@
     "name": "LogKill",
     "arguments": {
       "id": {
-        "path": "id",
         "type": "uint256",
         "value": "id"
       },
       "pair": {
-        "path": "pair",
         "type": "string",
         "value": "{'0x7509deda9e17580c94915865c0c0c56190cc733e6c835a6ca2e497c1e4a50a5d': 'DAI/MKR', '0xd5285799330658f31f8d1d4fe456bd7630e1fc16abbec08016bcab3b6643dae6': 'MKR/DAI', '0x204053929a0ef66ee09fa2295cc078531ee0339fa4d3e02ce9bb3f1a5d0116dd': 'MKR/WETH', '0x203e3b62e033f1548774797f9135c574dddd995f86e1c55fe1bab1610d35094f': 'WETH/MKR', '0x10aed75aa327f09ef87e5bdfaedf498ca260499a251ae5e049ddbd5e1633cd9c': 'DAI/WETH', '0x9dd48110dcc444fdc242510c09bbbbe21a5975cac061d82f7b843bce061ba391': 'WETH/DAI'}.get(pair, pair)"
       },
@@ -103,7 +95,6 @@
     "name": "buy",
     "arguments": {
       "amount": {
-        "path": "amount",
         "type": "uint256",
         "value": "amount / 10**18"
       }

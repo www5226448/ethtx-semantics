@@ -10,7 +10,6 @@
         "type": "ignore"
       },
       "data": {
-        "path": "data",
         "type": "string",
         "value": "_print_input(_contract, data, transaction, network)"
       }
@@ -20,7 +19,6 @@
   "0xd4e8be83": {
     "arguments": {
       "what": {
-        "path": "what",
         "type": "string",
         "value": "what"
       }

@@ -2,17 +2,14 @@
   "0xd38d2bea": {
     "arguments": {
       "expectedRate": {
-        "path": "expectedRate",
         "type": "uint256",
         "value": "expectedRate / 10**18"
       },
       "slippageRate": {
-        "path": "slippageRate",
         "type": "uint256",
         "value": "slippageRate / 10**18"
       },
       "srcQty": {
-        "path": "srcQty",
         "type": "uint256",
         "value": "srcQty / 10**18"
       }

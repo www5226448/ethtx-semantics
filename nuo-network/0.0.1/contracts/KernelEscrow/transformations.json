@@ -3,7 +3,6 @@
     "name": "LogTransfer",
     "arguments": {
       "value": {
-        "path": "value",
         "type": "uint256",
         "value": "value / 10**18"
       }

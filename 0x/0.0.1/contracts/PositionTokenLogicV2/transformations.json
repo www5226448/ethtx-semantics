@@ -2,7 +2,6 @@
   "0x4e07008d": {
     "arguments": {
       "amt": {
-        "path": "amt",
         "type": "uint256",
         "value": "amt / 10**18"
       }

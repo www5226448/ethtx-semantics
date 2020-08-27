@@ -119,7 +119,6 @@ In the `transformation.json` file, you can switch the editor to `code` and write
   "0x5139b2b06a1d8192b7f9a6232286a17737fe00a2d0c7efc217f863759d870007": {
     "arguments": {
       "balance": {
-        "path": "balance",
         "type": "uint256",
         "value": " balance / 10**18"
       }
@@ -249,7 +248,7 @@ The function can be later used in the `transformation.json` ih the following man
 
 ```json
 "srcAmount": {
-  "path": "srcAmount",
+
   "type": "uint256",
   "value": "srcAmount / 10 ** number_of_decimals(src, default=18)"
 }

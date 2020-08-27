@@ -2,17 +2,14 @@
   "0x3df02124": {
     "arguments": {
       "dx": {
-        "path": "dx",
         "type": "uint256",
         "value": "dx / 10**[8, 8][i]"
       },
       "i": {
-        "path": "i",
         "type": "address",
         "value": "['0xeb4c2781e4eba804ce9a9803c67d0893436bb27d', '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599'][i]"
       },
       "j": {
-        "path": "j",
         "type": "address",
         "value": "['0xeb4c2781e4eba804ce9a9803c67d0893436bb27d', '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599'][j]"
       }
@@ -45,17 +42,14 @@
   "0xa6417ed6": {
     "arguments": {
       "dx": {
-        "path": "dx",
         "type": "uint256",
         "value": "dx / 10**[8, 8][i]"
       },
       "i": {
-        "path": "i",
         "type": "address",
         "value": "['0xeb4c2781e4eba804ce9a9803c67d0893436bb27d', '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599'][i]"
       },
       "j": {
-        "path": "j",
         "type": "address",
         "value": "['0xeb4c2781e4eba804ce9a9803c67d0893436bb27d', '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599'][j]"
       }
