@@ -1,0 +1,20 @@
+{
+  "Deposit(address,uint256)": {
+    "name": "Deposit",
+    "arguments": {
+      "wad": {
+        "type": "uint256",
+        "value": "wad / 10**18"
+      }
+    }
+  },
+  "Withdrawal(address, uint256)": {
+    "name": "Withdrawal",
+    "arguments": {
+      "wad": {
+        "type": "uint256",
+        "value": "wad / 10**18"
+      }
+    }
+  }
+}

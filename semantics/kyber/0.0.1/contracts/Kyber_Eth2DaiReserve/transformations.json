@@ -1,0 +1,19 @@
+{
+  "0x7cd44272": {
+    "arguments": {
+      "dest": {
+        "type": "address",
+        "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(dest, dest)"
+      },
+      "src": {
+        "type": "address",
+        "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(src, src)"
+      },
+      "srcQty": {
+        "type": "uint256",
+        "value": "srcQty / 10**18"
+      }
+    },
+    "name": "getConvertionRate"
+  }
+}

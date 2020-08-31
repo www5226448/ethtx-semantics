@@ -1,0 +1,69 @@
+{
+  "0x1849bd6a030a1bca28b83437fd3de96f3d27a5d172fa7e9c78e7b61468928a39": {
+    "arguments": {
+      "actualDestAmount": {
+        "type": "uint256",
+        "value": "actualDestAmount / 10**18"
+      },
+      "actualSrcAmount": {
+        "type": "uint256",
+        "value": "actualSrcAmount / 10**18"
+      },
+      "dest": {
+        "type": "address",
+        "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(dest, dest)"
+      },
+      "src": {
+        "type": "address",
+        "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(src, src)"
+      }
+    },
+    "name": "ExecuteTrade"
+  },
+  "0x29589f61": {
+    "arguments": {
+      "boughtQnt": {
+        "type": "uint256",
+        "value": "boughtQnt / 10**18"
+      },
+      "dest": {
+        "type": "address",
+        "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(dest, dest)"
+      },
+      "maxDestAmount": {
+        "type": "uint256",
+        "value": "maxDestAmount / 10**18"
+      },
+      "minConversionRate": {
+        "type": "uint256",
+        "value": "minConversionRate / 10**18"
+      },
+      "src": {
+        "type": "address",
+        "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(src, src)"
+      },
+      "srcAmount": {
+        "type": "uint256",
+        "value": "srcAmount / 10**18"
+      }
+    },
+    "name": "tradeWithHint"
+  },
+  "0x809a9e55": {
+    "arguments": {
+      "expectedRate": {
+        "type": "uint256",
+        "value": "expectedRate / 10**18"
+      },
+      "slippageRate": {
+        "type": "uint256",
+        "value": "slippageRate / 10**18"
+      },
+      "srcQty": {
+        "type": "uint256",
+        "value": "srcQty / 10**18"
+      }
+    },
+    "name": "getExpectedRate"
+  }
+}

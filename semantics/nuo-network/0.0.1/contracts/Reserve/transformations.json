@@ -1,0 +1,19 @@
+{
+  "0x91ed91fe7e161a91f172567d1c134b0aa11abfbb0d770b6a68f2860969103f59": {
+    "name": "LogLock",
+    "arguments": {
+      "value": {
+        "type": "uint256",
+        "value": "value / 10**18"
+      },
+      "profit": {
+        "type": "uint256",
+        "value": "profit / 10**18"
+      },
+      "loss": {
+        "type": "uint256",
+        "value": "loss / 10**18"
+      }
+    }
+  }
+}

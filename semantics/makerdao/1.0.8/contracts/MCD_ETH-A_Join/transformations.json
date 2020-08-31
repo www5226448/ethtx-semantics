@@ -1,0 +1,20 @@
+{
+  "0xc5ce281e": {
+    "arguments": {
+      "ilk": {
+        "type": "string",
+        "value": "ilk"
+      }
+    },
+    "name": "ilk"
+  },
+  "0x3b4da69f": {
+    "arguments": {
+      "wad": {
+        "type": "uint",
+        "value": "wad/10**18"
+      }
+    },
+    "name": "join"
+  }
+}

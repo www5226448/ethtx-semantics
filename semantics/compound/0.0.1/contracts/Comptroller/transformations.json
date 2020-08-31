@@ -1,0 +1,10 @@
+{
+  "0x4ef4c3e1": {
+    "arguments": {
+      "mintAmount": {
+        "type": "uint256",
+        "value": "mintAmount / 10**18"
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "0x943c2d4f6b04a3117772c5b4ca92f76893bd11287acd75d884f6c05fb6cd1b55": {
+    "arguments": {
+      "destToken": {
+        "type": "address",
+        "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(destToken, destToken)"
+      },
+      "receivedAmount": {
+        "type": "uint256",
+        "value": "receivedAmount / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(destToken, 18)"
+      },
+      "srcAmount": {
+        "type": "uint256",
+        "value": "srcAmount / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(srcToken, 18)"
+      },
+      "srcToken": {
+        "type": "address",
+        "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(srcToken, srcToken)"
+      }
+    },
+    "name": "Swapped"
+  },
+  "0xfc6f4e16": {
+    "arguments": {
+      "destinationToken": {
+        "type": "address",
+        "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(destinationToken, destinationToken)"
+      },
+      "minDestinationAmount": {
+        "type": "uint256",
+        "value": "minDestinationAmount / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(destinationToken, 18)"
+      },
+      "sourceAmount": {
+        "type": "uint256",
+        "value": "sourceAmount / 10 ** {'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6, '0xdac17f958d2ee523a2206206994597c13d831ec7': 6, '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8}.get(sourceToken, 18)"
+      },
+      "sourceToken": {
+        "type": "address",
+        "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(sourceToken, sourceToken)"
+      }
+    },
+    "name": "swap"
+  }
+}

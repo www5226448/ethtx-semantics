@@ -1,0 +1,36 @@
+{
+  "0x75f33ed68675112c77094e7c5b073890598be1d23e27cd7f6907b4a7d98ac619": {
+    "name": "EtherReceival",
+    "arguments": {
+      "amount": {
+        "type": "uint256",
+        "value": "amount / 10**18"
+      }
+    }
+  },
+  "0xd30ca399cb43507ecec6a629a35cf45eb98cda550c27696dcb0d8c4a3873ce6c": {
+    "name": "KyberTrade",
+    "arguments": {
+      "srcAmount": {
+        "type": "uint256",
+        "value": "srcAmount / 10**18"
+      },
+      "dstAmount": {
+        "type": "uint256",
+        "value": "dstAmount / 10**18"
+      },
+      "ethWeiValue": {
+        "type": "uint256",
+        "value": "ethWeiValue / 10**18"
+      },
+      "src": {
+        "type": "address",
+        "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH_Token'}.get(src, src)"
+      },
+      "dest": {
+        "type": "address",
+        "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH_Token'}.get(dest, dest)"
+      }
+    }
+  }
+}

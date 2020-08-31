@@ -1,0 +1,52 @@
+{
+  "0x3e5691bfb48667c037c1014f0b320bbf4095c37ad5cd1f0b2573366756f54ac6": {
+    "arguments": {
+      "destAmount": {
+        "type": "uint256",
+        "value": "destAmount / 10**18"
+      },
+      "destToken": {
+        "type": "string",
+        "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(destToken, destToken)"
+      },
+      "src": {
+        "type": "string",
+        "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(src, src)"
+      },
+      "srcAmount": {
+        "type": "uint256",
+        "value": "srcAmount / 10**18"
+      }
+    },
+    "name": "TradeExecute"
+  },
+  "0x6cf69811": {
+    "arguments": {
+      "destToken": {
+        "type": "address",
+        "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(destToken, destToken)"
+      },
+      "srcToken": {
+        "type": "address",
+        "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(srcToken, srcToken)"
+      }
+    }
+  },
+  "0x7cd44272": {
+    "arguments": {
+      "dest": {
+        "type": "address",
+        "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(dest, dest)"
+      },
+      "src": {
+        "type": "address",
+        "value": "{'0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee': 'ETH'}.get(src, src)"
+      },
+      "srcQty": {
+        "type": "uint256",
+        "value": "srcQty / 10**18"
+      }
+    },
+    "name": "getConvertionRate"
+  }
+}

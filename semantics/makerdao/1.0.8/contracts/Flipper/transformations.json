@@ -1,0 +1,32 @@
+{
+  "0x351de600": {
+    "arguments": {
+      "tab": {
+        "type": "uint",
+        "value": "tab/10**45"
+      },
+      "lot": {
+        "type": "uint",
+        "value": "lot/10**18"
+      }
+    },
+    "name": "kick"
+  },
+  "0xd3d8bec38a91a5f4411247483bc030a174e77cda9c0351924c759f41453aa5e8": {
+    "arguments": {
+      "arg1": {
+        "path": "arg1",
+        "type": "ignore"
+      },
+      "arg2": {
+        "path": "arg2",
+        "type": "ignore"
+      },
+      "data": {
+        "type": "string",
+        "value": "_print_input(_contract, data, transaction, network)"
+      }
+    },
+    "name": "LogNote"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "0x45e6bdcd": {
+    "arguments": {
+      "dart": {
+        "type": "uint",
+        "value": "dart/10**18"
+      },
+      "dink": {
+        "type": "uint",
+        "value": "dink/10**18"
+      }
+    },
+    "name": "frob"
+  },
+  "0xf9f30db6": {
+    "arguments": {
+      "rad": {
+        "type": "uint",
+        "value": "rad/10**45"
+      }
+    },
+    "name": "move"
+  },
+  "0x6090dec5": {
+    "arguments": {
+      "ilk": {
+        "type": "string",
+        "value": "ilk"
+      }
+    },
+    "name": "open"
+  },
+  "0xd3d8bec38a91a5f4411247483bc030a174e77cda9c0351924c759f41453aa5e8": {
+    "arguments": {
+      "arg1": {
+        "path": "arg1",
+        "type": "ignore"
+      },
+      "arg2": {
+        "path": "arg2",
+        "type": "ignore"
+      },
+      "data": {
+        "type": "string",
+        "value": "_print_input(_contract, data, _transaction, network)"
+      }
+    },
+    "name": "LogNote"
+  }
+}

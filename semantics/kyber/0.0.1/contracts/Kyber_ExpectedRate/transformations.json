@@ -1,0 +1,19 @@
+{
+  "0xd38d2bea": {
+    "arguments": {
+      "expectedRate": {
+        "type": "uint256",
+        "value": "expectedRate / 10**18"
+      },
+      "slippageRate": {
+        "type": "uint256",
+        "value": "slippageRate / 10**18"
+      },
+      "srcQty": {
+        "type": "uint256",
+        "value": "srcQty / 10**18"
+      }
+    },
+    "name": "getExpectedRate"
+  }
+}

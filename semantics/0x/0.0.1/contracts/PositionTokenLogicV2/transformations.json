@@ -1,0 +1,11 @@
+{
+  "0x4e07008d": {
+    "arguments": {
+      "amt": {
+        "type": "uint256",
+        "value": "amt / 10**18"
+      }
+    },
+    "name": "mintWithEther"
+  }
+}

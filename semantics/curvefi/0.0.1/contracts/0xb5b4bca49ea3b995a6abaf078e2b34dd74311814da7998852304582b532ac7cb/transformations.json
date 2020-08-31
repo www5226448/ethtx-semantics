@@ -1,0 +1,82 @@
+{
+  "0x3df02124": {
+    "arguments": {
+      "dx": {
+        "type": "uint256",
+        "value": "dx / 10**[8, 8][i]"
+      },
+      "i": {
+        "type": "address",
+        "value": "['0xeb4c2781e4eba804ce9a9803c67d0893436bb27d', '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599'][i]"
+      },
+      "j": {
+        "type": "address",
+        "value": "['0xeb4c2781e4eba804ce9a9803c67d0893436bb27d', '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599'][j]"
+      }
+    }
+  },
+  "0x8b3e96f2b889fa771c53c981b40daf005f63f637f1869f707052d15a3dd97140": {
+    "arguments": {
+      "bought_id": {
+        "path": "bought_id",
+        "type": "address",
+        "value": "['0xeb4c2781e4eba804ce9a9803c67d0893436bb27d', '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599'][bought_id]"
+      },
+      "sold_id": {
+        "path": "sold_id",
+        "type": "address",
+        "value": "['0xeb4c2781e4eba804ce9a9803c67d0893436bb27d', '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599'][sold_id]"
+      },
+      "tokens_bought": {
+        "path": "tokens_bought",
+        "type": "uint256",
+        "value": "tokens_bought / 10 ** [8, 8][bought_id]"
+      },
+      "tokens_sold": {
+        "path": "tokens_sold",
+        "type": "uint256",
+        "value": "tokens_sold / 10**[8, 8][sold_id]"
+      }
+    }
+  },
+  "0xa6417ed6": {
+    "arguments": {
+      "dx": {
+        "type": "uint256",
+        "value": "dx / 10**[8, 8][i]"
+      },
+      "i": {
+        "type": "address",
+        "value": "['0xeb4c2781e4eba804ce9a9803c67d0893436bb27d', '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599'][i]"
+      },
+      "j": {
+        "type": "address",
+        "value": "['0xeb4c2781e4eba804ce9a9803c67d0893436bb27d', '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599'][j]"
+      }
+    }
+  },
+  "0xd013ca23e77a65003c2c659c5442c00c805371b7fc1ebd4c206c41d1536bd90b": {
+    "arguments": {
+      "bought_id": {
+        "path": "bought_id",
+        "type": "address",
+        "value": "['0xeb4c2781e4eba804ce9a9803c67d0893436bb27d', '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599'][bought_id]"
+      },
+      "sold_id": {
+        "path": "sold_id",
+        "type": "address",
+        "value": "'0xeb4c2781e4eba804ce9a9803c67d0893436bb27d', '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599'][sold_id]"
+      },
+      "tokens_bought": {
+        "path": "tokens_bought",
+        "type": "uint256",
+        "value": "tokens_bought / 10 ** [8, 8][bought_id]"
+      },
+      "tokens_sold": {
+        "path": "tokens_sold",
+        "type": "uint256",
+        "value": "tokens_sold / 10**[8, 8][sold_id]"
+      }
+    }
+  }
+}

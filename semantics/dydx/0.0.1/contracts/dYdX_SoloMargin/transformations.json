@@ -1,0 +1,329 @@
+{
+  "0x1b9e65b359b871d74b1af1fc8b13b11635bfb097c4631b091eb762fda7e67dc7": {
+    "arguments": {
+      "heldMarket": {
+        "type": "string",
+        "value": "{0: 'WETH', 1: 'SAI', 2: 'USDC', 3: 'DAI'}.get(heldMarket, heldMarket)"
+      },
+      "liquidHeldUpdate.deltaWei": {
+        "type": "string",
+        "value": "dydx_parse_signed_number(liquidHeldUpdate[0], decimals=18)"
+      },
+      "liquidHeldUpdate.deltaWei.sign": {
+        "type": "string",
+        "value": "{'True': 'Plus', 'False': 'Minus'}[liquidHeldUpdate[0]['value'][0]['value']]"
+      },
+      "liquidHeldUpdate.deltaWei.value": {
+        "type": "uint256",
+        "value": "liquidHeldUpdate[0]['value'][1]['value'] / 10**18"
+      },
+      "liquidHeldUpdate.newPar": {
+        "type": "string",
+        "value": "dydx_parse_signed_number(liquidHeldUpdate[1], decimals=18)"
+      },
+      "liquidHeldUpdate.newPar.sign": {
+        "type": "string",
+        "value": "{'True': 'Plus', 'False': 'Minus'}[liquidHeldUpdate[1]['value'][0]['value']]"
+      },
+      "liquidHeldUpdate.newPar.value": {
+        "type": "uint128",
+        "value": "liquidHeldUpdate[1]['value'][1]['value'] / 10**18"
+      },
+      "liquidOwedUpdate.deltaWei": {
+        "type": "string",
+        "value": "dydx_parse_signed_number(liquidOwedUpdate[0], decimals=18)"
+      },
+      "liquidOwedUpdate.deltaWei.sign": {
+        "type": "string",
+        "value": "{'True': 'Plus', 'False': 'Minus'}[liquidOwedUpdate[0]['value'][0]['value']]"
+      },
+      "liquidOwedUpdate.deltaWei.value": {
+        "type": "uint256",
+        "value": "liquidOwedUpdate[0]['value'][1]['value'] / 10**18"
+      },
+      "liquidOwedUpdate.newPar": {
+        "type": "string",
+        "value": "dydx_parse_signed_number(liquidOwedUpdate[1], decimals=18)"
+      },
+      "liquidOwedUpdate.newPar.sign": {
+        "type": "string",
+        "value": "{'True': 'Plus', 'False': 'Minus'}[liquidOwedUpdate[1]['value'][0]['value']]"
+      },
+      "liquidOwedUpdate.newPar.value": {
+        "type": "uint128",
+        "value": "liquidOwedUpdate[1]['value'][1]['value'] / 10**18"
+      },
+      "owedMarket": {
+        "type": "string",
+        "value": "{0: 'WETH', 1: 'SAI', 2: 'USDC', 3: 'DAI'}.get(owedMarket, owedMarket)"
+      },
+      "solidHeldUpdate.deltaWei": {
+        "type": "string",
+        "value": "dydx_parse_signed_number(solidHeldUpdate[0], decimals=18)"
+      },
+      "solidHeldUpdate.deltaWei.sign": {
+        "type": "string",
+        "value": "{'True': 'Plus', 'False': 'Minus'}[solidHeldUpdate[0]['value'][0]['value']]"
+      },
+      "solidHeldUpdate.deltaWei.value": {
+        "type": "uint256",
+        "value": "solidHeldUpdate[0]['value'][1]['value'] / 10**18"
+      },
+      "solidHeldUpdate.newPar": {
+        "type": "string",
+        "value": "dydx_parse_signed_number(solidHeldUpdate[1], decimals=18)"
+      },
+      "solidHeldUpdate.newPar.sign": {
+        "type": "string",
+        "value": "{'True': 'Plus', 'False': 'Minus'}[solidHeldUpdate[1]['value'][0]['value']]"
+      },
+      "solidHeldUpdate.newPar.value": {
+        "type": "uint128",
+        "value": "solidHeldUpdate[1]['value'][1]['value'] / 10**18"
+      },
+      "solidOwedUpdate.deltaWei": {
+        "type": "string",
+        "value": "dydx_parse_signed_number(solidOwedUpdate[0], decimals=18)"
+      },
+      "solidOwedUpdate.deltaWei.sign": {
+        "type": "string",
+        "value": "{'True': 'Plus', 'False': 'Minus'}[solidOwedUpdate[0]['value'][0]['value']]"
+      },
+      "solidOwedUpdate.deltaWei.value": {
+        "type": "uint256",
+        "value": "solidOwedUpdate[0]['value'][1]['value'] / 10**18"
+      },
+      "solidOwedUpdate.newPar": {
+        "type": "string",
+        "value": "dydx_parse_signed_number(solidOwedUpdate[1], decimals=18)"
+      },
+      "solidOwedUpdate.newPar.sign": {
+        "type": "string",
+        "value": "{'True': 'Plus', 'False': 'Minus'}[solidOwedUpdate[1]['value'][0]['value']]"
+      },
+      "solidOwedUpdate.newPar.value": {
+        "type": "uint128",
+        "value": "solidOwedUpdate[1]['value'][1]['value'] / 10**18"
+      }
+    }
+  },
+  "0x21281f8d59117d0399dc467dbdd321538ceffe3225e80e2bd4de6f1b3355cbc7": {
+    "arguments": {
+      "market": {
+        "type": "string",
+        "value": "{0: 'WETH', 1: 'SAI', 2: 'USDC', 3: 'DAI'}.get(market, market)"
+      },
+      "updateOne.deltaWei.sign": {
+        "type": "string",
+        "value": "{'True': 'Plus', 'False': 'Minus'}[updateOne[0]['value'][0]['value']]"
+      },
+      "updateOne.deltaWei.value": {
+        "type": "uint256",
+        "value": "updateOne[0]['value'][1]['value'] / 10**18"
+      },
+      "updateOne.newPar.sign": {
+        "type": "string",
+        "value": "{'True': 'Plus', 'False': 'Minus'}[updateOne[1]['value'][0]['value']]"
+      },
+      "updateOne.newPar.value": {
+        "type": "uint128",
+        "value": "updateOne[1]['value'][1]['value'] / 10**18"
+      },
+      "updateTwo.deltaWei.sign": {
+        "type": "string",
+        "value": "{'True': 'Plus', 'False': 'Minus'}[updateTwo[0]['value'][0]['value']]"
+      },
+      "updateTwo.deltaWei.value": {
+        "type": "uint256",
+        "value": "updateTwo[0]['value'][1]['value'] / 10**18"
+      },
+      "updateTwo.newPar.sign": {
+        "type": "string",
+        "value": "{'True': 'Plus', 'False': 'Minus'}[updateTwo[1]['value'][0]['value']]"
+      },
+      "updateTwo.newPar.value": {
+        "type": "uint128",
+        "value": "updateTwo[1]['value'][1]['value'] / 10**18"
+      }
+    },
+    "name": "LogTransfer"
+  },
+  "0x2bad8bc95088af2c247b30fa2b2e6a0886f88625e0945cd3051008e0e270198f": {
+    "arguments": {
+      "market": {
+        "type": "string",
+        "value": "{0: 'WETH', 1: 'SAI', 2: 'USDC', 3: 'DAI'}.get(market, market)"
+      }
+    },
+    "name": "LogDeposit"
+  },
+  "0x2e346762bf4ae4568971c30b51fcebd2138275aafcfe12d872956e9f3e120893": {
+    "arguments": {
+      "makerMarket": {
+        "type": "string",
+        "value": "{0: 'WETH', 1: 'DAI'}.get(makerMarket, makerMarket)"
+      },
+      "makerUpdate.deltaWei.sign": {
+        "type": "string",
+        "value": "{'True': 'Plus', 'False': 'Minus'}[makerUpdate[0]['value'][0]['value']]"
+      },
+      "makerUpdate.deltaWei.value": {
+        "type": "uint256",
+        "value": "makerUpdate[0]['value'][1]['value'] / 10**18"
+      },
+      "makerUpdate.newPar.sign": {
+        "type": "string",
+        "value": "{'True': 'Plus', 'False': 'Minus'}[makerUpdate[1]['value'][0]['value']]"
+      },
+      "makerUpdate.newPar.value": {
+        "type": "uint128",
+        "value": "makerUpdate[1]['value'][1]['value'] / 10**18"
+      },
+      "takerMarket": {
+        "type": "string",
+        "value": "{0: 'WETH', 1: 'SAI', 2:USDC, 3:'DAI'}.get(takerMarket, takerMarket)"
+      },
+      "takerUpdate.deltaWei.sign": {
+        "type": "string",
+        "value": "{'True': 'Plus', 'False': 'Minus'}[takerUpdate[0]['value'][0]['value']]"
+      },
+      "takerUpdate.deltaWei.value": {
+        "type": "uint256",
+        "value": "takerUpdate[0]['value'][1]['value'] / 10**18"
+      },
+      "takerUpdate.newPar.sign": {
+        "type": "string",
+        "value": "{'True': 'Plus', 'False': 'Minus'}[takerUpdate[1]['value'][0]['value']]"
+      },
+      "takerUpdate.newPar.value": {
+        "type": "uint128",
+        "value": "takerUpdate[1]['value'][1]['value'] / 10**18"
+      }
+    },
+    "name": "LogBuy"
+  },
+  "0x54d4cc60cf7d570631cc1a58942812cb0fc461713613400f56932040c3497d19": {
+    "arguments": {
+      "inputMarket": {
+        "type": "string",
+        "value": "{0: 'WETH', 1: 'SAI', 2: 'USDC', 3: 'DAI'}.get(inputMarket, inputMarket)"
+      },
+      "makerInputUpdate.deltaWei.value": {
+        "type": "uint128",
+        "value": "makerInputUpdate[0]['value'][1]['value'] / 10**18"
+      },
+      "makerOutputUpdate.deltaWei.value": {
+        "type": "uint128",
+        "value": "makerOutputUpdate[0]['value'][1]['value'] / 10**18"
+      },
+      "outputMarket": {
+        "type": "string",
+        "value": "{0: 'WETH', 1: 'SAI', 2: 'USDC', 3: 'DAI'}.get(outputMarket, outputMarket)"
+      },
+      "takerInputUpdate.deltaWei.value": {
+        "type": "uint128",
+        "value": "takerInputUpdate[0]['value'][1]['value'] / 10**18"
+      },
+      "takerOutputUpdate.deltaWei.newPar": {
+        "type": "uint128",
+        "value": "takerOutputUpdate[1]['value'][1]['value'] / 10**18"
+      },
+      "takerOutputUpdate.deltaWei.value": {
+        "type": "uint128",
+        "value": "takerOutputUpdate[0]['value'][1]['value'] / 10**18"
+      }
+    },
+    "name": "LogTrade"
+  },
+  "0xa67a6a45": {
+    "arguments": {
+      "accounts._p_1_": {
+        "type": "ignore"
+      },
+      "actions": {
+        "type": "tuple[]",
+        "decode": false,
+        "value": "dydx_parse_operate(actions)"
+      },
+      "actions.actionType": {
+        "type": "string",
+        "value": "{0: 'Deposit', 1: 'Withdraw', 2: 'Transfer', 3: 'Buy', 4: 'Sell', 5: 'Trade', 6: 'Liquidate', 7: 'Vaporize', 8: 'Call'}.get(actions[0][0]['value'], actions[0][0]['value'])"
+      },
+      "actions.primaryMarketId": {
+        "type": "string",
+        "value": "{0: 'WETH', 1: 'SAI', 2: 'USDC', 3: 'DAI'}.get(actions[0][3]['value'], actions[0][3]['value'])"
+      },
+      "actions.secondaryMarketId": {
+        "type": "string",
+        "value": "{0: 'WETH', 1: 'SAI', 2: 'USDC', 3: 'DAI'}.get(actions[0][4]['value'], actions[0][4]['value'])"
+      }
+    },
+    "name": "operate"
+  },
+  "0xcc3330184b6d88cad87f9e9543b4d4110a6a3eaf20164ca5252d598d0acba3f1": {
+    "arguments": {
+      "makerMarket": {
+        "type": "string",
+        "value": "{0: 'WETH', 1: 'SAI', 2: 'USDC', 3: 'DAI'}.get(makerMarket, makerMarket)"
+      },
+      "makerUpdate.deltaWei.sign": {
+        "type": "string",
+        "value": "{'True': 'Plus', 'False': 'Minus'}[makerUpdate[0]['value'][0]['value']]"
+      },
+      "makerUpdate.deltaWei.value": {
+        "type": "uint256",
+        "value": "makerUpdate[0]['value'][1]['value'] / 10**18"
+      },
+      "makerUpdate.newPar.sign": {
+        "type": "string",
+        "value": "{'True': 'Plus', 'False': 'Minus'}[makerUpdate[1]['value'][0]['value']]"
+      },
+      "makerUpdate.newPar.value": {
+        "type": "uint128",
+        "value": "makerUpdate[1]['value'][1]['value'] / 10**18"
+      },
+      "takerMarket": {
+        "type": "string",
+        "value": "{0: 'WETH', 1: 'DAI'}.get(takerMarket, takerMarket)"
+      },
+      "takerUpdate.deltaWei.sign": {
+        "type": "string",
+        "value": "{'True': 'Plus', 'False': 'Minus'}[takerUpdate[0]['value'][0]['value']]"
+      },
+      "takerUpdate.deltaWei.value": {
+        "type": "uint256",
+        "value": "takerUpdate[0]['value'][1]['value'] / 10**18"
+      },
+      "takerUpdate.newPar.sign": {
+        "type": "string",
+        "value": "{'True': 'Plus', 'False': 'Minus'}[takerUpdate[1]['value'][0]['value']]"
+      },
+      "takerUpdate.newPar.value": {
+        "type": "uint128",
+        "value": "takerUpdate[1]['value'][1]['value'] / 10**18"
+      }
+    },
+    "name": "LogSell"
+  },
+  "0xf4626fd1187f91e6761ffb8a6ac3e8d9235a4a92da54e43feb0c57c4a4a322ab": {
+    "arguments": {
+      "index.borrow": {
+        "type": "uint96",
+        "value": "index[0]['value'] / 10**18"
+      },
+      "index.lastUpdate": {
+        "type": "timestamp",
+        "value": "index[2]['value']"
+      },
+      "index.supply": {
+        "type": "uint96",
+        "value": "index[1]['value'] / 10**18"
+      },
+      "market": {
+        "type": "string",
+        "value": "{0: 'WETH', 1: 'SAI', 2: 'USDC', 3: 'DAI'}.get(market, market)"
+      }
+    },
+    "name": "LogIndexUpdate"
+  }
+}

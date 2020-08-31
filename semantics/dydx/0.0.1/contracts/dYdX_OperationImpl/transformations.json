@@ -1,0 +1,17 @@
+{
+  "0xbd76ecfd": {
+    "arguments": {
+      "actions": {
+        "decode": false,
+
+        "type": "tuple[]",
+        "value": "dydx_parse_operate(actions)"
+      },
+      "state": {
+        "type": "string",
+        "value": "[]"
+      }
+    },
+    "name": "operate"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "0x2424be5c": {
+    "arguments": {
+      "art": {
+        "type": "uint",
+        "value": "art/10**18"
+      },
+      "ilk": {
+        "type": "string",
+        "value": "ilk"
+      },
+      "ink": {
+        "type": "uint",
+        "value": "ink/10**18"
+      }
+    },
+    "name": "urns"
+  },
+  "0x3b663195": {
+    "arguments": {
+      "ilk": {
+        "type": "string",
+        "value": "ilk"
+      }
+    },
+    "name": "init"
+  },
+  "0xbb35783b": {
+    "arguments": {
+      "rad": {
+        "type": "uint",
+        "value": "rad/10**45"
+      }
+    },
+    "name": "move"
+  },
+  "0x6111be2e": {
+    "arguments": {
+      "ilk": {
+        "type": "string",
+        "value": "ilk"
+      },
+      "wad": {
+        "type": "uint",
+        "value": "wad/10**18"
+      }
+    },
+    "name": "flux"
+  },
+  "0x76088703": {
+    "arguments": {
+      "dart": {
+        "type": "uint",
+        "value": "dart/10**18"
+      },
+      "dink": {
+        "type": "uint",
+        "value": "dink/10**18"
+      },
+      "ilk": {
+        "type": "string",
+        "value": "ilk"
+      }
+    },
+    "name": "frob"
+  },
+  "0x7cdd3fde": {
+    "arguments": {
+      "ilk": {
+        "type": "string",
+        "value": "ilk"
+      },
+      "wad": {
+        "type": "uint",
+        "value": "wad/10**18"
+      }
+    },
+    "name": "slip"
+  },
+  "0x870c616d": {
+    "arguments": {
+      "dart": {
+        "type": "uint",
+        "value": "dart/10**18"
+      },
+      "dink": {
+        "type": "uint",
+        "value": "dink/10**18"
+      },
+      "ilk": {
+        "type": "string",
+        "value": "ilk"
+      }
+    },
+    "name": "fork"
+  },
+  "0xd3ff30f94bb4ebb4f3d773ea26b6efc7328b9766f99f19dff6f01392138be46d": {
+    "arguments": {
+      "arg1": {
+        "path": "arg1",
+        "type": "ignore"
+      },
+      "arg2": {
+        "path": "arg2",
+        "type": "ignore"
+      },
+      "arg3": {
+        "path": "arg3",
+        "type": "ignore"
+      },
+      "data": {
+        "type": "string",
+        "value": "_print_input(_contract, data, _transaction, network)"
+      }
+    },
+    "name": "LogNote"
+  },
+  "0xd9638d36": {
+    "arguments": {
+      "Art": {
+        "type": "uint",
+        "value": "Art/10**18"
+      },
+      "dust": {
+        "type": "uint",
+        "value": "dust/10**45"
+      },
+      "ilk": {
+        "type": "string",
+        "value": "ilk"
+      },
+      "line": {
+        "type": "uint",
+        "value": "line/10**45"
+      },
+      "rate": {
+        "type": "uint",
+        "value": "rate/10**27"
+      },
+      "spot": {
+        "type": "uint",
+        "value": "spot/10**27"
+      }
+    },
+    "name": "ilks"
+  }
+}
