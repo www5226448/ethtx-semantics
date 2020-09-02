@@ -1,14 +1,3 @@
-MCD_Deployer:
-  addresses:
-    "*": {}
-    mainnet:
-      "0xdDb108893104dE4E1C6d0E47c42237dB4E617ACc":
-        network: mainnet
-        label: MCD_Deployer
-    ropsten: {}
-    kovan: {}
-  applicable_to_contracts_with_code_hash:
-    - "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
 Multicall:
   addresses:
     "*": {}
